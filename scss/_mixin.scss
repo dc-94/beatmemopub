@@ -1,0 +1,59 @@
+@mixin huno {
+    font-family: $fontLibre;
+    font-size: $font1;
+    color: $colortitulo1;
+}
+@mixin hdos {
+    font-size: $font3;
+    color: $colortitulo2;
+}
+@mixin htres {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: $font5;
+    color: $colorsubtitulo;
+}
+
+@mixin mainP {
+    font-size: $font4;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: $colorprincipal;
+} 
+@mixin mainlist {
+    text-transform: uppercase;
+    color: $colorlist;
+    list-style: none;
+    padding-left: 0rem;
+}
+@mixin foodcard {
+    @extend .card;
+    img{
+        @extend .card-img;
+    }
+    div{
+        @extend .card-img-overlay;
+        background-color: #000000c8;
+        margin-bottom: 55%;
+    }
+}
+@mixin imgtxt-Galeria {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: #2222225f;
+    img {
+        @extend .img-fluid;
+        border-bottom: dotted 1px $colorsubtitulo;
+    }
+    h3 {
+        padding-top: 4px;
+    }
+}
+@mixin titulogaleria {
+    text-align: end;
+    text-transform: uppercase;
+    border-bottom: 2px solid $colortitulo2;
+    border-right: 2px solid $colortitulo2;
+    padding: 0.3rem;
+}

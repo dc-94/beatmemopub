@@ -1,0 +1,702 @@
+* {
+    box-sizing: border-box;
+    padding: 0px 0px;
+    margin: 0px;
+}
+ul {
+    list-style: none;
+    color: #ffffdb
+}
+html {
+    font-size: 62.5%;
+    height: 100%;
+} 
+body{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    background-color: black;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+a{
+    text-decoration: none; 
+    color: #ffffa6;
+}
+p {
+    font-size: 1.5rem;
+    color: #ffffd0;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    color: #e4e44e;
+}
+h2 {
+    color: #ff806a;
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1rem;
+    font-style: italic;
+    color: #eee26f;
+}
+ul {
+    list-style: none;
+    color: #ffffdb
+}
+/* ******** */
+/*  PORTADA */
+/* ******** */
+.header {
+    margin: auto;
+    width: 90%;
+    font-size: 0.833rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.top-header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+}
+.header a {
+    color: #ffffff;
+    font-size: 1rem;
+    
+}
+.header :hover {
+    color: #eeee00;
+}
+
+.header .logo {
+width: 550px;
+}
+.header .call{
+    text-align: center;
+}
+.header .call img {
+    width: 50px;
+}
+/* ******** */
+/*   MENU   */
+/* ******** */
+.menu {
+    font-style: italic;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border-bottom: white 1px solid;
+}
+
+.menu li{
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    height: 30px;
+    width: auto;
+    padding: 0 2rem;
+    align-items: center;
+}
+nav li>ul {
+    position: absolute;
+    display: inline-block;
+    top: 2.5rem;
+}
+nav li>ul{
+    display: none;
+}
+nav li:hover>ul{
+    display: flex;
+    flex-direction: row;
+}
+.menu .items a{
+    color: #ffffa6;
+    background-color: #000;
+    padding: 0 1rem ;
+    font-size: 1.5rem;
+}
+.items ul li a:hover{
+    color: #ffffff;
+    border: solid 1px #ffffff4f;
+    border-top: 2px solid #fff700;
+}
+
+
+/* --------------- */
+/* MENU- COCKTAILS */
+/* --------------- */
+
+main {
+    width: 90%;
+    margin: 1rem 5%;
+}
+/* classic cocktails */
+#classiccocktails {
+    text-align: right;
+    margin-right: 10rem;
+}
+section .classicCocktails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.classicitems {
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.classicCocktails h2 {
+    padding-top: 1rem;
+}
+.classicitems p {
+    border-left: #ff806a solid 3px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.classicimg {
+    text-align: center;
+}
+.classicimg img {
+    padding-left: 2rem;
+    height: 25rem;
+}
+/* bartender creations */
+#bartendercreations {
+    text-align: center;
+    margin: 2rem 2rem 0 0 ;
+}
+section .bartenderCreations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    justify-content: space-between;
+}
+.pNombre {
+    color: #e4e44e;
+    font-size: 1.5rem;
+    font-style: italic;
+    border-bottom: #888801 1px solid;
+}
+.dani {
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bartenderCreations .dani p {
+    border-left: #ffffff solid 3px;
+    padding-left: 5px;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+.dani .daniimg img{
+    width: 20rem;
+}
+.fer {
+    margin-right: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bartenderCreations .fer p {
+    border-right: #ffffff solid 3px;
+    padding-right: 5px;
+    padding-left: 5rem;
+    margin-bottom: 2rem;
+    text-align: right;
+    
+}
+.bartenderCreations .fer h2 {
+    text-align: right;
+}
+.fer .ferimg img{
+    padding-right: 10px;
+    width: 19rem;
+    margin-left: 1rem;
+}
+/* bebidas extra */
+.bebidas-extra {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    border-top: solid 2px #ffffffa8;
+    padding-top: 2rem;
+}
+.bebidas-extra ul {
+    padding-left: 5px;
+    padding-bottom: 1rem;
+}
+.bebidas-extra ul li{
+    padding-left:  1rem;
+}
+.beers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.beers img {
+    width: 150px;
+    padding-top: 2rem;
+}
+
+.wines  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-left: #636363 solid 1px;
+    padding-left: 1rem;
+}
+.wines img {
+    width: 150px;
+    padding-top: 1rem;
+}
+/* --------------- */
+/* ciclos de shows */
+/* --------------- 
+
+#ciclos_shows {
+    text-align: center;
+    color: #f0a88e;
+}
+.ciclosShows {
+    margin: 0 3rem 5rem 3rem ;
+    justify-content: center;
+}
+.ciclosShows .dias {
+    display: inline-flex;
+    width: 70%;
+    margin-top: 3rem;
+}
+.ciclosShows .dias img {
+    float: left;
+    margin-left: 8rem;
+}
+.ciclosShows .dias p {
+    margin-left: 8rem;
+}
+.ciclosShows .dias h2{
+    text-align: right;
+    
+}
+*/
+/* -------------------- */
+/* MENU FOOD -PRINCIPAL */
+/* -------------------- */
+
+.main_menu {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr, repeat(4, 1fr);
+    grid-template-rows: 0.5fr 3fr 3fr 0.5fr;
+    gap: 1px 1px;
+    grid-template-areas: 
+    "foodmenu_title foodF1 foodF1 foodF1 foodF1"
+    "foodmenu_title foodF1 foodF1 foodF1 foodF1"
+    "foodF2 foodF2 foodF2 foodF2 foodF2" 
+    "foodF2 foodF2 foodF2 foodF2 foodF2" 
+    "foodF3 foodF3 foodF3 foodF3 foodF3";
+    text-transform: uppercase;
+  }
+.main_menu h3 {
+    padding-top: 1rem;
+}
+.main_menu p {
+    margin-right: 2rem;
+}
+.foodmenu_title {
+    display: grid;
+    width: auto;
+    grid-template-columns: 7rem;
+    grid-template-rows: 1fr 2fr;
+    grid-area: foodmenu_title;
+    background-color: #000;
+}
+
+.title1 { 
+    font-size: 2.5rem;
+    text-align: center; 
+}
+.title2 { 
+    transform: rotate(-90deg);
+    font-size: 6rem;
+}
+  /* sect 1 */
+.foodF1 { grid-area: foodF1; 
+    width: 100%;
+    display: flex;
+}
+.mainSt {
+    border-left: 2px dotted #ff806a;
+    padding: 2rem 0 0 1rem;
+    background-color: #ff90822a;
+}
+.startersL1{
+    padding: 2rem;
+    display: flex;
+}
+.startersL2 {
+    padding: 1rem;
+}
+  .imgpapas {
+    background-image: url(img/food/menupapas.jpg);
+    background-size: cover;
+    height: 180px;
+    width: 350px;
+    text-align: right;
+    background-position: bottom;
+}
+
+    /* sect 2 */
+.mainSh {
+    border-left: solid 2px #fff;
+    padding: 2rem 0;
+    background-color: #ffffff28;
+}
+.sharing_t {
+    color: #fff;
+    padding-left: 1rem;
+}
+.food_sharing {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+    padding: 1rem;
+}
+.imgenglish {
+    background-image: url(img/food/englishstyle.jpg);
+    background-position: center;
+    height: 200px;
+    width: fit-content;
+    background-size: cover;
+    margin: 1rem;
+}
+.fsL2 {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.sharing_itemsT {
+    margin:  0 2rem;
+}
+    /*  */
+
+.foodF2 { grid-area: foodF2; 
+    width: 100%;
+    height: fit-content;
+    border-top: solid 1px #ffbba3;
+    background-color: #ffeaea;
+}
+.food_lindaharrison {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.food_lindaharrison div {
+    padding: 1rem 1rem;
+}
+.lyhkitchen {
+    color: #ffbba3;
+    background-color: #000000d0;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+}
+.salads {
+    background-color: #000000d0;
+    text-align: center;
+}
+.salads .saladstitle {
+    text-align: right;
+    margin-right: 20%;
+    font-size: 1.5rem;
+}
+.lyhc2{
+    background-color: #000000;
+    display: flex;
+    border-left: 1px dashed #ffbba3;
+    border-bottom: 1px dashed #ffbba3;
+}
+.imgrisotto {
+    background-image: url(img/food/risotto.jpg);
+    height: 180px;
+    background-position: bottom;
+    background-size: cover;
+}
+.imgchapati {
+    background-image: url(img/food/chapatti.jpg);
+    height: 200px;
+    width: 450px;
+    background-size: cover;
+    background-position: bottom;
+}
+.currysect {
+    display: flex;
+    align-items: center;
+}
+    /*  */
+.foodF3 {
+    grid-area: foodF3;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+.dessertsT {
+    font-family: 'Marko One', serif;
+    font-size: 3rem;
+    text-align: start;
+    padding-bottom: 50%;
+}
+.dessertsT p {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 0 15%;
+    padding: 0 1rem;
+}
+.dessertsT .d2{
+    border-right: 1px dashed;
+    text-align: right;
+}
+.dessertsT .d1 {
+    border-left: dashed 1px;
+}
+.desserts {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 2fr;
+    column-gap: 2rem;
+    align-items: center;
+    text-align: right;
+}
+.dessert-extra {
+    height: 230px;
+    width: fit-content;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/food/applepie.jpg);
+    background-position: bottom;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: left;
+}
+.food_imgtxt {
+    padding: 0 2rem;
+    background-color: #000000b0;
+}
+
+
+/*  ------------------------ */
+/*        DELIVERY           */
+/*  ------------------------ */
+
+.dlv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-dlv {
+    margin: 2rem 0 0 2rem;
+    flex: 1 1 75%;
+    justify-content: space-evenly;
+    border-right: #ffffff 1px solid;
+}
+.main-dlv article {
+    padding-bottom: 3rem;
+}
+.portada_dlv {
+    border: solid 1px;
+    border-color: transparent transparent #ffffff #ffffff ;
+    padding: 0 1rem;
+    margin-left: 70%;
+    text-align: right;
+}
+.intro-dlv1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro-dlv1 img {
+    width: 300px;
+}
+.intro-dlv1 .p1 {
+    flex-basis: 60%;
+    margin: 0 1rem;
+    background-color: #000000a5;
+}
+.intro-dlv1 .i1 {
+    flex-basis: 40%;
+    text-align: center;
+    font-size: 1rem;
+}
+.intro-dlv1 a {
+    border: 1px #ffff9b solid;
+    border-radius: 10px;
+    border-style: dotted;
+    padding: 5px;
+}
+.intro-dlv1 a:hover {
+    border: 3px solid #fffa72;
+    color: #ffffff;
+    background-color: #afad7365;
+}
+.intro-dlv1 .i1a:hover {
+    transform: scale(1.1);
+}
+.intro-dlv2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.intro-dlv2 div {
+    margin: 1rem;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 25%;
+    justify-content:space-evenly;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    border-bottom: #ffffff 1px solid;
+    border-width: 100%;
+    background: linear-gradient( 60deg, #bb333367, #00000042);}
+aside .call_dlv {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: baseline;
+}
+aside a {
+    font-size: 1rem;
+}
+.envio li {
+    color: #000;
+    background-color: #fff0f0;
+    font-style: italic;
+    text-align: center;   
+}
+
+/* ---------- */
+/*    MUSEO   */
+/* ---------- */
+
+.museo {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    background-color: #121212;
+}
+        /* --INTRO  */
+.museo .intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 80%;
+    padding: 0 1rem;
+}
+.museo .intro article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.museo .intro article div{
+    padding: 0 3rem 0 4rem;
+}
+.museo .intro article h2 {
+    margin-bottom: 1rem;
+    text-align: right;
+    padding-right: 5rem;
+}
+.museo .intro article img {
+    width: 300px;
+}
+        /* --HORARIOS */
+.horarios {
+    margin: 3rem;
+    border: solid 1px ;
+    border-color:#8331314b #71717177  #71717177  #8331314b ; 
+    background-color: #3737371e;
+    display: block;
+    
+}
+.horarios h2 {
+    text-align: center;
+    
+}
+.main-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-list  li{
+    color: #ffffff;
+}
+.main-list .list {
+    margin-bottom: 3rem;
+}
+        /*  --GALERIA  */
+.museo .galeria {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    padding: 0 8rem;
+}
+#galeria{
+    text-align: right;
+    font-size: 1.5rem;
+    margin-right: 4rem;
+    padding-right: 1rem;
+    margin-left: 75%;
+    border-bottom: #fff solid 3px;
+    border-right: #fff solid;
+    background-color: #91919125;
+}
+.museo .galeria .g_img{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+.galeria img {
+    margin: 1rem;
+}
+
+
+
+
+/* ------------- */
+/*    FOOTER     */
+/* ------------- */
+
+.footer {
+    font-family: 'Yatra One', cursive;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+}
+.redes {
+    text-align: center;
+}
+.redes ul{
+    display: ruby-base-container;
+}
+.redes ul li{
+    display: inline-flex;
+    padding: 0 25px;
+}
+.redes ul li img {
+    width: 40px;
+}
+.derechos {
+    background-color:#cecece ;
+    color: #373737;
+    text-align: center;
+    font-size: 15px;
+}

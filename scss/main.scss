@@ -1,0 +1,636 @@
+@import "bootstrap-reboot";
+@import "bootstrap";
+@import "bootstrap-grid";
+@import "variable";
+@import "mixin";
+@import "mediaquery";
+
+html {
+    font-size: 62.5%; 
+    height: 100%;
+} 
+body{
+    background-image: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    @include huno;
+}
+h2 {
+    @include hdos;
+}
+h3 {
+    @include htres;
+}
+p { 
+    @include mainP
+}
+a{
+    text-decoration: none; 
+    color: $colorA;
+    &:hover {
+        color: $colorAhover;
+    } 
+}
+ul{
+    @include mainlist
+}
+
+/* ------------------- */
+/* ----- HEADER ------- */
+/* ------------------- */
+
+        /* portada */
+.btmName {
+    font-family: $fontLibre;
+    font-size: 6rem !important;
+    color: #dada46;
+}
+.text-focus-in {
+	-webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.3s both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.1s both;
+}
+
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0; 
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+            /* MENU    */
+.menu{
+    i{
+    color: #ffffff;
+    }
+    .icn1 {
+        width: 100%;
+        height: 3rem;
+    }
+    .dropdown-menu {
+        z-index: 1000;
+        background-color: #000000c1;
+        border: #ffffff69 2px solid;
+        a {
+            font-size: 1.5rem;
+            color: #fff;
+            &:hover{
+                color: #ff806a;
+                background-color: #2d2d2d9f;
+            }
+        }
+    }
+} 
+nav ul {
+    border-bottom: #fff 1px solid;
+    li{
+        color: #ffffa6;
+        padding: 0 1rem ;
+        font-size: 1.5rem;
+        background-color: #000000c5;
+        a:hover{
+            color: #ff806a;
+            border-top: 1px solid #fff700;
+        }
+    }
+}
+/* ------------------- */
+/* ----- INDEX ------- */
+/* ------------------- */
+.welcome {
+    padding-top: 2rem;
+    h1 {
+    font-size: $fontl;
+    }
+}
+// 
+.section2 {
+    animation-name: sectionshow;
+    animation-duration: 4s;
+    padding-bottom: 3rem;
+    p {
+    width: 80%;
+    text-align: end;
+    }
+}
+             /* ULTIMOS SHOWS */
+#ult-shows {
+    @include titulogaleria;
+}
+.ultShows {
+    background-image: url(img/showbackground.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+// ----------------
+// ----- footer ---
+// ----------------
+.footer {
+    background-color: #262626;
+    padding-top: 4rem;
+    i {
+        padding: 1rem 0.5rem 1rem 0;
+    }
+    .footer__div{
+        padding: 0 0.5rem;
+        border-left: 0.1rem dashed #f78282;
+    }
+    .footer__div__div__titulo--center {
+        text-align: center;
+    }
+    .footer__div__div__div__div__icono-verde{
+        color: #54da54;
+    }
+}
+// /* ------------------- */
+// /* -----SHOWS------- */
+// /* ------------------- */
+.mainshows {
+    h1 {
+        text-transform: uppercase;
+        font-size: 5rem;
+        margin-left: 20%;
+        padding: 2rem 0 ;
+        color: $colortitulo2;
+    }
+    img {
+        width: 100%;
+    }
+    .mainCards {
+        justify-content: space-around;
+        margin-bottom: 2%;
+    }
+    .card {
+        margin:2rem;
+    }
+}
+/* ------------------- */
+/* -----MUSEO------- */
+/* ------------------- */
+.museo {
+    padding: 5rem 0;
+    @extend .container-fluid;
+    @extend .mx-auto;
+    // 
+    .museo_intro{
+        @extend .d-lg-flex;
+        .museo_intro_info{
+            justify-items: center;
+            flex-basis: 80%;
+            @extend .flex-column;
+            .museo_intro_info_linea1{
+                justify-content: space-between;
+                @extend .d-lg-flex;
+                padding: 1rem;
+                    margin: 1rem;
+                    border-radius: 0.5rem;
+                    background-color: #121212bd;
+                img {
+                    width: 400px;
+                }
+                div {
+                    margin: 0 1rem;
+                }
+                .museo_intro_info_linea1-lg {
+                    margin: 0 3rem;
+                    & img {
+                        width: 300px;
+                    }
+                    @extend .d-none;
+                    @extend .d-lg-block;
+                }
+                .museo_intro_info_linea1-mobile{
+                    margin: 0 2rem;
+                    & img {
+                    @extend.img-fluid;
+                        width: 100%;
+                    }
+                    h1{
+                        border-radius: 3px;
+                        text-align: center;
+                        padding: 5px;
+                        background-color: #000000d2;
+                    }
+                    .imagenacceso{
+                        height: 200px;
+                        
+                    }
+                    @extend .d-lg-none;
+                }
+                .museo_intro_info_linea1-titulo {
+                    @extend .d-none;
+                    @extend .d-lg-block;
+                }
+            }
+            .museo_intro_info_linea2 {
+                align-items: center;
+                @extend .d-lg-flex;
+                @extend .justify-content-center;
+                padding: 1rem;
+                    margin: 1rem;
+                    border-radius: 0.5rem;
+                    background-color: #121212bd;
+                img {
+                    width: 400px;
+                }
+                div {
+                    margin: 0 1rem;
+                }
+            }
+        }
+        .museo_intro_horarios {
+            background-color: #ffa1a142;
+            text-align: center;
+            flex-basis: 20%;
+            margin: 1rem;
+            border-radius: 0.5rem;
+            padding-top: 1rem;
+            .museo_intro_horarios_list {
+                justify-content: space-evenly;
+                text-align: justify;
+                @extend .d-flex;
+                @extend .flex-lg-column;
+                & div {
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+    // 
+    .museo_galeria {
+        margin-top: 5rem;
+        .museo_galeria_titulo {
+            @include titulogaleria ;
+        }
+        .museo_galeria_main{
+        @extend .row;
+        @extend .justify-content-around;
+            .museo_galeria_main-card {
+                @include imgtxt-Galeria;
+                @extend .m-4;
+                @extend .col-lg-3;
+                @extend .col-md-4;
+                @extend .col-sm-5;
+                @extend .col-10;
+            }
+
+        }
+    }
+}
+/* ------------------- */
+/* -----  FOOD ------- */
+/* ------------------- */
+.mainfood{
+    @extend .container-fluid;
+    margin: 2rem 0;
+    h2{
+        text-transform: uppercase;
+    }
+    //
+    .mainfood_section1{
+        @extend .d-lg-flex;
+        .mainfood_section1-titulo{
+            background-color: #dac36a8a;
+            padding: 0.5rem;
+            h1{
+                color: #fff;
+                font-weight: 700;
+                border-bottom: white 2px solid;
+            }
+        }
+        .mainfood_section1-main{
+            @extend .d-md-flex;
+            // 
+            .mainfood_section1_entradas{
+                padding: 1rem;
+                background-color: #8636364d;
+                border-left: 1px dashed #af5151;
+                .mainfood_section1_entradas-items-imagen{
+                    @include foodcard;
+                    div{
+                        margin-bottom: 40%;
+                    }
+                }
+                .mainfood_section1_entradas-items-list{
+                    padding: 1rem;
+                    @extend .d-md-flex;
+                    div{
+                        margin: 0 0.5rem;
+                    }
+                }
+            }
+            // 
+            .mainfood_section1_tablas{
+                padding: 1rem;
+                background-color: #8656364d;
+                border-left: 1px solid #865636;
+                .mainfood_section1_tablas-titulo{
+                    h2{
+                        color: #ffa264;
+                    }
+                }
+                .mainfood_section1_tablas-imagen{
+                    @include foodcard;
+                    div{
+                        margin-bottom: 40%;
+                    }
+                }
+                .mainfood_section1_tablas-linea2{
+                    @extend .d-lg-flex;
+                    padding: 1rem;
+                    align-items: center;
+                    .l2_txt{                        padding: 0.5rem  2rem;
+                    }
+                }
+            }
+        }
+    }
+    // 
+    .mainfood_section2{
+        background-color: #ffdfdf34;
+        .mainfood_section2-titulo{
+            h2{
+            font-size: $font1;
+            text-align: center;
+            color: #ffc0cb;
+            }
+            border-top: #ffc0cb 1px solid;
+        }
+        .mainfood_section2_main{
+            @extend .d-lg-flex;
+            margin: 0rem;
+            .mainfood_section2_main-1{
+                margin: 0rem;
+                @extend .d-md-flex;
+                .mainfood_section2-main-salads{
+                    padding: 1rem;
+                    @extend .text-center;
+                }
+                .mainfood_section2-main-linda{
+                    background-color: #000;
+                    padding: 1rem;
+                    border-left: 1px dashed white;
+                    border-bottom: 1px dashed white;
+                    .mainfood_section2-main-linda-imagen{
+                        @include foodcard;
+                        width: 300px;
+                    }
+                }
+            }
+            .mainfood_section2_main-2{
+                margin: 0rem;
+                .mainfood_section2_main-harrison{
+                    padding: 0 1rem;
+                    background-color: #000;
+                    height: 100%;
+                    border-left: 1px dashed white;
+                    border-bottom: 1px dashed white;
+                    .mainfood_section2_main_harrison-imagen{
+                        width: 400px;
+                        @include foodcard;
+                    }
+                    .mainfood_section2_main-harrison-2{
+                        @extend .d-md-flex;
+                        @extend .justify-content-around;
+                        div{
+                            margin: 1rem ;
+                            @extend .img-fluid;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 
+    .mainfood_section3{
+        background-color: #0000009f;
+        padding: 1rem;
+        @extend .d-lg-flex;
+        @extend .justify-content-around;
+        @extend .align-content-center;
+        .mainfood_section3-titulo{
+            text-align: center;
+            align-self: center;
+            text-transform: uppercase;
+            .d1{
+                border-left: dashed 3px #fff;
+                margin-right: 3rem;
+                padding: 0 2px;
+                font-size: $font3;
+            }
+            .d2{
+                border-right: dashed 3px #fff;
+                margin-left: 2rem;
+                padding: 0 2px;
+                font-size: $font3;
+            }
+        }
+        .mainfood_section3_items{
+            @extend .d-md-flex;
+            padding: 2rem 0;
+            & div{
+                margin: 0 1rem;
+            }
+            .mainfood_section3_items-lista{
+                border-left: 1px dotted #fff;
+                padding: 5px;
+                align-self: center;
+                h3{
+                    margin-top: 1rem;
+                }
+            }
+            .mainfood_section3_items-imagen{
+                @extend .card;
+                img{
+                    @extend .card-img;
+                }
+                div{
+                    @extend .card-img-overlay;
+                    margin: 0 65% 0 0;
+                    background-color: #0000008a;
+                }
+            }
+        }
+    }
+}
+/* ------------------- */
+/* ---  COCKTAILS ---- */
+/* ------------------- */
+
+/* ------------------- */
+/* ----- DELIVERY ---- */
+/* ------------------- */
+.maindelivery {
+    @extend .container-fluid;
+    @extend .d-lg-flex;
+    margin: 4rem 0;
+    text-transform: uppercase;
+    // 
+    .maindelivery_info{
+        flex-basis: 75%;
+        padding: 1rem 0;
+        @extend .d-lg-flex;
+        .maindelivery_info-txt{
+            background-color: #000000d5;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            .maindelivery_info-txt-btn{
+                text-align: center;
+                a{
+                    font-size: $font4;
+                    padding: 0.5rem;
+                    border: 1px dotted $colortitulo1;
+                    border-radius: 0.5rem;
+                    &:hover{
+                        background-color: #fff59a;
+                        color: #000;
+                    }
+                }
+            }
+            .maindelivery_info-txt-p{
+                margin: 0 1rem;
+            }
+            .maindelivery_info-txt-logo{
+                width: 100%;
+                img {
+                @extend .img-fluid;
+                    border-radius: 2px;
+                }
+            }
+        }
+        .maindelivery_info-img{
+            @extend .d-flex;
+            @extend .flex-lg-column;
+            width: 100%;
+            img {
+            @extend .img-fluid;
+                border-radius: 2px;
+                margin: 0.5rem;
+            }
+        }
+    }
+    // 
+    .maindelivery_instrucciones {
+        flex-basis: 20%;
+        background-color: #a041306b;
+        border-radius: 4px;
+        text-align: justify;
+        @extend .mx-auto;
+        @extend .container;
+        justify-content: space-around;
+        .maindelivery_instrucciones-pasos{
+            @extend .d-md-flex;
+            @extend.flex-lg-column;
+            @extend .align-items-center;
+            @extend .justify-content-around;
+            .maindelivery_instrucciones-icon{
+                @extend .d-flex;
+                @extend.flex-md-column;
+                justify-content: space-around;
+                padding: 1rem;
+                .maindelivery_instrucciones-icon-whatsapp{
+                    color: #73da56;
+                    justify-content: center;
+                    text-align: center;
+                        i {
+                            padding-bottom: 1rem;
+                        }    
+                    }
+                .maindelivery_instrucciones-icon-phone{
+                    color: #d82020;
+                    justify-content: center;
+                    text-align: center;
+                        i {
+                            padding-bottom: 1rem;
+                        }
+                    }
+                }
+        }
+        .maindelivery_instrucciones-important{
+            background-color: #ff000059;
+            text-align: center;
+            border-radius: 2px;
+            }
+
+    }
+}
+
+/* ------------------- */
+/* -----SOCIAL------- */
+/* ------------------- */
+
+/* ------------------- */
+/* -----contact------- */
+/* ------------------- */
+
+ .contactbody {
+     background-color: #0c0c0cd7;
+ }
+.txtContact h1{
+    margin: 2rem;
+    font-size: 4rem;
+    text-shadow: #e25b32 2px 2px;
+}
+.mainContact {
+    margin-top: 3rem;
+}
+.contactlistredes i {
+    font-size: 4rem;
+    color: #ffffff;
+    padding: 1rem;
+}
+.contactForm {
+    background-color: #ffffb9;
+    padding:  2rem 4rem;
+    margin-top: 6rem;
+    border-radius: 1rem;
+}
+legend {
+    margin-top: 1rem;
+    background-color: #ffffffa1;
+}
+label {
+    font-weight: 700;
+}
+.contactForm button {
+    font-family: 'Lucida Sans';
+    margin: 0.5rem;font-size: 1.3rem;
+}
+.resetBtn {
+    background-color: #ffadad;
+    padding: 3px;
+}
+.sendBtn {
+    background-color: #87e9a3;
+    padding: 3px;
+}
+.contactMap {
+    i {
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 1rem;
+    }
+    iframe {
+        border: #ffffa6 solid 1px;
+    }
+}
