@@ -1,63 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Daniel Coronel">
-    <meta name="description" content="Bar temático de THE BEATLES en Rosario, Argentina">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Marko+One&family=Nunito+Sans:ital,wght@0,400;1,600&family=Yatra+One&display=swap" rel="stylesheet">
-    
+    <meta name="description" content="Conoce nuestra carta de cocktails clásicos y de autor por Fernando Giumelli y Daniel Coronel.">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+    <!-- animate.style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
     <title>BEATMEMO PUB</title>
 </head>
-
-    
 <body>
-    
 <!--encabezado-->
-<header class="header"> 
-    <div class="top-header">
-        <div class="logo">
-            <img src="img/logobar.png" alt="logo BEATMEMO" >
+<div class="container mx-auto">
+    <header class="animate__animated animate__rotateInDownRight animate__slow-2s header"> 
+        <div class="container">
+            <div class="navbar-brand ">
+                <p class="btmName text-focus-in">BEATMEMO</p>
+            </div>
+            
         </div>
-        <div class="call">
-            <img src="img/whatsapp.png" alt="whatsapp">
-            <img src="img/phone.png" alt="phone"><br>
-            <button><a href="http://wa.me/+5493413216351">341-3216351</a></button>
-            <button><a href="tel:+5493413216351">341-3216351</a></button>   
-        </div>
-    </div>
-    
-<!--menu-->
-    <div class="menu">
-    <nav class="items">
-        <ul >
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="museo.html">MUSEO</a></li>
-            <li><a href="#">MUSICA</a> 
-            <ul>
-                <li><a href="agenda.html">AGENDA</a> </li>
-                <li><a href="ciclos.html">CICLOS</a> </li>
-            </li>
-            </ul>
-            <li><a href="#">MENU</a>
-            <ul>
-            <li><a href="food.html">FOOD</a></LI>
-            <li><a href="cocktails.html">COCKTAILS</a>
-            </li>
-            <li><a href="delivery.html">DELIVERY</a>
-            </li>
-            </li>
-            </ul>
-            <li><a href="social.html">SOCIAL</a></li>
-            <li><a href="contact.html">CONTACTO</a></li>
-        </ul>
-    </nav>
-</div>  
-</header> 
-
+        
+    <!--menu-->
+        <div class=" animate__animated animate__slideInLeft animate__delay-0.9s">
+            <nav class="navbar navbar-expand-md menu">
+                    <button class="navbar-toggler icn1" data-toggle="collapse" data-target="#navbarSupportedContent" type="button">
+                        <span class="navbar-toggler-icon "><i class="fa fa-bars fa-fw"></i></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">INICIO</a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="museo.html">MUSEO</a>
+                        </li>
+                        <li class="nav-item px-auto">
+                            <a class="nav-link" href="shows.html">SHOWS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown">MENU</a>
+                                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="food.html">FOOD</a>
+                                    <a class="dropdown-item" href="cocktails.html">COCKTAILS</a>
+                                    <a class="dropdown-item z-index-2" href="delivery.html">DELIVERY</a>
+                                </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>  
+    </header> 
 <!-- body -->
+<!-- 
 <main class="menu_cocktails">
 <h1 id="classiccocktails">CLASSIC COCKTAILS</h1>
 <section >
@@ -240,25 +239,142 @@
 
     </div>
 </section>
-</main>
-<!--FOOTER-->
-<footer >
-    <section class="footer">
-        <div class="redes" >
-            <ul>
-            <li><a href="https://www.facebook.com/danielcoronel.bartender"><img src="img/facebook.png" alt="facebook"></a></li>
-            <li><a href="http://www.instagram.com/d_bartender"><img src="img/instagram.png" alt="instagram"></a></li>
-            <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>
-            <li><a href="http://wa.me/+5493413216351"><img src="img/whatsapp.png" alt="whatsapp"></li>
+</main> -->
+<!-- footer -->
+<footer class=" container-fluid d-flex justify-content-around footer">
+    <div class="footer__div d-none d-md-block ">
+        <div class="footer__div__div">
+            <h2 class="footer__div__div__link">links</h2>
+        </div>
+        <div class="footer__div__div">
+            <a class="footer__div__div__link" href="/museo.html">museo</a>
+        </div>
+        <div class="footer__div__div">
+            <a class="footer__div__div__link" href="/shows.html">shows</a>
+        </div>
+        <div class="footer__div__div">
+            <a class="footer__div__div__link" href="/cocktails.html">cocktails</a>
+        </div>
+        <div class="footer__div__div">
+            <a class="footer__div__div__link" href="/food.html">food</a>
+        </div>
+        <div class="footer__div__div">
+            <a class="footer__div__div__link" href="/delivery.html">delivery</a>
+            </div>
+        <div class="footer__div__div">
+            <a class="footer__div__div__link" href="/social.html">galeria</a>
+        </div>
+        <div class="footer__div__div">
+            <a class="footer__div__div__link" href="/contact.html">contactanos</a>
+        </div>  
+    </div>
+    <div class="footer__div">
+        <div  class="footer__div__div">
+            <h2 class="footer__div__div__titulo">seguinos!</h2>
+        </div>
+        <div  class="footer__div__div">
+            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
+                <div class="footer__div__div__div__div">
+                    <a href="https://www.facebook.com/beatmemopub/">
+                        <i class="fa fa-facebook fa-2x footer__div__div__div__div__icono" aria-hidden="false"></i>
+                    </a>
+                </div>
+                <div class="footer__div__div__div__div">
+                    <a class="footer__div__div__div__div__link" href="https://www.facebook.com/beatmemopub/">facebook</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
+                <div class="footer__div__div__div__div">
+                    <a href="https://www.instagram.com/beatmemo_rosario/"><i class="fa fa-instagram fa-2x footer__div__div__div__div__icono" aria-hidden="false"></i></a>
+                </div>
+                <div class="footer__div__div__div__div">
+                    <a class="footer__div__div__div__div__link" href="https://www.instagram.com/beatmemo_rosario/">instagram</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
+                <div class="footer__div__div__div__div">
+                    <a href="https://twitter.com/beatmemo"><i class="fa fa-twitter fa-2x footer__div__div__div__div__icono" aria-hidden="true"></i></a>
+                </div>
+                <div class="footer__div__div__div__div">
+                    <a class="footer__div__div__div__div__link" href="https://twitter.com/beatmemo">twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__div">
+        <div class="footer__div__div">
+            <h2 class="footer__div__div__titulo">contactanos!</h2>
+        </div>
+        <div class="footer__div__div">
+            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
+                <div class="footer__div__div__div__div">
+                    <a class="footer__div__div__div__div__link" href="http://wa.me/5493412023737">
+                    <i class="fa fa-whatsapp fa-2x footer__div__div__div__div__icono" aria-hidden="true"></i></a>
+                </div>
+                <div  class="footer__div__div__div__div">
+                    <a class="footer__div__div__div__div__link" href="http://wa.me/5493412023737">(0341) 152023737</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
+                <div class="footer__div__div__div__div">
+                    <a href="tel:+5493414260076"><i class="fa fa-phone fa-2x footer__div__div__div__div__icono" aria-hidden="true"></i></a>
+                </div>
+                <div class="footer__div__div__div__div">
+                    <a class="footer__div__div__div__div__link" href="tel:+5493414260076">(0341) 426-0076</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
+                <div class="footer__div__div__div__div">
+                    <a href="mailto:beatlesmemo.adm@gmail.com"><i class="fa fa-envelope fa-lg footer__div__div__div__div__icono" aria-hidden="true"></i></a>
+                </div>
+                <div class="footer__div__div__div__div">
+                    <a class="footer__div__div__div__div__link" href="mailto:beatlesmemo.adm@gmail.com">beatlesmemo.adm@gmail.com</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
+                <div class="footer__div__div__div__div">
+                    <a href="https://g.page/Beatmemo?share"><i class="fa fa-home fa-2x footer__div__div__div__div__icono" aria-hidden="true"></i></a>
+                </div>
+                <div class="footer__div__div__div__div">
+                    <a class="footer__div__div__div__div__link" href="https://g.page/Beatmemo?share">Bv. Oroño 107 bis, Rosario</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__div">
+        <div class="footer__div__div">
+            <h2 class="footer__div__div__titulo--center">horarios:</h2>
+        </div>
+        <div class="footer__div__div">
+            <ul class="footer__div__div__ul">
+                <li  class="footer__div__div__ul__li">
+                    <strong  class="footer__div__div__ul__li">domingo:</strong> 9am - 1am
+                </li>
+                <li  class="footer__div__div__ul__li">
+                    <strong  class="footer__div__div__ul__li">lunes:</strong> 9am - 1am
+                </li>
+                <li  class="footer__div__div__ul__li">
+                    <strong  class="footer__div__div__ul__li">martes:</strong> 9am - 1am
+                </li>
+                <li  class="footer__div__div__ul__li">
+                    <strong  class="footer__div__div__ul__li">miércoles:</strong> 9am - 1am
+                </li>
+                <li  class="footer__div__div__ul__li">
+                    <strong  class="footer__div__div__ul__li"jueves:</strong> 9am - 1:30am
+                </li>
+                <li  class="footer__div__div__ul__li">
+                    <strong  class="footer__div__div__ul__li">viernes:</strong> 9am - 3am
+                </li>
+                <li  class="footer__div__div__ul__li">
+                    <strong  class="footer__div__div__ul__li">sabado:</strong> 9am - 3am
+                </li>
             </ul>
         </div>
-        <div>
-        <hr color="#888888">
-        <h4 class="derechos">Daniel Coronel - CODERHOUSE 2020</h4>
-        </div>
-    </section>
+    </div>
 </footer>
-
+<!-- script js bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
-
 </html>
