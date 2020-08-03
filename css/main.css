@@ -10070,10 +10070,11 @@ html {
   height: 100%; }
 
 body {
-  background-image: url(/img/fondo.jpg);
+  background-image: url(../img/fondo.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  background-color: black; }
 
 h1 {
   font-family: "Libre Baskerville", serif;
