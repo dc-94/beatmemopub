@@ -722,7 +722,7 @@ pre {
     .container, .maindelivery .maindelivery_instrucciones {
       max-width: 1140px; } }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .museo, .mainfood, .maindelivery {
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .museo, .mainfood, .maincocktails, .maindelivery {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -3317,7 +3317,7 @@ input[type="button"].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem; }
   .navbar .container, .navbar .maindelivery .maindelivery_instrucciones, .maindelivery .navbar .maindelivery_instrucciones,
-  .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar .museo, .navbar .mainfood, .navbar .maindelivery {
+  .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar .museo, .navbar .mainfood, .navbar .maincocktails, .navbar .maindelivery {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -3378,7 +3378,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
-  .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maindelivery {
+  .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
 
@@ -3394,7 +3394,7 @@ input[type="button"].btn-block {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
     .navbar-expand-sm > .container, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
-    .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maindelivery {
+    .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-sm .navbar-collapse {
       display: flex !important;
@@ -3404,7 +3404,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 767.98px) {
   .navbar-expand-md > .container, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
-  .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maindelivery {
+  .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
 
@@ -3420,7 +3420,7 @@ input[type="button"].btn-block {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
     .navbar-expand-md > .container, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
-    .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maindelivery {
+    .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-md .navbar-collapse {
       display: flex !important;
@@ -3430,7 +3430,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
-  .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maindelivery {
+  .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
 
@@ -3446,7 +3446,7 @@ input[type="button"].btn-block {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
     .navbar-expand-lg > .container, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
-    .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maindelivery {
+    .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-lg .navbar-collapse {
       display: flex !important;
@@ -3456,7 +3456,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 1199.98px) {
   .navbar-expand-xl > .container, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
-  .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maindelivery {
+  .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
 
@@ -3472,7 +3472,7 @@ input[type="button"].btn-block {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
     .navbar-expand-xl > .container, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
-    .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maindelivery {
+    .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-xl .navbar-collapse {
       display: flex !important;
@@ -3484,7 +3484,7 @@ input[type="button"].btn-block {
   flex-flow: row nowrap;
   justify-content: flex-start; }
   .navbar-expand > .container, .maindelivery .navbar-expand > .maindelivery_instrucciones,
-  .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maindelivery {
+  .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery {
     padding-right: 0;
     padding-left: 0; }
   .navbar-expand .navbar-nav {
@@ -3495,7 +3495,7 @@ input[type="button"].btn-block {
       padding-right: 0.5rem;
       padding-left: 0.5rem; }
   .navbar-expand > .container, .maindelivery .navbar-expand > .maindelivery_instrucciones,
-  .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maindelivery {
+  .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery {
     flex-wrap: nowrap; }
   .navbar-expand .navbar-collapse {
     display: flex !important;
@@ -7496,7 +7496,7 @@ html {
     .container, .maindelivery .maindelivery_instrucciones {
       max-width: 1140px; } }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .museo, .mainfood, .maindelivery {
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .museo, .mainfood, .maincocktails, .maindelivery {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -10109,6 +10109,9 @@ ul {
   list-style: none;
   padding-left: 0rem; }
 
+.card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main_harrison-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen {
+  z-index: 0 !important; }
+
 /* ------------------- */
 /* ----- HEADER ------- */
 /* ------------------- */
@@ -10483,9 +10486,6 @@ nav ul {
       text-align: center;
       border-radius: 2px; }
 
-/* ------------------- */
-/* -----SOCIAL------- */
-/* ------------------- */
 /* ------------------- */
 /* -----contact------- */
 /* ------------------- */
