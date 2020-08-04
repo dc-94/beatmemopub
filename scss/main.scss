@@ -480,8 +480,36 @@ nav ul {
 /* ---  COCKTAILS ---- */
 /* ------------------- */
 .maincocktails {
+    .titulococktail {
+        text-transform: uppercase;
+        font-size: $font4;
+        color: $colortitulo2;
+    }
     @extend .container-fluid;
     background-color: red;
+    .maincocktails_classics{
+        // afuera de class padre para q acepte en todo el main
+        .maincocktails_classics_main_imagen{
+            @include foodcard;
+            height: min-content;
+            width: 250px;
+            div {
+                margin-bottom: 90%;
+            }
+        }
+        .maincocktails_classics_main{
+            @extend .d-lg-flex;
+            @extend .container;
+            align-content: space-between;
+            .maincocktails_classics_main_items{
+                margin: 0 2rem 0 1rem;
+                @extend .
+            }
+            .maincocktails_classics_main_section1, .maincocktails_classics_main_section2{
+                @extend .d-md-flex;    
+            }
+        }
+    }
 }
 /* ------------------- */
 /* ----- DELIVERY ---- */
