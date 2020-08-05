@@ -5202,7 +5202,7 @@ button.bg-dark:focus {
     display: table-row !important; }
   .d-md-table-cell {
     display: table-cell !important; }
-  .d-md-flex, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-2, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+  .d-md-flex, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-2, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
     display: flex !important; }
   .d-md-inline-flex {
     display: inline-flex !important; } }
@@ -5222,7 +5222,7 @@ button.bg-dark:focus {
     display: table-row !important; }
   .d-lg-table-cell {
     display: table-cell !important; }
-  .d-lg-flex, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery, .maindelivery .maindelivery_info {
+  .d-lg-flex, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery, .maindelivery .maindelivery_info {
     display: flex !important; }
   .d-lg-inline-flex {
     display: inline-flex !important; } }
@@ -8247,7 +8247,7 @@ html {
     display: table-row !important; }
   .d-md-table-cell {
     display: table-cell !important; }
-  .d-md-flex, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-2, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+  .d-md-flex, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-2, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
     display: flex !important; }
   .d-md-inline-flex {
     display: inline-flex !important; } }
@@ -8267,7 +8267,7 @@ html {
     display: table-row !important; }
   .d-lg-table-cell {
     display: table-cell !important; }
-  .d-lg-flex, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery, .maindelivery .maindelivery_info {
+  .d-lg-flex, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery, .maindelivery .maindelivery_info {
     display: flex !important; }
   .d-lg-inline-flex {
     display: inline-flex !important; } }
@@ -10369,7 +10369,7 @@ nav ul {
         .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-salads {
           padding: 1rem; }
         .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda {
-          background-color: #000;
+          background-color: #ac5a5a;
           padding: 1rem;
           border-left: 1px dashed white;
           border-bottom: 1px dashed white; }
@@ -10428,7 +10428,7 @@ nav ul {
 /* ---  COCKTAILS ---- */
 /* ------------------- */
 .maincocktails {
-  background-color: red; }
+  background-color: #ff00002f; }
   .maincocktails .titulococktail {
     text-transform: uppercase;
     font-size: 1.2rem;
@@ -10445,6 +10445,27 @@ nav ul {
     align-content: space-between; }
     .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items {
       margin: 0 2rem 0 1rem; }
+  .maincocktails .maincocktails_bartenders {
+    margin: 2rem 0;
+    border-top: dotted 1px #ffffff;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    background-color: #f5f5f543; }
+    .maincocktails .maincocktails_bartenders .maincocktails_bartenders-titulo h2 {
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "Libre Baskerville", serif;
+      font-size: 2rem;
+      color: #ffff51; }
+    .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main {
+      padding: 1rem; }
+      .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1 img {
+        width: 200px; }
+      .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
+        justify-content: space-between; }
+        .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 div {
+          padding: 2rem;
+          margin-right: 5rem; }
 
 /* ------------------- */
 /* ----- DELIVERY ---- */

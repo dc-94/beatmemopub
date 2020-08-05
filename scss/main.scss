@@ -390,7 +390,7 @@ nav ul {
                     @extend .text-center;
                 }
                 .mainfood_section2-main-linda{
-                    background-color: #000;
+                    background-color: #ac5a5a;
                     padding: 1rem;
                     border-left: 1px dashed white;
                     border-bottom: 1px dashed white;
@@ -486,7 +486,7 @@ nav ul {
         color: $colortitulo2;
     }
     @extend .container-fluid;
-    background-color: red;
+    background-color: #ff00002f;
     .maincocktails_classics{
         // afuera de class padre para q acepte en todo el main
         .maincocktails_classics_main_imagen{
@@ -503,10 +503,42 @@ nav ul {
             align-content: space-between;
             .maincocktails_classics_main_items{
                 margin: 0 2rem 0 1rem;
-                @extend .
             }
             .maincocktails_classics_main_section1, .maincocktails_classics_main_section2{
                 @extend .d-md-flex;    
+            }
+        }
+    }
+    .maincocktails_bartenders{
+        margin: 2rem 0;
+        border-top: dotted 1px #ffffff;
+        padding-top: 1rem;
+        border-radius: 1rem;
+        background-color: #f5f5f543;
+        .maincocktails_bartenders-titulo{
+            h2 {
+                text-transform: uppercase;
+                text-align: center;
+                @include huno;
+            }
+        }
+        .maincocktails_bartenders_main{
+            @extend .d-lg-flex;
+            padding: 1rem;
+            .maincocktails_bartenders_main_person{
+                @extend .d-md-flex;
+                .maincocktails_bartenders_main_person-section1{
+                    img {
+                        width: 200px;
+                    }
+                }
+                .maincocktails_bartenders_main_person-section2 {
+                justify-content: space-between;
+                div {
+                    padding: 2rem;
+                    margin-right: 5rem;
+                }
+                }
             }
         }
     }
