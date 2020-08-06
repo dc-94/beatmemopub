@@ -527,19 +527,61 @@ nav ul {
             padding: 1rem;
             .maincocktails_bartenders_main_person{
                 @extend .d-md-flex;
+                //a partir de MD 
                 .maincocktails_bartenders_main_person-section1{
                     img {
                         width: 200px;
+                        border-radius: 0.5rem;
+                        border: groove 1px white;
+                        margin: 0.5rem;
                     }
                 }
                 .maincocktails_bartenders_main_person-section2 {
-                justify-content: space-between;
-                div {
-                    padding: 2rem;
-                    margin-right: 5rem;
+                    justify-content: space-between;
+                    align-content: center;
+                        div {
+                            padding: 2rem;
+                            margin-right: 5rem;
+                        }
                 }
+                // SOLO EN SM
+            }
+        }
+    }
+    .maincocktails_extras{
+        background-color: #290707c5;
+        border-radius: 3px;
+        border-top: #f78282af 1px dotted;
+        margin-bottom: 3rem;
+        padding-top: 0.5rem;
+        @extend .d-md-flex;
+        justify-content: space-evenly;
+        &_beers,&_wines{
+            div{
+                padding: 0 1rem;
+                ul{
+                    border-left: 1px white solid;
+                    padding: 5px;
+                    .sintacc{
+                        border-bottom: 1px solid;
+                        border-color: yellow;
+                    }
                 }
             }
+        }
+        .maincocktails_extras-titulo{
+            @include huno;
+            text-transform: uppercase;
+            h2{
+                color: #fafa82;
+            }
+        }
+        .maincocktails_extras_items-wines{
+            @extend .d-flex;
+        }
+        .maincocktails_extras_items-beers{
+            @extend .d-flex;
+            @extend .flex-lg-column;
         }
     }
 }
