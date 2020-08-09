@@ -537,6 +537,8 @@ nav ul {
                 @extend .d-md-flex;
                 //a partir de MD 
                 .maincocktails_bartenders_main_person-section1{
+                    justify-content: space-between;
+                    align-content: space-between;
                     img {
                         width: 200px;
                         border-radius: 0.5rem;
@@ -545,14 +547,21 @@ nav ul {
                     }
                 }
                 .maincocktails_bartenders_main_person-section2 {
+                    @extend .d-none;
+                    @extend .d-md-block;
                     justify-content: space-between;
                     align-content: center;
                         div {
                             padding: 2rem;
-                            margin-right: 5rem;
+                            margin-right: 3rem;
                         }
                 }
                 // SOLO EN SM
+                .maincocktails_bartenders_main_person-section1b{
+                    @extend .carousel;
+                    @extend .carousel-fade;
+                    @extend .d-md-none;
+                }
             }
         }
     }
@@ -566,7 +575,10 @@ nav ul {
         justify-content: space-evenly;
         &_beers,&_wines{
             div{
-                padding: 0 1rem;
+                padding: 1rem 2rem;
+                h2 {
+                    margin: 0.5rem;
+                }
                 ul{
                     border-left: 1px white solid;
                     padding: 5px;
