@@ -6198,6 +6198,8 @@ button.bg-dark:focus {
 .mr-auto,
 .mx-auto,
 .museo,
+.maincocktails,
+.maincocktails .maincocktails_classics .maincocktails_classics_main,
 .maindelivery .maindelivery_instrucciones {
   margin-right: auto !important; }
 
@@ -6208,6 +6210,8 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto,
 .museo,
+.maincocktails,
+.maincocktails .maincocktails_classics .maincocktails_classics_main,
 .maindelivery .maindelivery_instrucciones {
   margin-left: auto !important; }
 
@@ -9027,6 +9031,8 @@ html {
 .mr-auto,
 .mx-auto,
 .museo,
+.maincocktails,
+.maincocktails .maincocktails_classics .maincocktails_classics_main,
 .maindelivery .maindelivery_instrucciones {
   margin-right: auto !important; }
 
@@ -9037,6 +9043,8 @@ html {
 .ml-auto,
 .mx-auto,
 .museo,
+.maincocktails,
+.maincocktails .maincocktails_classics .maincocktails_classics_main,
 .maindelivery .maindelivery_instrucciones {
   margin-left: auto !important; }
 
@@ -10444,7 +10452,8 @@ nav ul {
   .maincocktails .maincocktails_classics .maincocktails_classics_main {
     align-content: space-between; }
     .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items {
-      margin: 0 2rem 0 1rem; }
+      margin: 0 1.5rem;
+      padding-right: 3rem; }
   .maincocktails .maincocktails_bartenders {
     margin: 2rem 0;
     border-top: dotted 1px #ffffff;
@@ -10459,6 +10468,12 @@ nav ul {
       color: #ffff51; }
     .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main {
       padding: 1rem; }
+      .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_person-subtitulo {
+        text-transform: uppercase;
+        color: #ffddcb;
+        border-bottom: solid 2px #ffada7;
+        margin: 1rem 2rem;
+        text-align: center; }
       .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1 img {
         width: 200px;
         border-radius: 0.5rem;

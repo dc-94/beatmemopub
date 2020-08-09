@@ -481,6 +481,7 @@ nav ul {
 /* ------------------- */
 .maincocktails {
     padding-bottom: 3rem;
+    @extend .mx-auto;
     .titulococktail {
         text-transform: uppercase;
         font-size: $font4;
@@ -488,7 +489,6 @@ nav ul {
     }
     @extend .container-fluid;
     .maincocktails_classics{
-        // afuera de class padre para q acepte en todo el main
         .maincocktails_classics_main_imagen{
             @include foodcard;
             height: min-content;
@@ -500,9 +500,11 @@ nav ul {
         .maincocktails_classics_main{
             @extend .d-lg-flex;
             @extend .container;
+            @extend .mx-auto;
             align-content: space-between;
             .maincocktails_classics_main_items{
-                margin: 0 2rem 0 1rem;
+                margin: 0 1.5rem;
+                padding-right: 3rem;
             }
             .maincocktails_classics_main_section1, .maincocktails_classics_main_section2{
                 @extend .d-md-flex;    
@@ -526,6 +528,12 @@ nav ul {
             @extend .d-lg-flex;
             padding: 1rem;
             .maincocktails_bartenders_main_person{
+                .maincocktails_bartenders_person-subtitulo{
+                    text-transform: uppercase;
+                    color: $colorA;
+                    border-bottom: solid 2px $colorAhover;margin: 1rem 2rem;
+                    text-align: center;
+                }
                 @extend .d-md-flex;
                 //a partir de MD 
                 .maincocktails_bartenders_main_person-section1{
