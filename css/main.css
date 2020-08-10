@@ -4766,10 +4766,10 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   color: #212529; }
 
-.carousel, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b {
+.carousel, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel {
   position: relative; }
 
-.carousel.pointer-event, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .pointer-event.maincocktails_bartenders_main_person-section1b {
+.carousel.pointer-event, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .pointer-event.maincocktails_bartenders_main_person-section1b-carousel {
   touch-action: pan-y; }
 
 .carousel-inner {
@@ -4806,29 +4806,29 @@ a.close.disabled {
 .active.carousel-item-left {
   transform: translateX(-100%); }
 
-.carousel-fade .carousel-item, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .carousel-item {
+.carousel-fade .carousel-item, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel .carousel-item {
   opacity: 0;
   transition-property: opacity;
   transform: none; }
 
-.carousel-fade .carousel-item.active, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .carousel-item.active,
+.carousel-fade .carousel-item.active, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-left,
-.maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .carousel-item-next.carousel-item-left,
+.maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel .carousel-item-next.carousel-item-left,
 .carousel-fade .carousel-item-prev.carousel-item-right,
-.maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .carousel-item-prev.carousel-item-right {
+.maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel .carousel-item-prev.carousel-item-right {
   z-index: 1;
   opacity: 1; }
 
-.carousel-fade .active.carousel-item-left, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .active.carousel-item-left,
+.carousel-fade .active.carousel-item-left, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel .active.carousel-item-left,
 .carousel-fade .active.carousel-item-right,
-.maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .active.carousel-item-right {
+.maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel .active.carousel-item-right {
   z-index: 0;
   opacity: 0;
   transition: opacity 0s 0.6s; }
   @media (prefers-reduced-motion: reduce) {
-    .carousel-fade .active.carousel-item-left, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .active.carousel-item-left,
+    .carousel-fade .active.carousel-item-left, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel .active.carousel-item-left,
     .carousel-fade .active.carousel-item-right,
-    .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .active.carousel-item-right {
+    .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel .active.carousel-item-right {
       transition: none; } }
 
 .carousel-control-prev,
@@ -5144,7 +5144,7 @@ button.bg-dark:focus {
   clear: both;
   content: ""; }
 
-.d-none, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-lg, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-titulo, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
+.d-none, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-lg, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-titulo, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
   display: none !important; }
 
 .d-inline {
@@ -5165,7 +5165,7 @@ button.bg-dark:focus {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
+.d-flex, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
   display: flex !important; }
 
 .d-inline-flex {
@@ -5198,7 +5198,7 @@ button.bg-dark:focus {
     display: inline !important; }
   .d-md-inline-block {
     display: inline-block !important; }
-  .d-md-block, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
+  .d-md-block, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
     display: block !important; }
   .d-md-table {
     display: table !important; }
@@ -8193,7 +8193,7 @@ html {
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
-.d-none, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-lg, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-titulo, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
+.d-none, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-lg, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-titulo, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
   display: none !important; }
 
 .d-inline {
@@ -8214,7 +8214,7 @@ html {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
+.d-flex, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
   display: flex !important; }
 
 .d-inline-flex {
@@ -8247,7 +8247,7 @@ html {
     display: inline !important; }
   .d-md-inline-block {
     display: inline-block !important; }
-  .d-md-block, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
+  .d-md-block, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
     display: block !important; }
   .d-md-table {
     display: table !important; }
@@ -10342,7 +10342,7 @@ nav ul {
     background-color: #8636364d;
     border-left: 1px dashed #af5151; }
     .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen div {
-      background-color: #000000c8;
+      background-color: #0000009a;
       margin-bottom: 55%; }
     .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen div {
       margin-bottom: 40%; }
@@ -10357,7 +10357,7 @@ nav ul {
     .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-titulo h2 {
       color: #ffa264; }
     .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen div {
-      background-color: #000000c8;
+      background-color: #0000009a;
       margin-bottom: 55%; }
     .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen div {
       margin-bottom: 40%; }
@@ -10388,7 +10388,7 @@ nav ul {
           .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen {
             width: 300px; }
             .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen div {
-              background-color: #000000c8;
+              background-color: #0000009a;
               margin-bottom: 55%; }
       .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 {
         margin: 0rem; }
@@ -10401,7 +10401,7 @@ nav ul {
           .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main_harrison-imagen {
             width: 400px; }
             .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main_harrison-imagen div {
-              background-color: #000000c8;
+              background-color: #0000009a;
               margin-bottom: 55%; }
           .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-2 div {
             margin: 1rem; }
@@ -10446,18 +10446,23 @@ nav ul {
     font-size: 1.2rem;
     color: #ff806a; }
   .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen {
-    height: min-content;
+    height: fit-content;
     width: 250px; }
     .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen div {
-      background-color: #000000c8;
+      background-color: #0000009a;
       margin-bottom: 55%; }
     .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen div {
       margin-bottom: 90%; }
   .maincocktails .maincocktails_classics .maincocktails_classics_main {
-    align-content: space-between; }
+    justify-content: space-around; }
     .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items {
-      margin: 0 1.5rem;
-      padding-right: 3rem; }
+      margin: 1rem; }
+      .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items div {
+        width: 150px; }
+    .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2 {
+      justify-content: space-evenly;
+      align-content: space-evenly;
+      margin: 1rem; }
   .maincocktails .maincocktails_bartenders {
     margin: 2rem 0;
     border-top: dotted 1px #ffffff;
@@ -10478,6 +10483,23 @@ nav ul {
         border-bottom: solid 2px #ffada7;
         margin: 1rem 2rem;
         text-align: center; }
+      .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b {
+        background-color: #00000088;
+        border-radius: 3px;
+        padding: 5px; }
+        .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person {
+          border-bottom: #000000 5px dotted; }
+          .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person img {
+            width: 100%;
+            border: 1px #ffffffc9 solid;
+            border-radius: 0.5rem; }
+        .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel {
+          border: 1px #ffffffc9 solid;
+          border-radius: 3px;
+          margin-bottom: 1rem; }
+          .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel .carousel-caption {
+            background-color: #00000068;
+            border-radius: 1rem; }
       .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1 {
         justify-content: space-between;
         align-content: space-between; }
@@ -10492,6 +10514,11 @@ nav ul {
         .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 div {
           padding: 2rem;
           margin-right: 3rem; }
+      .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-links {
+        display: flex;
+        justify-content: space-evenly; }
+        .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-links i {
+          color: #fff6d0; }
   .maincocktails .maincocktails_extras {
     background-color: #290707c5;
     border-radius: 3px;

@@ -491,7 +491,7 @@ nav ul {
     .maincocktails_classics{
         .maincocktails_classics_main_imagen{
             @include foodcard;
-            height: min-content;
+            height: fit-content;
             width: 250px;
             div {
                 margin-bottom: 90%;
@@ -501,13 +501,18 @@ nav ul {
             @extend .d-lg-flex;
             @extend .container;
             @extend .mx-auto;
-            align-content: space-between;
+            justify-content: space-around;
             .maincocktails_classics_main_items{
-                margin: 0 1.5rem;
-                padding-right: 3rem;
+                margin: 1rem;
+                div{
+                    width: 150px;
+                }
             }
             .maincocktails_classics_main_section1, .maincocktails_classics_main_section2{
-                @extend .d-md-flex;    
+                justify-content: space-evenly;
+                align-content: space-evenly;
+                @extend .d-md-flex;
+                margin: 1rem;  
             }
         }
     }
@@ -523,20 +528,49 @@ nav ul {
                 text-align: center;
                 @include huno;
             }
-        }
+        } 
         .maincocktails_bartenders_main{
             @extend .d-lg-flex;
             padding: 1rem;
             .maincocktails_bartenders_main_person{
+                @extend .d-md-flex;
                 .maincocktails_bartenders_person-subtitulo{
                     text-transform: uppercase;
                     color: $colorA;
                     border-bottom: solid 2px $colorAhover;margin: 1rem 2rem;
                     text-align: center;
                 }
-                @extend .d-md-flex;
+                // SOLO EN SM
+                .maincocktails_bartenders_main_person-section1b{
+                    @extend .d-md-none;
+                    background-color: #00000088;
+                    border-radius: 3px;
+                    padding: 5px;
+                    .maincocktails_bartenders_main_person-section1b-person{
+                    @extend .d-flex;
+                        border-bottom: #000000 5px dotted;
+                    img {
+                        width: 100%;
+                        border: 1px #ffffffc9 solid;
+                        border-radius: 0.5rem;
+                        }
+                    }
+                    .maincocktails_bartenders_main_person-section1b-carousel{
+                    @extend .carousel;
+                    @extend .carousel-fade;
+                    border: 1px #ffffffc9 solid;
+                    border-radius: 3px;
+                    margin-bottom: 1rem;
+                    .carousel-caption{
+                        background-color: #00000068;
+                        border-radius: 1rem;
+                    }
+                    }
+                }
                 //a partir de MD 
                 .maincocktails_bartenders_main_person-section1{
+                    @extend .d-none;
+                    @extend .d-md-block;
                     justify-content: space-between;
                     align-content: space-between;
                     img {
@@ -556,11 +590,12 @@ nav ul {
                             margin-right: 3rem;
                         }
                 }
-                // SOLO EN SM
-                .maincocktails_bartenders_main_person-section1b{
-                    @extend .carousel;
-                    @extend .carousel-fade;
-                    @extend .d-md-none;
+                .maincocktails_bartenders_main_person-links{
+                    display: flex;
+                    justify-content: space-evenly;
+                    i{
+                        color: $colorlist;
+                    }
                 }
             }
         }
