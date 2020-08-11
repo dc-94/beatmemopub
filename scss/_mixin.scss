@@ -28,6 +28,7 @@
 }
 @mixin foodcard {
     @extend .card;
+    align-self: center;
     img{
         @extend .card-img;
     }

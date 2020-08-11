@@ -309,7 +309,7 @@ nav ul {
     h2{
         text-transform: uppercase;
     }
-    //
+    // section 1
     .mainfood_section1{
         @extend .d-lg-flex;
         .mainfood_section1-titulo{
@@ -368,9 +368,9 @@ nav ul {
             }
         }
     }
-    // 
+    // section 2
     .mainfood_section2{
-        background-color: #ffdfdf34;
+        background-color: #5a4141d8;
         .mainfood_section2-titulo{
             h2{
             font-size: $font1;
@@ -381,52 +381,69 @@ nav ul {
         }
         .mainfood_section2_main{
             @extend .d-lg-flex;
-            margin: 0rem;
+            justify-content: space-between;
             .mainfood_section2_main-1{
-                margin: 0rem;
                 @extend .d-md-flex;
                 .mainfood_section2-main-salads{
                     padding: 1rem;
                     @extend .text-center;
+                    div{
+                        margin-bottom: 2rem;
+                        img{
+                            width: 250px;
+                        }
+                    }    
                 }
                 .mainfood_section2-main-linda{
-                    background-color: #ac5a5a;
+                    background-color: #ac5a5aa8;
                     padding: 1rem;
                     border-left: 1px dashed white;
                     border-bottom: 1px dashed white;
+                    div{
+                        margin-bottom: 2rem;
+                    }    
                     .mainfood_section2-main-linda-imagen{
+                        @extend .img-fluid;
                         @include foodcard;
                         width: 300px;
                     }
                 }
             }
             .mainfood_section2_main-2{
-                margin: 0rem;
                 .mainfood_section2_main-harrison{
-                    padding: 0 1rem;
-                    background-color: #000;
-                    height: 100%;
+                    padding: 1rem;
+                    background-color: #7b51328f;
                     border-left: 1px dashed white;
                     border-bottom: 1px dashed white;
-                    .mainfood_section2_main_harrison-imagen{
-                        width: 400px;
-                        @include foodcard;
-                    }
-                    .mainfood_section2_main-harrison-2{
-                        @extend .d-md-flex;
-                        @extend .justify-content-around;
+                    .mainfood_section2_main-harrison-1{
+                        @extend .d-md-flex;@extend .flex-lg-column-reverse;
+                        justify-content: space-around;
+                        align-content: space-around;
+                        .mainfood_section2_main-harrison-2{
+                        width: fit-content;
                         div{
-                            margin: 1rem ;
-                            @extend .img-fluid;
+                            padding: 1rem;
+                            align-self: center;
+                            justify-self: center;
+                            width: fit-content;
+                            img{
+                                width: 250px;
+                            }
+                            p{
+                                width: fit-content;
+                                padding-right: 3rem;
+                            }
                         }
+                    }
+
                     }
                 }
             }
         }
     }
-    // 
+    // section 3
     .mainfood_section3{
-        background-color: #0000009f;
+        background-color: #010101e3;
         padding: 1rem;
         @extend .d-lg-flex;
         @extend .justify-content-around;
@@ -489,12 +506,19 @@ nav ul {
     }
     @extend .container-fluid;
     .maincocktails_classics{
+        padding-top: 1rem;
+        .maincocktails_classics-titulo{
+            text-transform: uppercase;
+            padding: 1rem;
+            border-left: 1px dashed white;
+        }
         .maincocktails_classics_main_imagen{
+            text-align: center;
             @include foodcard;
             height: fit-content;
             width: 250px;
             div {
-                margin-bottom: 90%;
+                margin-bottom: 100%;
             }
         }
         .maincocktails_classics_main{
@@ -504,8 +528,13 @@ nav ul {
             justify-content: space-around;
             .maincocktails_classics_main_items{
                 margin: 1rem;
-                div{
+                @extend .d-flex;
+                @extend .flex-md-column;
+                .maincocktails_classics_main_items-a{
+                    div{
+                    padding-left: 2rem;
                     width: 150px;
+                    }
                 }
             }
             .maincocktails_classics_main_section1, .maincocktails_classics_main_section2{
@@ -562,7 +591,7 @@ nav ul {
                     border-radius: 3px;
                     margin-bottom: 1rem;
                     .carousel-caption{
-                        background-color: #00000068;
+                        background-color: #0000009d;
                         border-radius: 1rem;
                     }
                     }
