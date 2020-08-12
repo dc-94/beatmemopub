@@ -703,23 +703,23 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+.container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 1140px; } }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .museo, .mainfood, .maincocktails, .maindelivery {
@@ -730,19 +730,19 @@ pre {
   margin-left: auto; }
 
 @media (min-width: 576px) {
-  .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm {
+  .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm {
     max-width: 540px; } }
 
 @media (min-width: 768px) {
-  .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md {
+  .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md {
     max-width: 720px; } }
 
 @media (min-width: 992px) {
-  .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg {
+  .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg {
     max-width: 960px; } }
 
 @media (min-width: 1200px) {
-  .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
 
 .row, .museo .museo_galeria .museo_galeria_main {
@@ -3316,7 +3316,7 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem; }
-  .navbar .container, .navbar .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_classics .navbar .maincocktails_classics_main, .navbar .maindelivery .maindelivery_instrucciones, .maindelivery .navbar .maindelivery_instrucciones,
+  .navbar .container, .navbar header, .navbar .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_classics .navbar .maincocktails_classics_main, .navbar .maindelivery .maindelivery_instrucciones, .maindelivery .navbar .maindelivery_instrucciones,
   .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar .museo, .navbar .mainfood, .navbar .maincocktails, .navbar .maindelivery {
     display: flex;
     flex-wrap: wrap;
@@ -3377,7 +3377,7 @@ input[type="button"].btn-block {
   background-size: 100% 100%; }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
+  .navbar-expand-sm > .container, .navbar-expand-sm > header, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3393,7 +3393,7 @@ input[type="button"].btn-block {
       .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-sm > .container, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
+    .navbar-expand-sm > .container, .navbar-expand-sm > header, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
     .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-sm .navbar-collapse {
@@ -3403,7 +3403,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
+  .navbar-expand-md > .container, .navbar-expand-md > header, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3419,7 +3419,7 @@ input[type="button"].btn-block {
       .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-md > .container, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
+    .navbar-expand-md > .container, .navbar-expand-md > header, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
     .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-md .navbar-collapse {
@@ -3429,7 +3429,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 991.98px) {
-  .navbar-expand-lg > .container, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
+  .navbar-expand-lg > .container, .navbar-expand-lg > header, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3445,7 +3445,7 @@ input[type="button"].btn-block {
       .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-lg > .container, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
+    .navbar-expand-lg > .container, .navbar-expand-lg > header, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
     .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-lg .navbar-collapse {
@@ -3455,7 +3455,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
+  .navbar-expand-xl > .container, .navbar-expand-xl > header, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
   .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3471,7 +3471,7 @@ input[type="button"].btn-block {
       .navbar-expand-xl .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-xl > .container, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
+    .navbar-expand-xl > .container, .navbar-expand-xl > header, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
     .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-xl .navbar-collapse {
@@ -3483,7 +3483,7 @@ input[type="button"].btn-block {
 .navbar-expand {
   flex-flow: row nowrap;
   justify-content: flex-start; }
-  .navbar-expand > .container, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones,
+  .navbar-expand > .container, .navbar-expand > header, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones,
   .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery {
     padding-right: 0;
     padding-left: 0; }
@@ -3494,7 +3494,7 @@ input[type="button"].btn-block {
     .navbar-expand .navbar-nav .nav-link {
       padding-right: 0.5rem;
       padding-left: 0.5rem; }
-  .navbar-expand > .container, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones,
+  .navbar-expand > .container, .navbar-expand > header, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones,
   .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery {
     flex-wrap: nowrap; }
   .navbar-expand .navbar-collapse {
@@ -5161,7 +5161,7 @@ button.bg-dark:focus {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
+.d-flex, header, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
   display: flex !important; }
 
 .d-inline-flex {
@@ -7447,7 +7447,7 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3; }
   body {
     min-width: 992px !important; }
-  .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+  .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
     min-width: 992px !important; }
   .navbar {
     display: none; }
@@ -7487,23 +7487,23 @@ html {
 *::after {
   box-sizing: inherit; }
 
-.container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+.container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 1140px; } }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .museo, .mainfood, .maincocktails, .maindelivery {
@@ -7514,19 +7514,19 @@ html {
   margin-left: auto; }
 
 @media (min-width: 576px) {
-  .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm {
+  .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm {
     max-width: 540px; } }
 
 @media (min-width: 768px) {
-  .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md {
+  .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md {
     max-width: 720px; } }
 
 @media (min-width: 992px) {
-  .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg {
+  .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg {
     max-width: 960px; } }
 
 @media (min-width: 1200px) {
-  .container, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, header, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
 
 .row, .museo .museo_galeria .museo_galeria_main {
@@ -8212,7 +8212,7 @@ html {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
+.d-flex, header, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
   display: flex !important; }
 
 .d-inline-flex {
@@ -10077,7 +10077,7 @@ html {
     font-size: 42.5%; }
   .img-fluid, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile img, .museo .museo_galeria .museo_galeria_main .museo_galeria_main-card img, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-logo img, .maindelivery .maindelivery_info .maindelivery_info-img img {
     width: 75%; }
-  .img-responsive {
+  .img-responsive, header .logoheader {
     object-fit: cover;
     width: 50%; } }
 
@@ -10131,25 +10131,40 @@ ul {
 /* ------------------- */
 /* ----- HEADER ------- */
 /* ------------------- */
-/* portada */
-.btmName {
-  font-family: "Libre Baskerville", serif;
-  font-size: 6rem !important;
-  color: #dada46; }
+header {
+  position: fixed; }
+  header .logoheader {
+    padding: 1rem; }
+  header nav .navbar-toggler-icon {
+    height: fit-content;
+    width: fit-content; }
+    header nav .navbar-toggler-icon i {
+      color: #eee26f; }
+  header nav .dropdown-menu {
+    position: absolute;
+    z-index: 10000 !important;
+    background-color: #0000009a;
+    border: #ffffff69 2px solid; }
+    header nav .dropdown-menu a {
+      font-size: 1.5rem;
+      color: #fff; }
+      header nav .dropdown-menu a:hover {
+        color: #ff806a;
+        background-color: #2d2d2d9f; }
+  header nav ul {
+    border-bottom: #fff 1px solid; }
+    header nav ul li {
+      color: #ffffa6;
+      padding: 0 1rem;
+      font-size: 1.5rem;
+      background-color: #000000c5; }
+      header nav ul li a:hover {
+        color: #ff806a;
+        border-top: 1px solid #fff700; }
 
-.text-focus-in {
+.text-focus-in, header .logoheader {
   -webkit-animation: text-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.3s both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.1s both; }
-
-@-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0; }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1; } }
 
 @keyframes text-focus-in {
   0% {
@@ -10161,39 +10176,12 @@ ul {
     filter: blur(0px);
     opacity: 1; } }
 
-/* MENU    */
-.menu i {
-  color: #ffffff; }
-
-.menu .icn1 {
-  width: 100%;
-  height: 3rem; }
-
-.menu .dropdown-menu {
-  z-index: 1000;
-  background-color: #000000c1;
-  border: #ffffff69 2px solid; }
-  .menu .dropdown-menu a {
-    font-size: 1.5rem;
-    color: #fff; }
-    .menu .dropdown-menu a:hover {
-      color: #ff806a;
-      background-color: #2d2d2d9f; }
-
-nav ul {
-  border-bottom: #fff 1px solid; }
-  nav ul li {
-    color: #ffffa6;
-    padding: 0 1rem;
-    font-size: 1.5rem;
-    background-color: #000000c5; }
-    nav ul li a:hover {
-      color: #ff806a;
-      border-top: 1px solid #fff700; }
-
 /* ------------------- */
 /* ----- INDEX ------- */
 /* ------------------- */
+.mainIndex {
+  padding-top: 100px; }
+
 .welcome {
   padding-top: 2rem; }
   .welcome h1 {
@@ -10219,19 +10207,6 @@ nav ul {
   background-image: url(img/showbackground.jpg);
   background-position: bottom;
   background-size: cover; }
-
-.footer {
-  background-color: #262626;
-  padding-top: 4rem; }
-  .footer i {
-    padding: 1rem 0.5rem 1rem 0; }
-  .footer .footer__div {
-    padding: 0 0.5rem;
-    border-left: 0.1rem dashed #f78282; }
-  .footer .footer__div__div__titulo--center {
-    text-align: center; }
-  .footer .footer__div__div__div__div__icono-verde {
-    color: #54da54; }
 
 .mainshows h1 {
   text-transform: uppercase;
@@ -10679,3 +10654,16 @@ label {
 
 .contactMap iframe {
   border: #ffffa6 solid 1px; }
+
+.footer {
+  background-color: #262626;
+  padding-top: 4rem; }
+  .footer i {
+    padding: 1rem 0.5rem 1rem 0; }
+  .footer .footer__div {
+    padding: 0 0.5rem;
+    border-left: 0.1rem dashed #f78282; }
+  .footer .footer__div__div__titulo--center {
+    text-align: center; }
+  .footer .footer__div__div__div__div__icono-verde {
+    color: #54da54; }
