@@ -6,7 +6,7 @@
 @import "mediaquery";
 
 html {
-    font-size: 62.5%; 
+    font-size: 70%; 
     height: 100%;
 } 
 body{
@@ -45,14 +45,18 @@ ul{
 /* ----- HEADER ------- */
 /* ------------------- */
 header{
-    position: fixed;
-    @extend .container;
+    @extend .container-fluid;
     @extend .d-flex;
+    z-index: 10000 !important;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background: #040404f5;
     // logo
     .logoheader{
         @extend .img-responsive;
-        padding: 1rem;
         @extend .text-focus-in;
+        padding: 1rem;
     }
     // menu
     nav{
@@ -65,7 +69,6 @@ header{
         }
         .dropdown-menu {
             position: absolute;
-            z-index: 10000 !important;
             background-color: #0000009a;
             border: #ffffff69 2px solid;
             a {
@@ -78,19 +81,25 @@ header{
             }
         }
         ul {
-        border-bottom: #fff 1px solid;
+            border-bottom: #fff 1px solid;
+            border-radius: 0.5rem;
             li{
             color: #ffffa6;
             padding: 0 1rem ;
             font-size: 1.5rem;
-            background-color: #000000c5;
+            background-color: #0000007e;
             a:hover{
                 color: #ff806a;
                 border-top: 1px solid #fff700;
             }
         }
     }
-    } 
+    }
+    // rooftop
+    .rooftop{
+        color: #ffedd2;
+        text-align: center;
+    }
 }
 // animation logo
 .text-focus-in {
@@ -113,35 +122,54 @@ header{
 /* ----- INDEX ------- */
 /* ------------------- */
 .mainindex{
+    @extend .container;
     padding-top: 100px;
-}
-.welcome {
-    padding-top: 2rem;
-    h1 {
-    font-size: $fontl;
+    // intro
+    .mainindex_intro {
+        @extend .container;
+        padding-top: 1rem;
+        .mainindex_intro_bienvenidos {
+            text-align: center;
+            h1{
+                font-size: $fontl;
+            }
+        }
+        .mainindex_intro_main{
+            @extend .d-md-flex;
+            p{
+                margin: 0 3rem;
+            }
+        }
     }
-}
-// 
-.section2 {
-    animation-name: sectionshow;
-    animation-duration: 4s;
-    padding-bottom: 3rem;
-    p {
-    width: 80%;
-    text-align: end;
+    // novedades
+    .mainindex_novedades{
+        background: rgb(159, 98, 98);
     }
-}
-             /* ULTIMOS SHOWS */
-#ult-shows {
-    @include titulogaleria;
-}
-.ultShows {
-    background-image: url(img/showbackground.jpg);
-    background-position: bottom;
-    background-size: cover;
+    // delivery
+    .mainindex_delivery{
+        @extend .d-md-flex;
+        align-items: center;
+        align-content: center;
+        margin: 0 10%;
+        .mainindex_delivery_info{
+            div{
+                padding: 1rem 0;
+            }
+        }
+    }
+                /* ULTIMOS SHOWS */
+    .mainindex_shows{
+        .mainindex_shows_title{
+            @include titulogaleria;
+            text-align: start;
+            text-shadow: #ffffffb8 1px 2px;
+            margin: 1rem 0;
+            background: #ffffffb0;
+        }
+    }
 }
 
-// /* -----SHOWS------- */
+//----- CICLOS DE SHOWS ----- */
 .mainshows {
     h1 {
         text-transform: uppercase;
