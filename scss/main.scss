@@ -136,35 +136,77 @@ header{
         }
         .mainindex_intro_main{
             @extend .d-md-flex;
-            p{
-                margin: 0 3rem;
+            justify-content: space-evenly;
+            .mainindex_intro_main-txt{
+                width: 450px;
+            }
+            .mainindex_intro_main-vid{
+                @extend .container;
             }
         }
     }
     // novedades
     .mainindex_novedades{
         background: rgb(159, 98, 98);
+        display: flex;
+        img{
+            @extend .card;
+        }
     }
     // delivery
     .mainindex_delivery{
-        @extend .d-md-flex;
+        @extend .d-lg-flex;
         align-items: center;
-        align-content: center;
-        margin: 0 10%;
+        margin: 5rem 3rem;
+        padding: 2rem;
+        justify-content: space-around;
+        border-top: 2px solid #ffebcd;
         .mainindex_delivery_info{
-            div{
-                padding: 1rem 0;
+            width: min-content;
+            button{
+                margin: 0 30%;
+                background-color: #f9f97c;
+                border-radius: 5px;
+                a{
+                    text-transform: uppercase;
+                    color: #000;
+                }
+            }
+        }
+        .mainindex_delivery_slide{
+            @extend .carousel;
+            width: 300px;
+            img{
+            border-radius: 5px;
             }
         }
     }
                 /* ULTIMOS SHOWS */
     .mainindex_shows{
+        margin: 5rem 0;
+        padding: 1rem;
+        border-bottom: 1px dotted #b95543;
         .mainindex_shows_title{
             @include titulogaleria;
             text-align: start;
             text-shadow: #ffffffb8 1px 2px;
             margin: 1rem 0;
             background: #ffffffb0;
+        }
+        .mainindex_shows_main{
+            @extend .d-md-flex;
+            .mainindex_shows_main-section{
+                @extend .mx-auto;
+                @extend .d-none;
+                @extend .d-md-block;
+                @extend .d-lg-flex;
+                div{
+                    padding: 1rem;
+                }
+            }
+            .carousel{
+                @extend .d-md-none;
+            }
         }
     }
 }

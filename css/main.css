@@ -703,23 +703,23 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+.container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 1140px; } }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, header, .museo, .mainfood, .maincocktails, .maindelivery {
@@ -730,19 +730,19 @@ pre {
   margin-left: auto; }
 
 @media (min-width: 576px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm {
+  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm {
     max-width: 540px; } }
 
 @media (min-width: 768px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md {
+  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md {
     max-width: 720px; } }
 
 @media (min-width: 992px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg {
+  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg {
     max-width: 960px; } }
 
 @media (min-width: 1200px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
 
 .row, .museo .museo_galeria .museo_galeria_main {
@@ -3316,7 +3316,7 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem; }
-  .navbar .container, .navbar .mainindex, .navbar .mainindex .mainindex_intro, .mainindex .navbar .mainindex_intro, .navbar .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_classics .navbar .maincocktails_classics_main, .navbar .maindelivery .maindelivery_instrucciones, .maindelivery .navbar .maindelivery_instrucciones,
+  .navbar .container, .navbar .mainindex, .navbar .mainindex .mainindex_intro, .mainindex .navbar .mainindex_intro, .navbar .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .mainindex .mainindex_intro .mainindex_intro_main .navbar .mainindex_intro_main-vid, .navbar .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_classics .navbar .maincocktails_classics_main, .navbar .maindelivery .maindelivery_instrucciones, .maindelivery .navbar .maindelivery_instrucciones,
   .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar header, .navbar .museo, .navbar .mainfood, .navbar .maincocktails, .navbar .maindelivery {
     display: flex;
     flex-wrap: wrap;
@@ -3377,7 +3377,7 @@ input[type="button"].btn-block {
   background-size: 100% 100%; }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
+  .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-sm > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > header, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3393,7 +3393,7 @@ input[type="button"].btn-block {
       .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
+    .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-sm > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
     .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > header, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-sm .navbar-collapse {
@@ -3403,7 +3403,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
+  .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-md > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > header, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3419,7 +3419,7 @@ input[type="button"].btn-block {
       .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
+    .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-md > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
     .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > header, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-md .navbar-collapse {
@@ -3429,7 +3429,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 991.98px) {
-  .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
+  .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-lg > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > header, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3445,7 +3445,7 @@ input[type="button"].btn-block {
       .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
+    .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-lg > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
     .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > header, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-lg .navbar-collapse {
@@ -3455,7 +3455,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
+  .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-xl > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
   .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > header, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3471,7 +3471,7 @@ input[type="button"].btn-block {
       .navbar-expand-xl .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
+    .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-xl > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
     .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > header, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-xl .navbar-collapse {
@@ -3483,7 +3483,7 @@ input[type="button"].btn-block {
 .navbar-expand {
   flex-flow: row nowrap;
   justify-content: flex-start; }
-  .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones,
+  .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones,
   .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > header, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery {
     padding-right: 0;
     padding-left: 0; }
@@ -3494,7 +3494,7 @@ input[type="button"].btn-block {
     .navbar-expand .navbar-nav .nav-link {
       padding-right: 0.5rem;
       padding-left: 0.5rem; }
-  .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones,
+  .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones,
   .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > header, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery {
     flex-wrap: nowrap; }
   .navbar-expand .navbar-collapse {
@@ -3567,7 +3567,7 @@ input[type="button"].btn-block {
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #fff; }
 
-.card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen {
+.card, .mainindex .mainindex_novedades img, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -3577,17 +3577,17 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem; }
-  .card > hr, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen > hr, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen > hr, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen > hr, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen > hr, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen > hr {
+  .card > hr, .mainindex .mainindex_novedades img > hr, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen > hr, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen > hr, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen > hr, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen > hr, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen > hr {
     margin-right: 0;
     margin-left: 0; }
-  .card > .list-group, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen > .list-group, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen > .list-group, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen > .list-group, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen > .list-group, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen > .list-group {
+  .card > .list-group, .mainindex .mainindex_novedades img > .list-group, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen > .list-group, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen > .list-group, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen > .list-group, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen > .list-group, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen > .list-group {
     border-top: inherit;
     border-bottom: inherit; }
-    .card > .list-group:first-child, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen > .list-group:first-child, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen > .list-group:first-child, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen > .list-group:first-child, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen > .list-group:first-child, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen > .list-group:first-child {
+    .card > .list-group:first-child, .mainindex .mainindex_novedades img > .list-group:first-child, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen > .list-group:first-child, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen > .list-group:first-child, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen > .list-group:first-child, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen > .list-group:first-child, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen > .list-group:first-child {
       border-top-width: 0;
       border-top-left-radius: calc(0.25rem - 1px);
       border-top-right-radius: calc(0.25rem - 1px); }
-    .card > .list-group:last-child, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen > .list-group:last-child, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen > .list-group:last-child, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen > .list-group:last-child, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen > .list-group:last-child, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen > .list-group:last-child {
+    .card > .list-group:last-child, .mainindex .mainindex_novedades img > .list-group:last-child, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen > .list-group:last-child, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen > .list-group:last-child, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen > .list-group:last-child, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen > .list-group:last-child, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen > .list-group:last-child {
       border-bottom-width: 0;
       border-bottom-right-radius: calc(0.25rem - 1px);
       border-bottom-left-radius: calc(0.25rem - 1px); }
@@ -3664,7 +3664,7 @@ input[type="button"].btn-block {
   border-bottom-right-radius: calc(0.25rem - 1px);
   border-bottom-left-radius: calc(0.25rem - 1px); }
 
-.card-deck .card, .card-deck .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-deck .mainfood_section1_entradas-items-imagen, .card-deck .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-deck .mainfood_section1_tablas-imagen, .card-deck .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-deck .mainfood_section2-main-linda-imagen, .card-deck .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-deck .mainfood_section3_items-imagen, .card-deck .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .card-deck .maincocktails_classics_main_imagen {
+.card-deck .card, .card-deck .mainindex .mainindex_novedades img, .mainindex .mainindex_novedades .card-deck img, .card-deck .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-deck .mainfood_section1_entradas-items-imagen, .card-deck .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-deck .mainfood_section1_tablas-imagen, .card-deck .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-deck .mainfood_section2-main-linda-imagen, .card-deck .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-deck .mainfood_section3_items-imagen, .card-deck .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .card-deck .maincocktails_classics_main_imagen {
   margin-bottom: 15px; }
 
 @media (min-width: 576px) {
@@ -3673,57 +3673,61 @@ input[type="button"].btn-block {
     flex-flow: row wrap;
     margin-right: -15px;
     margin-left: -15px; }
-    .card-deck .card, .card-deck .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-deck .mainfood_section1_entradas-items-imagen, .card-deck .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-deck .mainfood_section1_tablas-imagen, .card-deck .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-deck .mainfood_section2-main-linda-imagen, .card-deck .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-deck .mainfood_section3_items-imagen, .card-deck .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .card-deck .maincocktails_classics_main_imagen {
+    .card-deck .card, .card-deck .mainindex .mainindex_novedades img, .mainindex .mainindex_novedades .card-deck img, .card-deck .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-deck .mainfood_section1_entradas-items-imagen, .card-deck .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-deck .mainfood_section1_tablas-imagen, .card-deck .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-deck .mainfood_section2-main-linda-imagen, .card-deck .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-deck .mainfood_section3_items-imagen, .card-deck .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .card-deck .maincocktails_classics_main_imagen {
       flex: 1 0 0%;
       margin-right: 15px;
       margin-bottom: 0;
       margin-left: 15px; } }
 
-.card-group > .card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen {
+.card-group > .card, .mainindex .mainindex_novedades .card-group > img, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen {
   margin-bottom: 15px; }
 
 @media (min-width: 576px) {
   .card-group {
     display: flex;
     flex-flow: row wrap; }
-    .card-group > .card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen {
+    .card-group > .card, .mainindex .mainindex_novedades .card-group > img, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen {
       flex: 1 0 0%;
       margin-bottom: 0; }
-      .card-group > .card + .card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .card, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .card, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .card, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .card + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_entradas .card-group > .mainfood_section1_tablas-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section3_items-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .mainfood_section1_entradas-items-imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .maincocktails_classics_main_imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .card + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_tablas .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section3_items-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .mainfood_section1_tablas-imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .maincocktails_classics_main_imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .card + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section1_tablas-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section3_items-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .mainfood_section2-main-linda-imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .maincocktails_classics_main_imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .card + .mainfood_section3_items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section1_tablas-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .maincocktails_classics_main_imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .card-group > .card + .maincocktails_classics_main_imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .maincocktails .maincocktails_classics .card-group > .mainfood_section1_entradas-items-imagen + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .maincocktails_classics_main_imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .maincocktails .maincocktails_classics .card-group > .mainfood_section1_tablas-imagen + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .maincocktails_classics_main_imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .maincocktails .maincocktails_classics .card-group > .mainfood_section2-main-linda-imagen + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .maincocktails_classics_main_imagen, .mainfood .mainfood_section3 .mainfood_section3_items .maincocktails .maincocktails_classics .card-group > .mainfood_section3_items-imagen + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .maincocktails_classics_main_imagen {
+      .card-group > .card + .card, .mainindex .mainindex_novedades .card-group > img + .card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .card, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .card, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .card, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .card, .mainindex .mainindex_novedades .card-group > .card + img, .mainindex .mainindex_novedades .card-group > img + img, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainindex .mainindex_novedades .card-group > .mainfood_section1_entradas-items-imagen + img, .mainindex .mainindex_novedades .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + img, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainindex .mainindex_novedades .card-group > .mainfood_section1_tablas-imagen + img, .mainindex .mainindex_novedades .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + img, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainindex .mainindex_novedades .card-group > .mainfood_section2-main-linda-imagen + img, .mainindex .mainindex_novedades .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + img, .mainfood .mainfood_section3 .mainfood_section3_items .mainindex .mainindex_novedades .card-group > .mainfood_section3_items-imagen + img, .mainindex .mainindex_novedades .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + img, .maincocktails .maincocktails_classics .mainindex .mainindex_novedades .card-group > .maincocktails_classics_main_imagen + img, .mainindex .mainindex_novedades .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + img, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .card + .mainfood_section1_entradas-items-imagen, .mainindex .mainindex_novedades .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > img + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainindex .mainindex_novedades .card-group > img + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_entradas .card-group > .mainfood_section1_tablas-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section3_items-imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .mainfood_section1_entradas-items-imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .maincocktails_classics_main_imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .card + .mainfood_section1_tablas-imagen, .mainindex .mainindex_novedades .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > img + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainindex .mainindex_novedades .card-group > img + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_tablas .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section3_items-imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .mainfood_section1_tablas-imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .maincocktails_classics_main_imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .card + .mainfood_section2-main-linda-imagen, .mainindex .mainindex_novedades .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > img + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainindex .mainindex_novedades .card-group > img + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section1_tablas-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section3_items-imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .mainfood_section2-main-linda-imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .maincocktails_classics_main_imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .card + .mainfood_section3_items-imagen, .mainindex .mainindex_novedades .mainfood .mainfood_section3 .mainfood_section3_items .card-group > img + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainindex .mainindex_novedades .card-group > img + .mainfood_section3_items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section1_tablas-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .maincocktails_classics_main_imagen + .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .card-group > .card + .maincocktails_classics_main_imagen, .mainindex .mainindex_novedades .maincocktails .maincocktails_classics .card-group > img + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainindex .mainindex_novedades .card-group > img + .maincocktails_classics_main_imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .maincocktails .maincocktails_classics .card-group > .mainfood_section1_entradas-items-imagen + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen + .maincocktails_classics_main_imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .maincocktails .maincocktails_classics .card-group > .mainfood_section1_tablas-imagen + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen + .maincocktails_classics_main_imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .maincocktails .maincocktails_classics .card-group > .mainfood_section2-main-linda-imagen + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen + .maincocktails_classics_main_imagen, .mainfood .mainfood_section3 .mainfood_section3_items .maincocktails .maincocktails_classics .card-group > .mainfood_section3_items-imagen + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen + .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen + .maincocktails_classics_main_imagen {
         margin-left: 0;
         border-left: 0; }
-      .card-group > .card:not(:last-child), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:last-child), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:last-child), .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:last-child), .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:last-child), .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:last-child) {
+      .card-group > .card:not(:last-child), .mainindex .mainindex_novedades .card-group > img:not(:last-child), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:last-child), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:last-child), .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:last-child), .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:last-child), .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:last-child) {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0; }
-        .card-group > .card:not(:last-child) .card-img-top, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:last-child) .card-img-top, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:last-child) .card-img-top, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:last-child) .card-img-top, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:last-child) .card-img-top, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:last-child) .card-img-top,
+        .card-group > .card:not(:last-child) .card-img-top, .mainindex .mainindex_novedades .card-group > img:not(:last-child) .card-img-top, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:last-child) .card-img-top, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:last-child) .card-img-top, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:last-child) .card-img-top, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:last-child) .card-img-top, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:last-child) .card-img-top,
         .card-group > .card:not(:last-child) .card-header,
+        .mainindex .mainindex_novedades .card-group > img:not(:last-child) .card-header,
         .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:last-child) .card-header,
         .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:last-child) .card-header,
         .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:last-child) .card-header,
         .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:last-child) .card-header,
         .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:last-child) .card-header {
           border-top-right-radius: 0; }
-        .card-group > .card:not(:last-child) .card-img-bottom, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:last-child) .card-img-bottom, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:last-child) .card-img-bottom, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:last-child) .card-img-bottom, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:last-child) .card-img-bottom, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:last-child) .card-img-bottom,
+        .card-group > .card:not(:last-child) .card-img-bottom, .mainindex .mainindex_novedades .card-group > img:not(:last-child) .card-img-bottom, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:last-child) .card-img-bottom, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:last-child) .card-img-bottom, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:last-child) .card-img-bottom, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:last-child) .card-img-bottom, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:last-child) .card-img-bottom,
         .card-group > .card:not(:last-child) .card-footer,
+        .mainindex .mainindex_novedades .card-group > img:not(:last-child) .card-footer,
         .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:last-child) .card-footer,
         .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:last-child) .card-footer,
         .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:last-child) .card-footer,
         .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:last-child) .card-footer,
         .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:last-child) .card-footer {
           border-bottom-right-radius: 0; }
-      .card-group > .card:not(:first-child), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:first-child), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:first-child), .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:first-child), .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:first-child), .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:first-child) {
+      .card-group > .card:not(:first-child), .mainindex .mainindex_novedades .card-group > img:not(:first-child), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:first-child), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:first-child), .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:first-child), .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:first-child), .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:first-child) {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0; }
-        .card-group > .card:not(:first-child) .card-img-top, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:first-child) .card-img-top, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:first-child) .card-img-top, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:first-child) .card-img-top, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:first-child) .card-img-top, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:first-child) .card-img-top,
+        .card-group > .card:not(:first-child) .card-img-top, .mainindex .mainindex_novedades .card-group > img:not(:first-child) .card-img-top, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:first-child) .card-img-top, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:first-child) .card-img-top, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:first-child) .card-img-top, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:first-child) .card-img-top, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:first-child) .card-img-top,
         .card-group > .card:not(:first-child) .card-header,
+        .mainindex .mainindex_novedades .card-group > img:not(:first-child) .card-header,
         .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:first-child) .card-header,
         .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:first-child) .card-header,
         .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:first-child) .card-header,
         .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:first-child) .card-header,
         .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:first-child) .card-header {
           border-top-left-radius: 0; }
-        .card-group > .card:not(:first-child) .card-img-bottom, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:first-child) .card-img-bottom, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:first-child) .card-img-bottom, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:first-child) .card-img-bottom, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:first-child) .card-img-bottom, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:first-child) .card-img-bottom,
+        .card-group > .card:not(:first-child) .card-img-bottom, .mainindex .mainindex_novedades .card-group > img:not(:first-child) .card-img-bottom, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:first-child) .card-img-bottom, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:first-child) .card-img-bottom, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:first-child) .card-img-bottom, .mainfood .mainfood_section3 .mainfood_section3_items .card-group > .mainfood_section3_items-imagen:not(:first-child) .card-img-bottom, .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:first-child) .card-img-bottom,
         .card-group > .card:not(:first-child) .card-footer,
+        .mainindex .mainindex_novedades .card-group > img:not(:first-child) .card-footer,
         .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-group > .mainfood_section1_entradas-items-imagen:not(:first-child) .card-footer,
         .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-group > .mainfood_section1_tablas-imagen:not(:first-child) .card-footer,
         .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-group > .mainfood_section2-main-linda-imagen:not(:first-child) .card-footer,
@@ -3731,7 +3735,7 @@ input[type="button"].btn-block {
         .maincocktails .maincocktails_classics .card-group > .maincocktails_classics_main_imagen:not(:first-child) .card-footer {
           border-bottom-left-radius: 0; } }
 
-.card-columns .card, .card-columns .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-columns .mainfood_section1_entradas-items-imagen, .card-columns .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-columns .mainfood_section1_tablas-imagen, .card-columns .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-columns .mainfood_section2-main-linda-imagen, .card-columns .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-columns .mainfood_section3_items-imagen, .card-columns .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .card-columns .maincocktails_classics_main_imagen {
+.card-columns .card, .card-columns .mainindex .mainindex_novedades img, .mainindex .mainindex_novedades .card-columns img, .card-columns .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-columns .mainfood_section1_entradas-items-imagen, .card-columns .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-columns .mainfood_section1_tablas-imagen, .card-columns .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-columns .mainfood_section2-main-linda-imagen, .card-columns .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-columns .mainfood_section3_items-imagen, .card-columns .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .card-columns .maincocktails_classics_main_imagen {
   margin-bottom: 0.75rem; }
 
 @media (min-width: 576px) {
@@ -3740,20 +3744,20 @@ input[type="button"].btn-block {
     column-gap: 1.25rem;
     orphans: 1;
     widows: 1; }
-    .card-columns .card, .card-columns .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-columns .mainfood_section1_entradas-items-imagen, .card-columns .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-columns .mainfood_section1_tablas-imagen, .card-columns .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-columns .mainfood_section2-main-linda-imagen, .card-columns .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-columns .mainfood_section3_items-imagen, .card-columns .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .card-columns .maincocktails_classics_main_imagen {
+    .card-columns .card, .card-columns .mainindex .mainindex_novedades img, .mainindex .mainindex_novedades .card-columns img, .card-columns .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .card-columns .mainfood_section1_entradas-items-imagen, .card-columns .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .card-columns .mainfood_section1_tablas-imagen, .card-columns .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .card-columns .mainfood_section2-main-linda-imagen, .card-columns .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .card-columns .mainfood_section3_items-imagen, .card-columns .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .card-columns .maincocktails_classics_main_imagen {
       display: inline-block;
       width: 100%; } }
 
-.accordion > .card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .accordion > .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .accordion > .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .accordion > .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .accordion > .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .accordion > .maincocktails_classics_main_imagen {
+.accordion > .card, .mainindex .mainindex_novedades .accordion > img, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .accordion > .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .accordion > .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .accordion > .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .accordion > .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .accordion > .maincocktails_classics_main_imagen {
   overflow: hidden; }
-  .accordion > .card:not(:last-of-type), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .accordion > .mainfood_section1_entradas-items-imagen:not(:last-of-type), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .accordion > .mainfood_section1_tablas-imagen:not(:last-of-type), .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .accordion > .mainfood_section2-main-linda-imagen:not(:last-of-type), .mainfood .mainfood_section3 .mainfood_section3_items .accordion > .mainfood_section3_items-imagen:not(:last-of-type), .maincocktails .maincocktails_classics .accordion > .maincocktails_classics_main_imagen:not(:last-of-type) {
+  .accordion > .card:not(:last-of-type), .mainindex .mainindex_novedades .accordion > img:not(:last-of-type), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .accordion > .mainfood_section1_entradas-items-imagen:not(:last-of-type), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .accordion > .mainfood_section1_tablas-imagen:not(:last-of-type), .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .accordion > .mainfood_section2-main-linda-imagen:not(:last-of-type), .mainfood .mainfood_section3 .mainfood_section3_items .accordion > .mainfood_section3_items-imagen:not(:last-of-type), .maincocktails .maincocktails_classics .accordion > .maincocktails_classics_main_imagen:not(:last-of-type) {
     border-bottom: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0; }
-  .accordion > .card:not(:first-of-type), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .accordion > .mainfood_section1_entradas-items-imagen:not(:first-of-type), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .accordion > .mainfood_section1_tablas-imagen:not(:first-of-type), .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .accordion > .mainfood_section2-main-linda-imagen:not(:first-of-type), .mainfood .mainfood_section3 .mainfood_section3_items .accordion > .mainfood_section3_items-imagen:not(:first-of-type), .maincocktails .maincocktails_classics .accordion > .maincocktails_classics_main_imagen:not(:first-of-type) {
+  .accordion > .card:not(:first-of-type), .mainindex .mainindex_novedades .accordion > img:not(:first-of-type), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .accordion > .mainfood_section1_entradas-items-imagen:not(:first-of-type), .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .accordion > .mainfood_section1_tablas-imagen:not(:first-of-type), .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .accordion > .mainfood_section2-main-linda-imagen:not(:first-of-type), .mainfood .mainfood_section3 .mainfood_section3_items .accordion > .mainfood_section3_items-imagen:not(:first-of-type), .maincocktails .maincocktails_classics .accordion > .maincocktails_classics_main_imagen:not(:first-of-type) {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
-  .accordion > .card > .card-header, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .accordion > .mainfood_section1_entradas-items-imagen > .card-header, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .accordion > .mainfood_section1_tablas-imagen > .card-header, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .accordion > .mainfood_section2-main-linda-imagen > .card-header, .mainfood .mainfood_section3 .mainfood_section3_items .accordion > .mainfood_section3_items-imagen > .card-header, .maincocktails .maincocktails_classics .accordion > .maincocktails_classics_main_imagen > .card-header {
+  .accordion > .card > .card-header, .mainindex .mainindex_novedades .accordion > img > .card-header, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .accordion > .mainfood_section1_entradas-items-imagen > .card-header, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .accordion > .mainfood_section1_tablas-imagen > .card-header, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .accordion > .mainfood_section2-main-linda-imagen > .card-header, .mainfood .mainfood_section3 .mainfood_section3_items .accordion > .mainfood_section3_items-imagen > .card-header, .maincocktails .maincocktails_classics .accordion > .maincocktails_classics_main_imagen > .card-header {
     border-radius: 0;
     margin-bottom: -1px; }
 
@@ -4762,10 +4766,10 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   color: #212529; }
 
-.carousel, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel {
+.carousel, .mainindex .mainindex_delivery .mainindex_delivery_slide, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel {
   position: relative; }
 
-.carousel.pointer-event, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .pointer-event.maincocktails_bartenders_main_person-section1b-carousel {
+.carousel.pointer-event, .mainindex .mainindex_delivery .pointer-event.mainindex_delivery_slide, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .pointer-event.maincocktails_bartenders_main_person-section1b-carousel {
   touch-action: pan-y; }
 
 .carousel-inner {
@@ -5140,7 +5144,7 @@ button.bg-dark:focus {
   clear: both;
   content: ""; }
 
-.d-none, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-lg, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-titulo, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
+.d-none, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-lg, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-titulo, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
   display: none !important; }
 
 .d-inline {
@@ -5188,13 +5192,13 @@ button.bg-dark:focus {
     display: inline-flex !important; } }
 
 @media (min-width: 768px) {
-  .d-md-none, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b {
+  .d-md-none, .mainindex .mainindex_shows .mainindex_shows_main .carousel, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_delivery .mainindex_delivery_slide, .mainindex .mainindex_delivery .mainindex_shows .mainindex_shows_main .mainindex_delivery_slide, .mainindex .mainindex_shows .mainindex_shows_main .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .mainindex .mainindex_shows .mainindex_shows_main .maincocktails_bartenders_main_person-section1b-carousel, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b {
     display: none !important; }
   .d-md-inline {
     display: inline !important; }
   .d-md-inline-block {
     display: inline-block !important; }
-  .d-md-block, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
+  .d-md-block, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
     display: block !important; }
   .d-md-table {
     display: table !important; }
@@ -5202,7 +5206,7 @@ button.bg-dark:focus {
     display: table-row !important; }
   .d-md-table-cell {
     display: table-cell !important; }
-  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_delivery, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_shows .mainindex_shows_main, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
     display: flex !important; }
   .d-md-inline-flex {
     display: inline-flex !important; } }
@@ -5222,7 +5226,7 @@ button.bg-dark:focus {
     display: table-row !important; }
   .d-lg-table-cell {
     display: table-cell !important; }
-  .d-lg-flex, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery, .maindelivery .maindelivery_info {
+  .d-lg-flex, .mainindex .mainindex_delivery, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery, .maindelivery .maindelivery_info {
     display: flex !important; }
   .d-lg-inline-flex {
     display: inline-flex !important; } }
@@ -6197,6 +6201,7 @@ button.bg-dark:focus {
 
 .mr-auto,
 .mx-auto,
+.mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .museo,
 .mainfood,
 .maincocktails,
@@ -6210,6 +6215,7 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto,
+.mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .museo,
 .mainfood,
 .maincocktails,
@@ -7447,7 +7453,7 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3; }
   body {
     min-width: 992px !important; }
-  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
     min-width: 992px !important; }
   .navbar {
     display: none; }
@@ -7487,23 +7493,23 @@ html {
 *::after {
   box-sizing: inherit; }
 
-.container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+.container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
       max-width: 1140px; } }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, header, .museo, .mainfood, .maincocktails, .maindelivery {
@@ -7514,19 +7520,19 @@ html {
   margin-left: auto; }
 
 @media (min-width: 576px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm {
+  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm {
     max-width: 540px; } }
 
 @media (min-width: 768px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md {
+  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md {
     max-width: 720px; } }
 
 @media (min-width: 992px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg {
+  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg {
     max-width: 960px; } }
 
 @media (min-width: 1200px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
 
 .row, .museo .museo_galeria .museo_galeria_main {
@@ -8191,7 +8197,7 @@ html {
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
-.d-none, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-lg, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-titulo, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
+.d-none, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-lg, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-titulo, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
   display: none !important; }
 
 .d-inline {
@@ -8239,13 +8245,13 @@ html {
     display: inline-flex !important; } }
 
 @media (min-width: 768px) {
-  .d-md-none, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b {
+  .d-md-none, .mainindex .mainindex_shows .mainindex_shows_main .carousel, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_delivery .mainindex_delivery_slide, .mainindex .mainindex_delivery .mainindex_shows .mainindex_shows_main .mainindex_delivery_slide, .mainindex .mainindex_shows .mainindex_shows_main .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-carousel, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .mainindex .mainindex_shows .mainindex_shows_main .maincocktails_bartenders_main_person-section1b-carousel, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b {
     display: none !important; }
   .d-md-inline {
     display: inline !important; }
   .d-md-inline-block {
     display: inline-block !important; }
-  .d-md-block, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
+  .d-md-block, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section2 {
     display: block !important; }
   .d-md-table {
     display: table !important; }
@@ -8253,7 +8259,7 @@ html {
     display: table-row !important; }
   .d-md-table-cell {
     display: table-cell !important; }
-  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_delivery, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_shows .mainindex_shows_main, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
     display: flex !important; }
   .d-md-inline-flex {
     display: inline-flex !important; } }
@@ -8273,7 +8279,7 @@ html {
     display: table-row !important; }
   .d-lg-table-cell {
     display: table-cell !important; }
-  .d-lg-flex, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery, .maindelivery .maindelivery_info {
+  .d-lg-flex, .mainindex .mainindex_delivery, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery, .maindelivery .maindelivery_info {
     display: flex !important; }
   .d-lg-inline-flex {
     display: inline-flex !important; } }
@@ -9032,6 +9038,7 @@ html {
 
 .mr-auto,
 .mx-auto,
+.mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .museo,
 .mainfood,
 .maincocktails,
@@ -9045,6 +9052,7 @@ html {
 
 .ml-auto,
 .mx-auto,
+.mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .museo,
 .mainfood,
 .maincocktails,
@@ -10125,7 +10133,7 @@ ul {
   list-style: none;
   padding-left: 0rem; }
 
-.card, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen {
+.card, .mainindex .mainindex_novedades img, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen {
   z-index: 0 !important; }
 
 /* ------------------- */
@@ -10195,26 +10203,48 @@ header {
       text-align: center; }
       .mainindex .mainindex_intro .mainindex_intro_bienvenidos h1 {
         font-size: 3rem; }
-    .mainindex .mainindex_intro .mainindex_intro_main p {
-      margin: 0 3rem; }
+    .mainindex .mainindex_intro .mainindex_intro_main {
+      justify-content: space-evenly; }
+      .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-txt {
+        width: 450px; }
   .mainindex .mainindex_novedades {
-    background: #9f6262; }
+    background: #9f6262;
+    display: flex; }
   .mainindex .mainindex_delivery {
     align-items: center;
-    align-content: center;
-    margin: 0 10%; }
-    .mainindex .mainindex_delivery .mainindex_delivery_info div {
-      padding: 1rem 0; }
-  .mainindex .mainindex_shows .mainindex_shows_title {
-    text-align: end;
-    text-transform: uppercase;
-    border-bottom: 2px solid #ff806a;
-    border-right: 2px solid #ff806a;
-    padding: 0.3rem;
-    text-align: start;
-    text-shadow: #ffffffb8 1px 2px;
-    margin: 1rem 0;
-    background: #ffffffb0; }
+    margin: 5rem 3rem;
+    padding: 2rem;
+    justify-content: space-around;
+    border-top: 2px solid #ffebcd; }
+    .mainindex .mainindex_delivery .mainindex_delivery_info {
+      width: min-content; }
+      .mainindex .mainindex_delivery .mainindex_delivery_info button {
+        margin: 0 30%;
+        background-color: #f9f97c;
+        border-radius: 5px; }
+        .mainindex .mainindex_delivery .mainindex_delivery_info button a {
+          text-transform: uppercase;
+          color: #000; }
+    .mainindex .mainindex_delivery .mainindex_delivery_slide {
+      width: 300px; }
+      .mainindex .mainindex_delivery .mainindex_delivery_slide img {
+        border-radius: 5px; }
+  .mainindex .mainindex_shows {
+    margin: 5rem 0;
+    padding: 1rem;
+    border-bottom: 1px dotted #b95543; }
+    .mainindex .mainindex_shows .mainindex_shows_title {
+      text-align: end;
+      text-transform: uppercase;
+      border-bottom: 2px solid #ff806a;
+      border-right: 2px solid #ff806a;
+      padding: 0.3rem;
+      text-align: start;
+      text-shadow: #ffffffb8 1px 2px;
+      margin: 1rem 0;
+      background: #ffffffb0; }
+    .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section div {
+      padding: 1rem; }
 
 .mainshows h1 {
   text-transform: uppercase;
@@ -10230,7 +10260,7 @@ header {
   justify-content: space-around;
   margin-bottom: 2%; }
 
-.mainshows .card, .mainshows .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainshows .mainfood_section1_entradas-items-imagen, .mainshows .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainshows .mainfood_section1_tablas-imagen, .mainshows .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainshows .mainfood_section2-main-linda-imagen, .mainshows .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainshows .mainfood_section3_items-imagen, .mainshows .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainshows .maincocktails_classics_main_imagen {
+.mainshows .card, .mainshows .mainindex .mainindex_novedades img, .mainindex .mainindex_novedades .mainshows img, .mainshows .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainshows .mainfood_section1_entradas-items-imagen, .mainshows .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-imagen, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainshows .mainfood_section1_tablas-imagen, .mainshows .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainshows .mainfood_section2-main-linda-imagen, .mainshows .mainfood .mainfood_section3 .mainfood_section3_items .mainfood_section3_items-imagen, .mainfood .mainfood_section3 .mainfood_section3_items .mainshows .mainfood_section3_items-imagen, .mainshows .maincocktails .maincocktails_classics .maincocktails_classics_main_imagen, .maincocktails .maincocktails_classics .mainshows .maincocktails_classics_main_imagen {
   margin: 2rem; }
 
 /* ------------------- */
