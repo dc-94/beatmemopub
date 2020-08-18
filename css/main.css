@@ -703,23 +703,23 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+.container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
       max-width: 1140px; } }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, header, .museo, .mainfood, .maincocktails, .maindelivery {
@@ -730,19 +730,19 @@ pre {
   margin-left: auto; }
 
 @media (min-width: 576px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm {
+  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact, .container-sm {
     max-width: 540px; } }
 
 @media (min-width: 768px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md {
+  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact, .container-sm, .container-md {
     max-width: 720px; } }
 
 @media (min-width: 992px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg {
+  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact, .container-sm, .container-md, .container-lg {
     max-width: 960px; } }
 
 @media (min-width: 1200px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
 
 .row, .museo .museo_galeria .museo_galeria_main {
@@ -3316,7 +3316,7 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem; }
-  .navbar .container, .navbar .mainindex, .navbar .mainindex .mainindex_intro, .mainindex .navbar .mainindex_intro, .navbar .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .mainindex .mainindex_intro .mainindex_intro_main .navbar .mainindex_intro_main-vid, .navbar .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_classics .navbar .maincocktails_classics_main, .navbar .maindelivery .maindelivery_instrucciones, .maindelivery .navbar .maindelivery_instrucciones,
+  .navbar .container, .navbar .mainindex, .navbar .mainindex .mainindex_intro, .mainindex .navbar .mainindex_intro, .navbar .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_classics .navbar .maincocktails_classics_main, .navbar .maindelivery .maindelivery_instrucciones, .maindelivery .navbar .maindelivery_instrucciones, .navbar .maincontact,
   .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar header, .navbar .museo, .navbar .mainfood, .navbar .maincocktails, .navbar .maindelivery {
     display: flex;
     flex-wrap: wrap;
@@ -3377,7 +3377,7 @@ input[type="button"].btn-block {
   background-size: 100% 100%; }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-sm > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
+  .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones, .navbar-expand-sm > .maincontact,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > header, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3393,7 +3393,7 @@ input[type="button"].btn-block {
       .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-sm > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones,
+    .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones, .navbar-expand-sm > .maincontact,
     .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > header, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-sm .navbar-collapse {
@@ -3403,7 +3403,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-md > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
+  .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones, .navbar-expand-md > .maincontact,
   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > header, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3419,7 +3419,7 @@ input[type="button"].btn-block {
       .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-md > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones,
+    .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones, .navbar-expand-md > .maincontact,
     .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > header, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-md .navbar-collapse {
@@ -3429,7 +3429,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 991.98px) {
-  .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-lg > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
+  .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones, .navbar-expand-lg > .maincontact,
   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > header, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3445,7 +3445,7 @@ input[type="button"].btn-block {
       .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-lg > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones,
+    .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones, .navbar-expand-lg > .maincontact,
     .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > header, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-lg .navbar-collapse {
@@ -3455,7 +3455,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-xl > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
+  .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones, .navbar-expand-xl > .maincontact,
   .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > header, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery {
     padding-right: 0;
     padding-left: 0; } }
@@ -3471,7 +3471,7 @@ input[type="button"].btn-block {
       .navbar-expand-xl .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand-xl > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones,
+    .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones, .navbar-expand-xl > .maincontact,
     .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > header, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery {
       flex-wrap: nowrap; }
     .navbar-expand-xl .navbar-collapse {
@@ -3483,7 +3483,7 @@ input[type="button"].btn-block {
 .navbar-expand {
   flex-flow: row nowrap;
   justify-content: flex-start; }
-  .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones,
+  .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones, .navbar-expand > .maincontact,
   .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > header, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery {
     padding-right: 0;
     padding-left: 0; }
@@ -3494,7 +3494,7 @@ input[type="button"].btn-block {
     .navbar-expand .navbar-nav .nav-link {
       padding-right: 0.5rem;
       padding-left: 0.5rem; }
-  .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .navbar-expand > .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones,
+  .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones, .navbar-expand > .maincontact,
   .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > header, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery {
     flex-wrap: nowrap; }
   .navbar-expand .navbar-collapse {
@@ -5165,7 +5165,7 @@ button.bg-dark:focus {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, header, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
+.d-flex, header, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main-section1 .maincontact_main-section1, .maincontact .maincontact_main-section1 .maincontact_main-section1 .maincontact_main_redes {
   display: flex !important; }
 
 .d-inline-flex {
@@ -5271,20 +5271,28 @@ button.bg-dark:focus {
   .d-print-inline-flex {
     display: inline-flex !important; } }
 
-.embed-responsive {
+.embed-responsive, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .museo .museo_recorrido .museo_recorrido_map {
   position: relative;
   display: block;
   width: 100%;
   padding: 0;
   overflow: hidden; }
-  .embed-responsive::before {
+  .embed-responsive::before, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid::before, .museo .museo_recorrido .museo_recorrido_map::before {
     display: block;
     content: ""; }
-  .embed-responsive .embed-responsive-item,
+  .embed-responsive .embed-responsive-item, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid .embed-responsive-item, .museo .museo_recorrido .museo_recorrido_map .embed-responsive-item, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid iframe, .museo .museo_recorrido .museo_recorrido_map iframe,
   .embed-responsive iframe,
+  .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid iframe,
+  .museo .museo_recorrido .museo_recorrido_map iframe,
   .embed-responsive embed,
+  .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid embed,
+  .museo .museo_recorrido .museo_recorrido_map embed,
   .embed-responsive object,
-  .embed-responsive video {
+  .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid object,
+  .museo .museo_recorrido .museo_recorrido_map object,
+  .embed-responsive video,
+  .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid video,
+  .museo .museo_recorrido .museo_recorrido_map video {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -5296,7 +5304,7 @@ button.bg-dark:focus {
 .embed-responsive-21by9::before {
   padding-top: 42.85714%; }
 
-.embed-responsive-16by9::before {
+.embed-responsive-16by9::before, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid::before {
   padding-top: 56.25%; }
 
 .embed-responsive-4by3::before {
@@ -5308,7 +5316,7 @@ button.bg-dark:focus {
 .embed-responsive-21by9::before {
   padding-top: 42.85714%; }
 
-.embed-responsive-16by9::before {
+.embed-responsive-16by9::before, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid::before {
   padding-top: 56.25%; }
 
 .embed-responsive-4by3::before {
@@ -5359,7 +5367,7 @@ button.bg-dark:focus {
 .justify-content-end {
   justify-content: flex-end !important; }
 
-.justify-content-center, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2 {
+.justify-content-center {
   justify-content: center !important; }
 
 .justify-content-between {
@@ -6203,6 +6211,7 @@ button.bg-dark:focus {
 .mx-auto,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .museo,
+.museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile,
 .mainfood,
 .maincocktails,
 .maincocktails .maincocktails_classics .maincocktails_classics_main,
@@ -6217,6 +6226,7 @@ button.bg-dark:focus {
 .mx-auto,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .museo,
+.museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile,
 .mainfood,
 .maincocktails,
 .maincocktails .maincocktails_classics .maincocktails_classics_main,
@@ -7453,7 +7463,7 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3; }
   body {
     min-width: 992px !important; }
-  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
     min-width: 992px !important; }
   .navbar {
     display: none; }
@@ -7493,23 +7503,23 @@ html {
 *::after {
   box-sizing: inherit; }
 
-.container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+.container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones {
+    .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
       max-width: 1140px; } }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, header, .museo, .mainfood, .maincocktails, .maindelivery {
@@ -7520,19 +7530,19 @@ html {
   margin-left: auto; }
 
 @media (min-width: 576px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm {
+  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact, .container-sm {
     max-width: 540px; } }
 
 @media (min-width: 768px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md {
+  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact, .container-sm, .container-md {
     max-width: 720px; } }
 
 @media (min-width: 992px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg {
+  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact, .container-sm, .container-md, .container-lg {
     max-width: 960px; } }
 
 @media (min-width: 1200px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
 
 .row, .museo .museo_galeria .museo_galeria_main {
@@ -8218,7 +8228,7 @@ html {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, header, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
+.d-flex, header, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main-section1 .maincontact_main-section1, .maincontact .maincontact_main-section1 .maincontact_main-section1 .maincontact_main_redes {
   display: flex !important; }
 
 .d-inline-flex {
@@ -8366,7 +8376,7 @@ html {
 .justify-content-end {
   justify-content: flex-end !important; }
 
-.justify-content-center, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2 {
+.justify-content-center {
   justify-content: center !important; }
 
 .justify-content-between {
@@ -9040,6 +9050,7 @@ html {
 .mx-auto,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .museo,
+.museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile,
 .mainfood,
 .maincocktails,
 .maincocktails .maincocktails_classics .maincocktails_classics_main,
@@ -9054,6 +9065,7 @@ html {
 .mx-auto,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .museo,
+.museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile,
 .mainfood,
 .maincocktails,
 .maincocktails .maincocktails_classics .maincocktails_classics_main,
@@ -10098,7 +10110,8 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='252' height='252' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23f4f674' fill-opacity='0.10'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
 
 .mainbody {
-  background-color: #000000d0; }
+  background-color: #000000d0;
+  padding-top: 100px; }
 
 h1 {
   font-family: "Libre Baskerville", serif;
@@ -10177,11 +10190,11 @@ header {
     color: #ffedd2;
     text-align: center; }
 
-.text-focus-in, header .logoheader {
-  -webkit-animation: text-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.3s both;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.1s both; }
+.header-focus-in, header .rooftop {
+  -webkit-animation: header-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.3s both;
+  animation: header-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.5s both; }
 
-@keyframes text-focus-in {
+@keyframes header-focus-in {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
@@ -10195,10 +10208,10 @@ header {
 /* ----- INDEX ------- */
 /* ------------------- */
 .mainindex {
-  padding-top: 100px;
   /* ULTIMOS SHOWS */ }
   .mainindex .mainindex_intro {
-    padding-top: 1rem; }
+    padding-top: 1rem;
+    margin-bottom: 10%; }
     .mainindex .mainindex_intro .mainindex_intro_bienvenidos {
       text-align: center; }
       .mainindex .mainindex_intro .mainindex_intro_bienvenidos h1 {
@@ -10206,7 +10219,8 @@ header {
     .mainindex .mainindex_intro .mainindex_intro_main {
       justify-content: space-evenly; }
       .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-txt {
-        width: 450px; }
+        width: 500px;
+        padding: 0 2rem; }
   .mainindex .mainindex_novedades {
     background: #9f6262;
     display: flex; }
@@ -10234,11 +10248,11 @@ header {
     padding: 1rem;
     border-bottom: 1px dotted #b95543; }
     .mainindex .mainindex_shows .mainindex_shows_title {
-      text-align: end;
+      text-align: left;
       text-transform: uppercase;
       border-bottom: 2px solid #ff806a;
       border-right: 2px solid #ff806a;
-      padding: 0.3rem;
+      padding: 0.3rem 0 0 20%;
       text-align: start;
       text-shadow: #ffffffb8 1px 2px;
       margin: 1rem 0;
@@ -10272,7 +10286,6 @@ header {
     justify-items: center;
     flex-basis: 80%; }
     .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 {
-      justify-content: space-between;
       padding: 1rem;
       margin: 1rem;
       border-radius: 0.5rem;
@@ -10282,11 +10295,13 @@ header {
       .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 div {
         margin: 0 1rem; }
       .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-lg {
-        margin: 0 3rem; }
+        margin: 3rem; }
         .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-lg img {
-          width: 300px; }
+          width: fit-content; }
       .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile {
-        margin: 0 2rem; }
+        margin: 0 2rem;
+        width: fit-content;
+        height: fit-content; }
         .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile img {
           width: 100%; }
         .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile h1 {
@@ -10296,14 +10311,22 @@ header {
           background-color: #000000d2; }
         .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile .imagenacceso {
           height: 200px; }
+      .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-titulo {
+        padding: 1rem; }
+      .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-txt {
+        padding: 1rem 0; }
     .museo .museo_intro .museo_intro_info .museo_intro_info_linea2 {
+      align-content: center;
       align-items: center;
+      justify-content: space-around;
       padding: 1rem;
       margin: 1rem;
       border-radius: 0.5rem;
       background-color: #121212bd; }
-      .museo .museo_intro .museo_intro_info .museo_intro_info_linea2 img {
-        width: 400px; }
+      .museo .museo_intro .museo_intro_info .museo_intro_info_linea2 .museo_intro_info_linea2-txt {
+        flex-basis: 50%; }
+      .museo .museo_intro .museo_intro_info .museo_intro_info_linea2 .museo_intro_info_linea2-img img {
+        width: 100%; }
       .museo .museo_intro .museo_intro_info .museo_intro_info_linea2 div {
         margin: 0 1rem; }
   .museo .museo_intro .museo_intro_horarios {
@@ -10318,14 +10341,36 @@ header {
       text-align: justify; }
       .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list div {
         padding: 1rem; }
-  .museo .museo_galeria {
-    margin-top: 5rem; }
-    .museo .museo_galeria .museo_galeria_titulo {
-      text-align: end;
+  .museo .museo_recorrido {
+    border-radius: 0.5rem;
+    margin: 3rem 1rem;
+    padding: 2rem 0; }
+    .museo .museo_recorrido .museo_recorrido_titulo {
+      text-align: left;
       text-transform: uppercase;
       border-bottom: 2px solid #ff806a;
       border-right: 2px solid #ff806a;
-      padding: 0.3rem; }
+      padding: 0.3rem 0 0 20%;
+      background-color: #181616e3;
+      border-top-left-radius: 0.5rem; }
+    .museo .museo_recorrido .museo_recorrido_map {
+      padding: 1rem;
+      background-color: #ffffff41;
+      border-bottom-right-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem;
+      height: 300px; }
+      .museo .museo_recorrido .museo_recorrido_map iframe {
+        padding: 1rem; }
+  .museo .museo_galeria {
+    margin: 3rem 1rem; }
+    .museo .museo_galeria .museo_galeria_titulo {
+      text-align: left;
+      text-transform: uppercase;
+      border-bottom: 2px solid #ff806a;
+      border-right: 2px solid #ff806a;
+      padding: 0.3rem 0 0 20%;
+      background-color: #181616e3;
+      border-radius: 0.5rem; }
     .museo .museo_galeria .museo_galeria_main .museo_galeria_main-card {
       text-align: center;
       padding: 0.5rem;
@@ -10643,55 +10688,40 @@ header {
 /* ------------------- */
 /* -----contact------- */
 /* ------------------- */
-.contactbody {
-  background-color: #0c0c0cd7; }
+.maincontact .maincontact_main {
+  padding: 0 1rem; }
 
-.txtContact h1 {
-  margin: 2rem;
-  font-size: 4rem;
+.maincontact .maincontact_main-section1 .maincontact_main-title h1 {
+  font-size: 5rem;
+  margin: 0 4rem;
   text-shadow: #e25b32 2px 2px; }
 
-.mainContact {
-  margin-top: 3rem; }
-
-.contactlistredes i {
-  font-size: 4rem;
-  color: #ffffff;
+.maincontact .maincontact_main-section1 .maincontact_main-section1 .maincontact_main_redes {
+  background-color: #ffffff23;
+  border-radius: 5px;
   padding: 1rem; }
 
-.contactForm {
-  background-color: #ffffb9;
-  padding: 2rem 4rem;
-  margin-top: 6rem;
-  border-radius: 1rem; }
-
-legend {
-  margin-top: 1rem;
-  background-color: #ffffffa1; }
-
-label {
-  font-weight: 700; }
-
-.contactForm button {
-  font-family: 'Lucida Sans';
-  margin: 0.5rem;
-  font-size: 1.3rem; }
-
-.resetBtn {
+.maincontact .maincontact_main-section1 .maincontact_main-section1 .maincontact_main_form .resetBtn {
   background-color: #ffadad;
   padding: 3px; }
 
-.sendBtn {
+.maincontact .maincontact_main-section1 .maincontact_main-section1 .maincontact_main_form .sendBtn {
   background-color: #87e9a3;
   padding: 3px; }
 
-.contactMap i {
-  color: #fff;
-  font-size: 2.5rem;
-  padding: 1rem; }
-
-.contactMap iframe {
-  border: #ffffa6 solid 1px; }
+.maincontact .maincontact_map {
+  margin: 3rem 1rem; }
+  .maincontact .maincontact_map .maincontact_map-title {
+    padding-left: 5%; }
+    .maincontact .maincontact_map .maincontact_map-title i {
+      color: #fff;
+      font-size: 2.5rem;
+      padding: 1rem; }
+  .maincontact .maincontact_map .maincontact_map-map {
+    padding: 0 1rem; }
+    .maincontact .maincontact_map .maincontact_map-map iframe {
+      padding: 2px;
+      border: #ffffa6 solid 1px; }
 
 .footer {
   background-color: #262626;
