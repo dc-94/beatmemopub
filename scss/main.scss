@@ -15,7 +15,8 @@ body{
 }
 .mainbody{
     background-color: #000000d0;
-    padding-top: 100px;
+    padding: 100px 0 0 0;
+    margin: auto;
 }
 h1{
     @include huno;
@@ -925,16 +926,68 @@ header{
 footer{
     @extend .container-fluid;
     padding: 0px;
+    margin: 0px;
     .footer_main{
-    background: #353535dc;
-
+        display: flex;
+        background: #353535dc;
+        justify-content: space-around;
+    // horarios
+        .footer_main_horarios{
+            padding: 1rem;
+            flex-basis: auto;
+            border-left: 1px dashed #ffc3c3;
+        }
+    // links
+        .footer_main_links{
+            flex-basis: 40%;
+            justify-content: space-around;
+            @extend .d-md-flex;
+            .footer_main_links_section{
+                padding: 1rem;
+                border-left: 1px dashed #ffc3c3;
+                .footer_main_section-titulo{
+                    text-align: center;
+                }
+                .footer_main_links_section-sub{
+                    @extend .d-flex;
+                    @extend .flex-md-column;
+                    justify-content: space-evenly;
+                    .footer_main_link_item{
+                        display: flex;
+                        align-items: center;
+                        .footer_main_link_item-ico{
+                            padding: 0.5rem 1rem;
+                        }
+                        .footer_main_link_item-txt{
+                            @extend .d-none;
+                            @extend .d-md-block;
+                        }
+                    }
+                }
+            }
+        }
     }
+    // derechos
     .footer_derechos{
         @extend .d-flex;
-        background: #000000f5;
+        padding: 1rem;
+        background: #98989888;
         align-items: flex-end;
+        justify-content: center;
         img{
             @extend .img-fluid;
+        }
+        .footer_derechos-btm{
+            img{
+                height: 75px;
+                width: auto;
+            }
+        }
+        .footer_derechos-by{
+            img{
+                height: 35px;
+                width: auto;
+            }
         }
     }
 }
