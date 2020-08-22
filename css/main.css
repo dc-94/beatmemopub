@@ -649,7 +649,7 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile img, .museo .museo_galeria .museo_galeria_main .museo_galeria_main-card img, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-logo img, .maindelivery .maindelivery_info .maindelivery_info-img img {
+.img-fluid, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile img, .museo .museo_galeria .museo_galeria_main .museo_galeria_main-card img, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-logo img, .maindelivery .maindelivery_info .maindelivery_info-img img, footer .footer_derechos img {
   max-width: 100%;
   height: auto; }
 
@@ -722,7 +722,7 @@ pre {
     .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
       max-width: 1140px; } }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, header, .museo, .mainfood, .maincocktails, .maindelivery {
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, header, .museo, .mainfood, .maincocktails, .maindelivery, footer {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -3317,7 +3317,7 @@ input[type="button"].btn-block {
   justify-content: space-between;
   padding: 0.5rem 1rem; }
   .navbar .container, .navbar .mainindex, .navbar .mainindex .mainindex_intro, .mainindex .navbar .mainindex_intro, .navbar .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_classics .navbar .maincocktails_classics_main, .navbar .maindelivery .maindelivery_instrucciones, .maindelivery .navbar .maindelivery_instrucciones, .navbar .maincontact,
-  .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar header, .navbar .museo, .navbar .mainfood, .navbar .maincocktails, .navbar .maindelivery {
+  .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar header, .navbar .museo, .navbar .mainfood, .navbar .maincocktails, .navbar .maindelivery, .navbar footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -3378,7 +3378,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones, .navbar-expand-sm > .maincontact,
-  .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > header, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery {
+  .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > header, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery, .navbar-expand-sm > footer {
     padding-right: 0;
     padding-left: 0; } }
 
@@ -3394,7 +3394,7 @@ input[type="button"].btn-block {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
     .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-sm > .maincocktails_classics_main, .maindelivery .navbar-expand-sm > .maindelivery_instrucciones, .navbar-expand-sm > .maincontact,
-    .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > header, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery {
+    .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > header, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery, .navbar-expand-sm > footer {
       flex-wrap: nowrap; }
     .navbar-expand-sm .navbar-collapse {
       display: flex !important;
@@ -3404,7 +3404,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 767.98px) {
   .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones, .navbar-expand-md > .maincontact,
-  .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > header, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery {
+  .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > header, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery, .navbar-expand-md > footer {
     padding-right: 0;
     padding-left: 0; } }
 
@@ -3420,7 +3420,7 @@ input[type="button"].btn-block {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
     .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-md > .maincocktails_classics_main, .maindelivery .navbar-expand-md > .maindelivery_instrucciones, .navbar-expand-md > .maincontact,
-    .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > header, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery {
+    .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > header, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery, .navbar-expand-md > footer {
       flex-wrap: nowrap; }
     .navbar-expand-md .navbar-collapse {
       display: flex !important;
@@ -3430,7 +3430,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones, .navbar-expand-lg > .maincontact,
-  .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > header, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery {
+  .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > header, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery, .navbar-expand-lg > footer {
     padding-right: 0;
     padding-left: 0; } }
 
@@ -3446,7 +3446,7 @@ input[type="button"].btn-block {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
     .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-lg > .maincocktails_classics_main, .maindelivery .navbar-expand-lg > .maindelivery_instrucciones, .navbar-expand-lg > .maincontact,
-    .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > header, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery {
+    .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > header, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery, .navbar-expand-lg > footer {
       flex-wrap: nowrap; }
     .navbar-expand-lg .navbar-collapse {
       display: flex !important;
@@ -3456,7 +3456,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 1199.98px) {
   .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones, .navbar-expand-xl > .maincontact,
-  .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > header, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery {
+  .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > header, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery, .navbar-expand-xl > footer {
     padding-right: 0;
     padding-left: 0; } }
 
@@ -3472,7 +3472,7 @@ input[type="button"].btn-block {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
     .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand-xl > .maincocktails_classics_main, .maindelivery .navbar-expand-xl > .maindelivery_instrucciones, .navbar-expand-xl > .maincontact,
-    .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > header, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery {
+    .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > header, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery, .navbar-expand-xl > footer {
       flex-wrap: nowrap; }
     .navbar-expand-xl .navbar-collapse {
       display: flex !important;
@@ -3484,7 +3484,7 @@ input[type="button"].btn-block {
   flex-flow: row nowrap;
   justify-content: flex-start; }
   .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones, .navbar-expand > .maincontact,
-  .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > header, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery {
+  .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > header, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery, .navbar-expand > footer {
     padding-right: 0;
     padding-left: 0; }
   .navbar-expand .navbar-nav {
@@ -3495,7 +3495,7 @@ input[type="button"].btn-block {
       padding-right: 0.5rem;
       padding-left: 0.5rem; }
   .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .maincocktails .maincocktails_classics .navbar-expand > .maincocktails_classics_main, .maindelivery .navbar-expand > .maindelivery_instrucciones, .navbar-expand > .maincontact,
-  .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > header, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery {
+  .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > header, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery, .navbar-expand > footer {
     flex-wrap: nowrap; }
   .navbar-expand .navbar-collapse {
     display: flex !important;
@@ -5165,7 +5165,7 @@ button.bg-dark:focus {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, header, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main-section1 .maincontact_main-section1, .maincontact .maincontact_main-section1 .maincontact_main-section1 .maincontact_main_redes {
+.d-flex, header, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main-section1 .maincontact_main-section1, .maincontact .maincontact_main-section1 .maincontact_main-section1 .maincontact_main_redes, footer .footer_derechos {
   display: flex !important; }
 
 .d-inline-flex {
@@ -7522,7 +7522,7 @@ html {
     .container, .mainindex, .mainindex .mainindex_intro, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maindelivery .maindelivery_instrucciones, .maincontact {
       max-width: 1140px; } }
 
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, header, .museo, .mainfood, .maincocktails, .maindelivery {
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, header, .museo, .mainfood, .maincocktails, .maindelivery, footer {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -8228,7 +8228,7 @@ html {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, header, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main-section1 .maincontact_main-section1, .maincontact .maincontact_main-section1 .maincontact_main-section1 .maincontact_main_redes {
+.d-flex, header, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main-section1 .maincontact_main-section1, .maincontact .maincontact_main-section1 .maincontact_main-section1 .maincontact_main_redes, footer .footer_derechos {
   display: flex !important; }
 
 .d-inline-flex {
@@ -10095,7 +10095,7 @@ html {
 @media (max-width: 576px) {
   html {
     font-size: 50%; }
-  .img-fluid, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile img, .museo .museo_galeria .museo_galeria_main .museo_galeria_main-card img, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-logo img, .maindelivery .maindelivery_info .maindelivery_info-img img {
+  .img-fluid, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile img, .museo .museo_galeria .museo_galeria_main .museo_galeria_main-card img, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-logo img, .maindelivery .maindelivery_info .maindelivery_info-img img, footer .footer_derechos img {
     width: 75%; }
   .img-responsive, header .logoheader {
     object-fit: cover;
@@ -10723,15 +10723,10 @@ header {
       padding: 2px;
       border: #ffffa6 solid 1px; }
 
-.footer {
-  background-color: #262626;
-  padding-top: 4rem; }
-  .footer i {
-    padding: 1rem 0.5rem 1rem 0; }
-  .footer .footer__div {
-    padding: 0 0.5rem;
-    border-left: 0.1rem dashed #f78282; }
-  .footer .footer__div__div__titulo--center {
-    text-align: center; }
-  .footer .footer__div__div__div__div__icono-verde {
-    color: #54da54; }
+footer {
+  padding: 0px; }
+  footer .footer_main {
+    background: #353535dc; }
+  footer .footer_derechos {
+    background: #000000f5;
+    align-items: flex-end; }

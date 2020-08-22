@@ -922,20 +922,19 @@ header{
 // ----------------
 // ----- footer ---
 // ----------------
-.footer {
-    background-color: #262626;
-    padding-top: 4rem;
-    i {
-        padding: 1rem 0.5rem 1rem 0;
+footer{
+    @extend .container-fluid;
+    padding: 0px;
+    .footer_main{
+    background: #353535dc;
+
     }
-    .footer__div{
-        padding: 0 0.5rem;
-        border-left: 0.1rem dashed #f78282;
-    }
-    .footer__div__div__titulo--center {
-        text-align: center;
-    }
-    .footer__div__div__div__div__icono-verde{
-        color: #54da54;
+    .footer_derechos{
+        @extend .d-flex;
+        background: #000000f5;
+        align-items: flex-end;
+        img{
+            @extend .img-fluid;
+        }
     }
 }
