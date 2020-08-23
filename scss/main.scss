@@ -17,6 +17,7 @@ body{
     background-color: #000000d0;
     padding: 100px 0 0 0;
     margin: auto;
+    height: 100%;
 }
 h1{
     @include huno;
@@ -103,7 +104,7 @@ header{
         text-align: center;
     }
 }
-// animation logo
+    // animation logo
 .header-focus-in {
 	-webkit-animation: header-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.3s both;
 	        animation: header-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
@@ -221,6 +222,8 @@ header{
 
 //----- CICLOS DE SHOWS ----- */
 .mainshows {
+    @extend .container;
+    @extend .mx-auto;
     h1 {
         text-transform: uppercase;
         font-size: 5rem;
@@ -228,23 +231,44 @@ header{
         padding: 2rem 0 ;
         color: $colortitulo2;
     }
-    img {
-        width: 100%;
-    }
+    
     .mainCards {
+        @extend .mx-auto;
+        @extend .row;
         justify-content: space-around;
-        margin-bottom: 2%;
-    }
-    .card {
-        margin:2rem;
+        padding: 1rem;
+        .Card {
+            @extend .col-md-4;
+            @extend .col-lg-3;
+            @extend .d-flex;
+            @extend .flex-md-column;
+            margin:1rem;
+            padding: 0;
+            background: #8f8f8f42;
+            border-radius: 0.5rem;
+            .cardimg{
+                border-radius: 0.5rem;
+                background: #ffffffac;
+            }
+            .cardbody{
+                padding: 1rem 1.5rem 0;
+                justify-items: center;
+                align-items: center;
+                .cardtitle{
+                    text-align: center;
+                }
+            }
+            img {
+                width: 100%;
+            }
+        }
     }
 }
 /* ------------------- */
 /* -----MUSEO------- */
 /* ------------------- */
 .museo {
-    padding: 5rem 0;
-    @extend .container-fluid;
+    @extend .container;
     @extend .mx-auto;
     // intro
     .museo_intro{
@@ -395,9 +419,8 @@ header{
 /* -----  FOOD ------- */
 /* ------------------- */
 .mainfood{
-    @extend .container-fluid;
+    @extend .container;
     @extend .mx-auto;
-    margin: 2rem 0;
     h2{
         text-transform: uppercase;
     }
@@ -589,7 +612,7 @@ header{
 /* ---  COCKTAILS ---- */
 /* ------------------- */
 .maincocktails {
-    padding-bottom: 3rem;
+    @extend .container;
     @extend .mx-auto;
     .titulococktail {
         text-transform: uppercase;
@@ -638,7 +661,7 @@ header{
         }
     }
     .maincocktails_bartenders{
-        margin: 2rem 0;
+        margin: 2rem 1rem;
         border-top: dotted 1px #ffffff;
         padding-top: 1rem;
         border-radius: 1rem;
@@ -658,7 +681,7 @@ header{
                 .maincocktails_bartenders_person-subtitulo{
                     text-transform: uppercase;
                     color: $colorA;
-                    border-bottom: solid 2px $colorAhover;margin: 1rem 2rem;
+                    border-bottom: solid 2px $colorAhover;margin: 1rem 1rem;
                     text-align: center;
                 }
                 // SOLO EN SM
@@ -765,7 +788,8 @@ header{
 /* ----- DELIVERY ---- */
 /* ------------------- */
 .maindelivery {
-    @extend .container-fluid;
+    @extend .container;
+    @extend .mx-auto;
     @extend .d-lg-flex;
     margin: 4rem 0;
     text-transform: uppercase;
@@ -820,10 +844,9 @@ header{
         border-radius: 4px;
         text-align: justify;
         @extend .mx-auto;
-        @extend .container;
         justify-content: space-around;
         .maindelivery_instrucciones-pasos{
-            @extend .d-md-flex;
+            @extend .d-flex;
             @extend.flex-lg-column;
             @extend .align-items-center;
             @extend .justify-content-around;
@@ -833,19 +856,27 @@ header{
                 justify-content: space-around;
                 padding: 1rem;
                 .maindelivery_instrucciones-icon-whatsapp{
-                    color: #73da56;
                     justify-content: center;
                     text-align: center;
                         i {
+                            color: #73da56;
                             padding-bottom: 1rem;
-                        }    
+                        }
+                        p{
+                            @extend .d-none;
+                            @extend .d-md-block
+                        }
                     }
                 .maindelivery_instrucciones-icon-phone{
-                    color: #d82020;
                     justify-content: center;
                     text-align: center;
                         i {
+                        color: #d82020;
                             padding-bottom: 1rem;
+                        }
+                        p{
+                            @extend .d-none;
+                            @extend .d-md-block
                         }
                     }
                 }
@@ -936,6 +967,9 @@ footer{
             padding: 1rem;
             flex-basis: auto;
             border-left: 1px dashed #ffc3c3;
+            li{
+                padding-bottom: 3px;
+            }
         }
     // links
         .footer_main_links{

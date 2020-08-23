@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Daniel Coronel">
-    <meta name="description" content="La magia de nuestra cocina en tu casa!">
+    <meta name="description" content="Bar temático de THE BEATLES en Rosario, Argentina. Lugar donde la magia de los Fab Four esta siempre presente.">
+    <meta name="keywords" content="bar cocktails beatles pub Rosario Argentina museo shows">
     <link rel="stylesheet" href="css/main.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -16,52 +17,53 @@
     <title>BEATMEMO PUB</title>
 </head>
 <body>
-<!--encabezado-->
-<div class="container mx-auto">
-    <header class="animate__animated animate__rotateInDownRight animate__slow-2s header"> 
-        <div class="container">
-            <div class="navbar-brand ">
-                <p class="btmName text-focus-in">BEATMEMO</p>
-            </div>
-            
-        </div>
-        
+<header class="animate__animated animate__rotateInDownRight animate__slow-0.5s">
+    <!--logo--> 
+    <div class="logoheader">
+        <img src="img/btmwhite.png" alt="beatmemopub">
+    </div>
     <!--menu-->
-        <div class=" animate__animated animate__slideInLeft animate__delay-0.9s">
-            <nav class="navbar navbar-expand-md menu">
-                    <button class="navbar-toggler icn1" data-toggle="collapse" data-target="#navbarSupportedContent" type="button">
-                        <span class="navbar-toggler-icon "><i class="fa fa-bars fa-fw"></i></span>
-                    </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">INICIO</a>
-                            </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="museo.html">MUSEO</a>
-                        </li>
-                        <li class="nav-item px-auto">
-                            <a class="nav-link" href="shows.html">SHOWS</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown">MENU</a>
-                                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="food.html">FOOD</a>
-                                    <a class="dropdown-item" href="cocktails.html">COCKTAILS</a>
-                                    <a class="dropdown-item z-index-2" href="delivery.html">DELIVERY</a>
-                                </div>
-                    </ul>
-                </div>
-            </nav>
-        </div>  
-    </header> 
+    <div>
+        <nav class="navbar navbar-expand-md menu">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" type="button">
+                    <span class="navbar-toggler-icon "><i class="fa fa-bars fa-2x"></i></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="museo.html">MUSEO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown">MENU</a>
+                            <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="food.html">FOOD</a>
+                                <a class="dropdown-item" href="cocktails.html">COCKTAILS</a>
+                                <a class="dropdown-item z-index-2" href="delivery.html">DELIVERY</a>
+                            </div>
+                    </li>
+                    <li class="nav-item px-auto">
+                        <a class="nav-link" href="shows.html">SHOWS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- rofotop -->
+    <div class="rooftop">
+        <i class="fa fa-eye fa-2x"></i><i class="fa fa-eye fa-2x"></i>
+        <p>rooftop</p>
+    </div>
+</header> 
 <!-- DELIVERY -->
-<div class="maindelivery">
+<div class="maindelivery mainbody">
     <!--  -->
     <div class="maindelivery_info">
         <div class="maindelivery_info-txt">
             <div class="maindelivery_info-txt-logo">
-                <img src="img/btmencasa.jpg" alt="beatmemo en casa">
+                <img src="img/btmencasa.png" alt="beatmemo en casa">
             </div>
             <div class="maindelivery_info-txt-p">
                 <p>ahora podes disfrutar de nuestra cocina también en tu casa!</p>
@@ -69,7 +71,7 @@
                 ademas contamos con promos de desayunos y combos de bebidas.</p>
             </div>
             <div class="maindelivery_info-txt-btn">
-                <a href="img/menudelivery.jpeg" target="_blank">VER MENU</a>
+                <a href="img/food/menudelivery.jpeg" target="_blank">VER MENU</a>
             </div>
         </div>
         <div class="maindelivery_info-img">
@@ -89,12 +91,16 @@
             </div>  
             <div class="maindelivery_instrucciones-icon">
                 <div class="maindelivery_instrucciones-icon-whatsapp">
-                    <i class="fa fa-whatsapp fa-3x"></i><br>
-                    <a href="http://wa.me/+5493413216351">341-3216351</a>
+                    <a href="http://wa.me/+5493413216351">
+                        <i class="fa fa-whatsapp fa-3x"></i>
+                        <p>341-3216351</p>
+                    </a>
                 </div>
                 <div class="maindelivery_instrucciones-icon-phone">
-                    <i class="fa fa-phone fa-3x"></i><br>
-                    <a href="tel:+5493413216351">341-3216351</a>  
+                    <a href="tel:+5493413216351">
+                        <i class="fa fa-phone fa-3x"></i>
+                        <p>341-3216351</p>
+                    </a>  
                 </div>
             </div>
             <div>
@@ -112,134 +118,137 @@
     </div>
 </div>
 <!-- footer -->
-<footer class=" container-fluid d-flex justify-content-around footer">
-    <div class="footer__div d-none d-md-block ">
-        <div class="footer__div__div">
-            <h2 class="footer__div__div__link">links</h2>
-        </div>
-        <div class="footer__div__div">
-            <a class="footer__div__div__link" href="/museo.html">museo</a>
-        </div>
-        <div class="footer__div__div">
-            <a class="footer__div__div__link" href="/shows.html">shows</a>
-        </div>
-        <div class="footer__div__div">
-            <a class="footer__div__div__link" href="/cocktails.html">cocktails</a>
-        </div>
-        <div class="footer__div__div">
-            <a class="footer__div__div__link" href="/food.html">food</a>
-        </div>
-        <div class="footer__div__div">
-            <a class="footer__div__div__link" href="/delivery.html">delivery</a>
+<footer>
+<!-- main -->
+    <div class="footer_main">
+        <!-- horarios -->
+        <div class="footer_main_horarios">
+            <div>
+                <h2 class="footer_main_titulo">horarios:</h2>
             </div>
-        <div class="footer__div__div">
-            <a class="footer__div__div__link" href="/social.html">galeria</a>
+            <div class="footer_main_horarios-list">
+                <ul>
+                    <li>
+                        <strong>domingo:</strong> 9am - 1am
+                    </li>
+                    <li>
+                        <strong>lunes:</strong> 9am - 1am
+                    </li>
+                    <li >
+                        <strong>martes:</strong> 9am - 1am
+                    </li>
+                    <li>
+                        <strong>miércoles:</strong> 9am - 1am
+                    </li>
+                    <li>
+                        <strong>jueves:</strong> 9am - 1:30am
+                    </li>
+                    <li>
+                        <strong>viernes:</strong> 9am - 3am
+                    </li>
+                    <li>
+                        <strong>sabado:</strong> 9am - 3am
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="footer__div__div">
-            <a class="footer__div__div__link" href="/contact.html">contactanos</a>
-        </div>  
+        <!-- links -->
+        <div  class="footer_main_links">
+            <!-- redes -->
+            <div class="footer_main_links_section">
+                <div>
+                    <h2 class="footer_main_section-titulo">seguinos!</h2>
+                </div>
+                <div class="footer_main_links_section-sub">
+                    <!-- instagram -->
+                    <div class="footer_main_link_item">
+                        <div class="footer_main_link_item-ico">
+                            <a href="https://www.instagram.com/beatmemo_rosario/"><i class="fa fa-instagram fa-2x" aria-hidden="false"></i></a>
+                        </div>
+                        <div class="footer_main_link_item-txt">
+                            <a class="" href="https://www.instagram.com/beatmemo_rosario/">instagram</a>
+                        </div>
+                    </div>
+                    <!-- facebook -->
+                    <div class="footer_main_link_item">
+                        <div class="footer_main_link_item-ico">
+                            <a href="https://www.facebook.com/beatmemopub/">
+                                <i class="fa fa-facebook fa-2x" aria-hidden="false"></i>
+                            </a>
+                        </div>
+                        <div class="footer_main_link_item-txt">
+                            <a class="" href="https://www.facebook.com/beatmemopub/">facebook</a>
+                        </div>
+                    </div>
+                    <!-- twitter -->
+                    <div class="footer_main_link_item">
+                        <div class="footer_main_link_item-ico">
+                            <a href="https://twitter.com/beatmemo"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="footer_main_link_item-txt">
+                            <a class="" href="https://twitter.com/beatmemo">twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact -->
+            <div class="footer_main_links_section">
+                <div>
+                    <h2 class="footer_main_section-titulo">contactanos!</h2>
+                </div>
+                <div class="footer_main_links_section-sub">
+                    <!-- whatsapp -->
+                    <div class="footer_main_link_item">
+                        <div class="footer_main_link_item-ico">
+                            <a class="" href="http://wa.me/5493412023737">
+                            <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>
+                        </div>
+                        <div  class="footer_main_link_item-txt">
+                            <a class="" href="http://wa.me/5493412023737">(0341) 152023737</a>
+                        </div>
+                    </div>
+                    <!-- phone -->
+                    <div class="footer_main_link_item">
+                        <div class="footer_main_link_item-ico">
+                            <a href="tel:+5493414260076"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="footer_main_link_item-txt">
+                            <a class="" href="tel:+5493414260076">(0341) 426-0076</a>
+                        </div>
+                    </div>
+                    <!-- mail -->
+                    <div class="footer_main_link_item">
+                        <div class="footer_main_link_item-ico">
+                            <a href="mailto:beatlesmemo.adm@gmail.com"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="footer_main_link_item-txt">
+                            <a class="" href="mailto:beatlesmemo.adm@gmail.com">beatlesmemo.adm@gmail.com</a>
+                        </div>
+                    </div>
+                    <!-- address -->
+                    <div class="footer_main_link_item">
+                        <div class="footer_main_link_item-ico">
+                            <a href="https://g.page/Beatmemo?share"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="footer_main_link_item-txt">
+                            <a class="" href="https://g.page/Beatmemo?share">Bv. Oroño 107 bis, Rosario</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="footer__div">
-        <div  class="footer__div__div">
-            <h2 class="footer__div__div__titulo">seguinos!</h2>
+    <!-- derechos -->
+    <div class="footer_derechos">
+        <div class="footer_derechos-btm">
+            <a href="index.html">
+                <img src="img/btmtinta.png" alt="beatmemo pub">
+            </a>
         </div>
-        <div  class="footer__div__div">
-            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
-                <div class="footer__div__div__div__div">
-                    <a href="https://www.facebook.com/beatmemopub/">
-                        <i class="fa fa-facebook fa-2x footer__div__div__div__div__icono" aria-hidden="false"></i>
-                    </a>
-                </div>
-                <div class="footer__div__div__div__div">
-                    <a class="footer__div__div__div__div__link" href="https://www.facebook.com/beatmemopub/">facebook</a>
-                </div>
-            </div>
-            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
-                <div class="footer__div__div__div__div">
-                    <a href="https://www.instagram.com/beatmemo_rosario/"><i class="fa fa-instagram fa-2x footer__div__div__div__div__icono" aria-hidden="false"></i></a>
-                </div>
-                <div class="footer__div__div__div__div">
-                    <a class="footer__div__div__div__div__link" href="https://www.instagram.com/beatmemo_rosario/">instagram</a>
-                </div>
-            </div>
-            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
-                <div class="footer__div__div__div__div">
-                    <a href="https://twitter.com/beatmemo"><i class="fa fa-twitter fa-2x footer__div__div__div__div__icono" aria-hidden="true"></i></a>
-                </div>
-                <div class="footer__div__div__div__div">
-                    <a class="footer__div__div__div__div__link" href="https://twitter.com/beatmemo">twitter</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer__div">
-        <div class="footer__div__div">
-            <h2 class="footer__div__div__titulo">contactanos!</h2>
-        </div>
-        <div class="footer__div__div">
-            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
-                <div class="footer__div__div__div__div">
-                    <a class="footer__div__div__div__div__link" href="http://wa.me/5493412023737">
-                    <i class="fa fa-whatsapp fa-2x footer__div__div__div__div__icono" aria-hidden="true"></i></a>
-                </div>
-                <div  class="footer__div__div__div__div">
-                    <a class="footer__div__div__div__div__link" href="http://wa.me/5493412023737">(0341) 152023737</a>
-                </div>
-            </div>
-            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
-                <div class="footer__div__div__div__div">
-                    <a href="tel:+5493414260076"><i class="fa fa-phone fa-2x footer__div__div__div__div__icono" aria-hidden="true"></i></a>
-                </div>
-                <div class="footer__div__div__div__div">
-                    <a class="footer__div__div__div__div__link" href="tel:+5493414260076">(0341) 426-0076</a>
-                </div>
-            </div>
-            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
-                <div class="footer__div__div__div__div">
-                    <a href="mailto:beatlesmemo.adm@gmail.com"><i class="fa fa-envelope fa-lg footer__div__div__div__div__icono" aria-hidden="true"></i></a>
-                </div>
-                <div class="footer__div__div__div__div">
-                    <a class="footer__div__div__div__div__link" href="mailto:beatlesmemo.adm@gmail.com">beatlesmemo.adm@gmail.com</a>
-                </div>
-            </div>
-            <div class="d-flex justify-content-start align-items-center footer__div__div__div">
-                <div class="footer__div__div__div__div">
-                    <a href="https://g.page/Beatmemo?share"><i class="fa fa-home fa-2x footer__div__div__div__div__icono" aria-hidden="true"></i></a>
-                </div>
-                <div class="footer__div__div__div__div">
-                    <a class="footer__div__div__div__div__link" href="https://g.page/Beatmemo?share">Bv. Oroño 107 bis, Rosario</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer__div">
-        <div class="footer__div__div">
-            <h2 class="footer__div__div__titulo--center">horarios:</h2>
-        </div>
-        <div class="footer__div__div">
-            <ul class="footer__div__div__ul">
-                <li  class="footer__div__div__ul__li">
-                    <strong  class="footer__div__div__ul__li">domingo:</strong> 9am - 1am
-                </li>
-                <li  class="footer__div__div__ul__li">
-                    <strong  class="footer__div__div__ul__li">lunes:</strong> 9am - 1am
-                </li>
-                <li  class="footer__div__div__ul__li">
-                    <strong  class="footer__div__div__ul__li">martes:</strong> 9am - 1am
-                </li>
-                <li  class="footer__div__div__ul__li">
-                    <strong  class="footer__div__div__ul__li">miércoles:</strong> 9am - 1am
-                </li>
-                <li  class="footer__div__div__ul__li">
-                    <strong  class="footer__div__div__ul__li"jueves:</strong> 9am - 1:30am
-                </li>
-                <li  class="footer__div__div__ul__li">
-                    <strong  class="footer__div__div__ul__li">viernes:</strong> 9am - 3am
-                </li>
-                <li  class="footer__div__div__ul__li">
-                    <strong  class="footer__div__div__ul__li">sabado:</strong> 9am - 3am
-                </li>
-            </ul>
+        <div class="footer_derechos-by">
+            <a href="https://www.instagram.com/d_bartender/">
+                by<img src="img/logo-2-dc.png" alt="daniel web design">
+            </a>
         </div>
     </div>
 </footer>
