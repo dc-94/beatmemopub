@@ -224,12 +224,28 @@ header{
 .mainshows {
     @extend .container;
     @extend .mx-auto;
-    h1 {
-        text-transform: uppercase;
-        font-size: 5rem;
-        margin-left: 20%;
-        padding: 2rem 0 ;
-        color: $colortitulo2;
+    .mainshowsintro{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+            margin: 0 3rem;
+        .mainshowstitle {
+            text-transform: uppercase;
+            font-size: 5rem;
+            padding: 0.5rem 0 ;
+            color: $colortitulo2;
+        }
+        .rsvp{
+            text-align: center;
+            padding: 0.2rem;
+            width: fit-content;
+            a{
+                color: #60df65;
+            }
+            i{
+                padding: 0.5rem;
+            }
+        }
     }
     
     .mainCards {
@@ -246,13 +262,15 @@ header{
             padding: 0;
             background: #8f8f8f42;
             border-radius: 0.5rem;
+            &:hover{
+                background: #fff9cb36;
+            }
             .cardimg{
                 border-radius: 0.5rem;
-                background: #ffffffac;
+                background: #ffffffcb;
             }
             .cardbody{
                 padding: 1rem 1.5rem 0;
-                justify-items: center;
                 align-items: center;
                 .cardtitle{
                     text-align: center;
@@ -1005,7 +1023,7 @@ footer{
     .footer_derechos{
         @extend .d-flex;
         padding: 1rem;
-        background: #98989888;
+        background: #cdcdcda8;
         align-items: flex-end;
         justify-content: center;
         img{

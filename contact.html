@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Daniel Coronel">
-    <meta name="description" content="Contactate con nosotros!">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css">
+    <meta name="description" content="Contactate con nosotros y decinos como fue tu visita. Recordá reservar para ver nuestros shows! (0341) 152023737">
+    <meta name="keywords" content="bar, cocktails, sin TACC, The Beatles, pub, Rosario, Argentina, museo, shows">
+    <link rel="stylesheet" href="css/main.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- google font -->
@@ -17,35 +16,27 @@
 
     <title>BEATMEMO PUB</title>
 </head>
-
-    
 <body>
-<!--encabezado-->
-<div class="container mx-auto">
-    <header class="animate__animated animate__rotateInDownRight animate__slow-2s header"> 
-    <div class="container">
-        <div class="navbar-brand ">
-            <p class="btmName text-focus-in">BEATMEMO</p>
-        </div>
-        
+<header>
+    <!--logo--> 
+    <div class="logoheader">
+        <a href="index.html">
+            <img src="img/btmwhite.png" alt="beatmemopub">
+        </a>
     </div>
-    
-<!--menu-->
-    <div class=" animate__animated animate__slideInLeft animate__delay-0.9s">
+    <!--menu-->
+    <div>
         <nav class="navbar navbar-expand-md menu">
-                <button class="navbar-toggler icn1" data-toggle="collapse" data-target="#navbarSupportedContent" type="button">
-                    <span class="navbar-toggler-icon "><i class="fa fa-bars fa-fw"></i></span>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" type="button">
+                    <span class="navbar-toggler-icon "><i class="fa fa-bars fa-2x"></i></span>
                 </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">INICIO</a>
-                        </li>
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">INICIO</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="museo.html">MUSEO</a>
-                    </li>
-                    <li class="nav-item px-auto">
-                        <a class="nav-link" href="shows.html">SHOWS</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown">MENU</a>
@@ -54,12 +45,20 @@
                                 <a class="dropdown-item" href="cocktails.html">COCKTAILS</a>
                                 <a class="dropdown-item z-index-2" href="delivery.html">DELIVERY</a>
                             </div>
+                    </li>
+                    <li class="nav-item px-auto">
+                        <a class="nav-link" href="shows.html">SHOWS</a>
+                    </li>
                 </ul>
             </div>
         </nav>
-    </div>  
-</header>  
-
+    </div>
+    <!-- rofotop -->
+    <div class="rooftop">
+        <i class="fa fa-eye fa-2x"></i><i class="fa fa-eye fa-2x"></i>
+        <p>rooftop</p>
+    </div>
+</header> 
 <!--CUERPO-->
 <div class="maincontact mainbody">
     <div class="maincontact_main">
@@ -138,6 +137,37 @@
                         </div>
                     </div>
                 </div>
+                <!-- horarios -->
+                <div class="footer_main_horarios">
+                    <div>
+                        <h2 class="footer_main_titulo">horarios:</h2>
+                    </div>
+                    <div class="footer_main_horarios-list">
+                        <ul>
+                            <li>
+                                <strong>domingo:</strong> 9am - 1am
+                            </li>
+                            <li>
+                                <strong>lunes:</strong> 9am - 1am
+                            </li>
+                            <li >
+                                <strong>martes:</strong> 9am - 1am
+                            </li>
+                            <li>
+                                <strong>miércoles:</strong> 9am - 1am
+                            </li>
+                            <li>
+                                <strong>jueves:</strong> 9am - 1:30am
+                            </li>
+                            <li>
+                                <strong>viernes:</strong> 9am - 3am
+                            </li>
+                            <li>
+                                <strong>sabado:</strong> 9am - 3am
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <!-- formulario -->
             <div class="maincontact_main_form">
@@ -212,9 +242,19 @@
 
 <!-- footer -->
 <footer>
-<div class="text-center">
-    <p>Daniel Coronel - CODERHOUSE 2020</p>
-</div>
+    <!-- derechos -->
+    <div class="footer_derechos">
+        <div class="footer_derechos-btm">
+            <a href="index.html">
+                <img src="img/btmtinta.png" alt="beatmemo pub">
+            </a>
+        </div>
+        <div class="footer_derechos-by">
+            <a href="https://www.instagram.com/d_bartender/">
+                by<img src="img/logo-2-dc.png" alt="daniel web design">
+            </a>
+        </div>
+    </div>
 </footer>
 <!-- script js bootstrap -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
