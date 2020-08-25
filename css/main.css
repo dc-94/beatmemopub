@@ -5165,7 +5165,7 @@ button.bg-dark:focus {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, header, .mainshows .mainCards .Card, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes .maincontact_main_section_redes-main .maincontact_main_section_redes-main-lista, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub, footer .footer_derechos {
+.d-flex, header, .mainshows .mainCards .Card, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main .maincontact_main_section, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes .maincontact_main_section_redes-main .maincontact_main_section_redes-main-lista, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub, footer .footer_derechos {
   display: flex !important; }
 
 .d-inline-flex {
@@ -5206,7 +5206,7 @@ button.bg-dark:focus {
     display: table-row !important; }
   .d-md-table-cell {
     display: table-cell !important; }
-  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_shows .mainindex_shows_main, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maincontact .maincontact_main .maincontact_main_section, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta-section, footer .footer_main .footer_main_links {
+  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_shows .mainindex_shows_main, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos .maincontact_main_form-datos-1, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section, footer .footer_main .footer_main_links {
     display: flex !important; }
   .d-md-inline-flex {
     display: inline-flex !important; } }
@@ -5500,7 +5500,7 @@ button.bg-dark:focus {
 @media (min-width: 768px) {
   .flex-md-row {
     flex-direction: row !important; }
-  .flex-md-column, .mainshows .mainCards .Card, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub {
+  .flex-md-column, .mainshows .mainCards .Card, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub {
     flex-direction: column !important; }
   .flex-md-row-reverse {
     flex-direction: row-reverse !important; }
@@ -6218,7 +6218,8 @@ button.bg-dark:focus {
 .maincocktails,
 .maincocktails .maincocktails_classics .maincocktails_classics_main,
 .maindelivery,
-.maindelivery .maindelivery_instrucciones {
+.maindelivery .maindelivery_instrucciones,
+.maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section {
   margin-right: auto !important; }
 
 .mb-auto,
@@ -6236,7 +6237,8 @@ button.bg-dark:focus {
 .maincocktails,
 .maincocktails .maincocktails_classics .maincocktails_classics_main,
 .maindelivery,
-.maindelivery .maindelivery_instrucciones {
+.maindelivery .maindelivery_instrucciones,
+.maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section {
   margin-left: auto !important; }
 
 @media (min-width: 576px) {
@@ -8234,7 +8236,7 @@ html {
 .d-table-cell {
   display: table-cell !important; }
 
-.d-flex, header, .mainshows .mainCards .Card, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes .maincontact_main_section_redes-main .maincontact_main_section_redes-main-lista, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub, footer .footer_derechos {
+.d-flex, header, .mainshows .mainCards .Card, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person .maincocktails_bartenders_main_person-section1b .maincocktails_bartenders_main_person-section1b-person, .maincocktails .maincocktails_extras .maincocktails_extras_items-wines, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main .maincontact_main_section, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes .maincontact_main_section_redes-main .maincontact_main_section_redes-main-lista, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub, footer .footer_derechos {
   display: flex !important; }
 
 .d-inline-flex {
@@ -8275,7 +8277,7 @@ html {
     display: table-row !important; }
   .d-md-table-cell {
     display: table-cell !important; }
-  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_shows .mainindex_shows_main, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maincontact .maincontact_main .maincontact_main_section, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta-section, footer .footer_main .footer_main_links {
+  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_shows .mainindex_shows_main, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section1, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section2, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos .maincontact_main_form-datos-1, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section, footer .footer_main .footer_main_links {
     display: flex !important; }
   .d-md-inline-flex {
     display: inline-flex !important; } }
@@ -8515,7 +8517,7 @@ html {
 @media (min-width: 768px) {
   .flex-md-row {
     flex-direction: row !important; }
-  .flex-md-column, .mainshows .mainCards .Card, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub {
+  .flex-md-column, .mainshows .mainCards .Card, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_items, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub {
     flex-direction: column !important; }
   .flex-md-row-reverse {
     flex-direction: row-reverse !important; }
@@ -9063,7 +9065,8 @@ html {
 .maincocktails,
 .maincocktails .maincocktails_classics .maincocktails_classics_main,
 .maindelivery,
-.maindelivery .maindelivery_instrucciones {
+.maindelivery .maindelivery_instrucciones,
+.maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section {
   margin-right: auto !important; }
 
 .mb-auto,
@@ -9081,7 +9084,8 @@ html {
 .maincocktails,
 .maincocktails .maincocktails_classics .maincocktails_classics_main,
 .maindelivery,
-.maindelivery .maindelivery_instrucciones {
+.maindelivery .maindelivery_instrucciones,
+.maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section {
   margin-left: auto !important; }
 
 @media (min-width: 576px) {
@@ -10732,7 +10736,7 @@ header {
 /* ------------------- */
 .maincontact .maincontact-title h1 {
   font-size: 5rem;
-  margin: 0 4rem;
+  margin: 0 20%;
   text-shadow: #e25b32 2px 2px; }
 
 .maincontact .maincontact_main {
@@ -10752,11 +10756,14 @@ header {
         .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes .maincontact_main_section_redes-main .maincontact_main_section_redes-main-lista {
           justify-content: space-around; }
           .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes .maincontact_main_section_redes-main .maincontact_main_section_redes-main-lista .maincontact_main_section_redes-main-lista-item a {
+            color: white;
             padding: 0 1rem;
             display: flex;
             align-items: center; }
             .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes .maincontact_main_section_redes-main .maincontact_main_section_redes-main-lista .maincontact_main_section_redes-main-lista-item a i {
               padding: 1rem; }
+            .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes .maincontact_main_section_redes-main .maincontact_main_section_redes-main-lista .maincontact_main_section_redes-main-lista-item a:hover {
+              color: #ffebd5; }
     .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_horarios {
       border-radius: 0.5rem;
       padding: 1rem 2rem;
@@ -10768,19 +10775,45 @@ header {
     padding: 1rem;
     background: #ffffbc50;
     color: white; }
-    .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-datos-item {
-      display: flex; }
-    .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta-section .maincontact_main_form_section-encuesta-section-item {
-      padding: 0 0.5rem;
-      border-left: 2px solid white; }
-    .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form textarea {
-      width: 100%; }
-    .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form .resetBtn {
-      background-color: #ffadad;
-      padding: 3px; }
-    .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form .sendBtn {
-      background-color: #87e9a3;
-      padding: 3px; }
+    .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos {
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid white; }
+      .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos legend {
+        padding-left: 10%; }
+      .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos .maincontact_main_form-datos-1 {
+        align-items: center;
+        justify-items: center;
+        justify-content: space-evenly; }
+        .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos .maincontact_main_form-datos-1 .maincontact_main_form-datos-item i {
+          padding: 0.3rem; }
+        .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos .maincontact_main_form-datos-1 .maincontact_main_form-datos-item input {
+          width: 170px; }
+    .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section {
+      justify-content: space-evenly; }
+      .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta {
+        border-left: 2px solid white;
+        padding: 0 0.5rem;
+        height: fit-content; }
+        .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section .maincontact_main_form_section-encuesta-section-item {
+          padding: 0.5rem;
+          border-bottom: 1px solid white; }
+      .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-textarea {
+        border-left: 2px solid white;
+        padding-left: 0.5rem; }
+        .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-textarea textarea {
+          width: 100%;
+          border-radius: 5px; }
+        .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-textarea button {
+          border-radius: 0.5rem;
+          color: #ffffff;
+          text-shadow: #00000073 1px 1px; }
+        .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-textarea .resetBtn {
+          background-color: #ffa3a3c7;
+          align-self: center; }
+        .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-textarea .sendBtn {
+          background-color: #54ec7fc7;
+          align-self: center; }
 
 .maincontact .maincontact_map {
   margin: 3rem 1rem; }

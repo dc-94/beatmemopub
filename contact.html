@@ -78,7 +78,7 @@
                         <div class="maincontact_main_section_redes-main-lista-item">
                             <a href="https://www.facebook.com/beatmemopub/">
                                 <div>
-                                    <i class="fa fa-facebook fa-4x" aria-hidden="false"></i>
+                                    <i class="fa fa-facebook fa-3x" aria-hidden="false"></i>
                                 </div>
                                 <div class="maincontact_main_section_redes-main-lista-item-txt">
                                     <p>facebook</p>
@@ -88,7 +88,7 @@
                         <div class="maincontact_main_section_redes-main-lista-item">
                             <a href="https://www.instagram.com/beatmemo_rosario/">
                                 <div>
-                                    <i class="fa fa-instagram fa-4x" aria-hidden="false"></i>
+                                    <i class="fa fa-instagram fa-3x" aria-hidden="false"></i>
                                 </div>
                                 <div class="maincontact_main_section_redes-main-lista-item-txt">
                                     <p>instagram</p>
@@ -98,7 +98,7 @@
                         <div class="maincontact_main_section_redes-main-lista-item">
                             <a href="https://twitter.com/beatmemo">
                                 <div>
-                                    <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
+                                    <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
                                 </div>
                                 <div class="maincontact_main_section_redes-main-lista-item-txt">
                                     <p>twitter</p>
@@ -116,7 +116,7 @@
                         <div class="maincontact_main_section_redes-main-lista-item">
                             <a href="http://wa.me/5493412023737">
                                 <div>
-                                    <i class="fa fa-whatsapp fa-4x" aria-hidden="true"></i>
+                                    <i class="fa fa-whatsapp fa-3x" aria-hidden="true"></i>
                                 </div>
                                 <div  class="maincontact_main_section_redes-main-lista-item-txt">
                                     <p>(0341) 152023737</p>
@@ -126,7 +126,7 @@
                         <div class="maincontact_main_section_redes-main-lista-item">
                             <a href="tel:+5493414260076">
                                 <div>
-                                    <i class="fa fa-phone fa-4x" aria-hidden="true"></i>
+                                    <i class="fa fa-phone fa-3x" aria-hidden="true"></i>
                                 </div>
                                 <div class="maincontact_main_section_redes-main-lista-item-txt">
                                     <p>(0341) 426-0076</p>
@@ -135,7 +135,7 @@
                         </div>
                         <div class="maincontact_main_section_redes-main-lista-item">
                             <div>
-                                <a href="mailto:beatlesmemo.adm@gmail.com"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
+                                <a href="mailto:beatlesmemo.adm@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -175,26 +175,26 @@
         </div>
         <!-- formulario -->
         <form class="maincontact_main_form">
-            <div class="maincontact_main_form_section">
-                <!-- datos pers -->
-                <div class="maincontact_main_form_section-datos">
-                    <legend>DATOS PERSONALES</legend>
-                    <div class="maincontact_main_form_section-datos-item">
-                            <label for="nombre">nombre</label>
-                            <input type="text" class="form-control">
+            <!-- datos pers -->
+            <div class="maincontact_main_form-datos">
+            <legend>DATOS PERSONALES</legend>
+                <div class="maincontact_main_form-datos-1">
+                    <div class="maincontact_main_form-datos-item">
+                            <label for="nombre"><i class="fa fa-user fa-2x"></i></label>
+                            <input type="text" name="nombre" placeholder="NOMBRE Y APELLIDO" id="nombre">
                     </div>
-                    <div class="maincontact_main_form_section-datos-item">
-                        <div class="">
-                            <label for="telefono">teléfono</label>
-                            <input type="tel" name="telefono" id="telefono">
-                        </div>
-                        <div class="">
-                            <label for="mail">email</label>
-                            <input type="email" name="mail" id="mail">
-                        </div>
+                    <div class="maincontact_main_form-datos-item">
+                        <label for="telefono"><i class="fa fa-phone fa-2x"></i></label>
+                        <input type="tel" name="telefono" placeholder="TELEFONO" id="telefono">
+                    </div>
+                    <div class="maincontact_main_form-datos-item">
+                        <label for="mail"><i class="fa fa-envelope fa-2x"></i></label>
+                        <input type="email" name="mail" placeholder="MAIL" id="mail">
                     </div>
                 </div>
-                <!-- encuesta -->
+            </div>
+            <div class="maincontact_main_form_section">
+            <!-- encuesta -->
                 <div class="maincontact_main_form_section-encuesta">
                     <legend>ENCUESTA</legend>
                     <div class="maincontact_main_form_section-encuesta-section">
@@ -223,16 +223,16 @@
                         </div>
                     </div>
                 </div>
-            </div>
             <!-- sugerencias -->
-            <div>
-                <div>
-                    <legend>SUGERENCIAS:</legend>
-                    <textarea name="comentarios" id="comentarios" cols="100%" rows="10" placeholder="Contanos como fue tu visita al bar."></textarea>
-                </div>
-                <div>
-                    <button class="resetBtn" type="reset"> BORRAR  <i class="fa fa-trash" aria-hidden="true"></i></button>
-                    <button class="sendBtn" type="submit"> ENVIAR <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                <div class="maincontact_main_form_section-textarea">
+                    <div>
+                        <legend>SUGERENCIAS:</legend>
+                        <textarea name="comentarios" id="comentarios" cols="55" rows="8" placeholder="Contanos como fue tu visita al bar."></textarea>
+                    </div>
+                    <div>
+                        <button class="resetBtn" type="reset"> BORRAR  <i class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="sendBtn" type="submit"> ENVIAR <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                    </div>
                 </div>
             </div>
         </form>

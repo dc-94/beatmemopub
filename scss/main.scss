@@ -916,7 +916,7 @@ header{
     .maincontact-title{
         h1{
             font-size: $fontxl;
-            margin: 0 4rem;
+            margin: 0 20%;
             text-shadow: #e25b32 2px 2px;
         }           
     }
@@ -925,7 +925,7 @@ header{
         padding: 1rem;
     // section
         .maincontact_main_section{
-            @extend .d-md-flex;
+            @extend .d-flex;
             justify-content: center;
             align-items: center;
             border-radius: 1rem;
@@ -944,6 +944,7 @@ header{
                         justify-content: space-around;
                         .maincontact_main_section_redes-main-lista-item{
                             a{
+                                color: white;
                                 padding:0 1rem;
                                 display: flex;
                                 align-items: center;
@@ -953,6 +954,9 @@ header{
                                 .maincontact_main_section_redes-main-lista-item-txt{
                                     @extend .d-none;
                                     @extend .d-md-block;
+                                }
+                                &:hover{
+                                    color: #ffebd5;
                                 }
                             }
                         }
@@ -977,30 +981,69 @@ header{
             padding: 1rem;
             background: #ffffbc50;
             color: white;
-            .maincontact_main_form_section{
-                @extend .d-md-flex;
-                    .maincontact_main_form_section-datos-item{
-                        display: flex;
-                    }
-                .maincontact_main_form_section-encuesta-section{
+            // datos
+            .maincontact_main_form-datos{
+                    padding-bottom: 0.5rem;
+                    margin-bottom: 2rem;
+                    border-bottom: 1px solid white;
+                legend{
+                    padding-left: 10%;
+                }
+                .maincontact_main_form-datos-1{
                     @extend .d-md-flex;
-                    .maincontact_main_form_section-encuesta-section-item{
-                        padding: 0 0.5rem;
-                        border-left: 2px solid white;
+                        align-items: center;
+                        justify-items: center;
+                        justify-content: space-evenly;
+                    .maincontact_main_form-datos-item{
+                        i{
+                        padding: 0.3rem;
+                        }
+                        input{
+                            width: 170px;
+                        }
                     }
                 }
             }
-            .maincontact_main_form{
-                textarea{
-                    width: 100%;
+            // section
+            .maincontact_main_form_section{
+                @extend .d-md-flex;
+                justify-content: space-evenly;
+                // encuesta
+                .maincontact_main_form_section-encuesta{
+                        border-left: 2px solid white;
+                        padding:0 0.5rem;
+                        height: fit-content;
+                    .maincontact_main_form_section-encuesta-section{
+                        @extend .d-flex;
+                        @extend .flex-md-column;
+                            @extend .mx-auto;
+                        .maincontact_main_form_section-encuesta-section-item{
+                            padding: 0.5rem;
+                            border-bottom: 1px solid white;
+                        }
+                    }
                 }
-                .resetBtn {
-                    background-color: #ffadad;
-                    padding: 3px;
-                }
-                .sendBtn {
-                    background-color: #87e9a3;
-                    padding: 3px;
+                // sugerencias
+                .maincontact_main_form_section-textarea{
+                    border-left: 2px solid white;
+                    padding-left: 0.5rem;
+                    textarea{
+                        width: 100%;
+                        border-radius: 5px;
+                    }
+                    button{
+                        border-radius: 0.5rem;
+                        color: #ffffff;
+                        text-shadow: #00000073 1px 1px;
+                    }
+                    .resetBtn {
+                        background-color: #ffa3a3c7;
+                        align-self: center;
+                    }
+                    .sendBtn {
+                        background-color: #54ec7fc7;
+                        align-self: center;
+                    }
                 }
             }
         }
