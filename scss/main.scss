@@ -446,17 +446,20 @@ header{
     .mainfood_section1{
         @extend .d-lg-flex;
         .mainfood_section1-titulo{
-            background-color: #dac36a8a;
+            background-color: #d1c69a88;
             padding: 0.5rem;
             h1{
-                color: #fff;
+                color: #ffffff;
+                text-align: center;
+                text-shadow: 1px 1px black;
                 font-weight: 700;
-                border-bottom: white 2px solid;
+                font-size: 3rem;
+                border-bottom: #ffffff 3px solid;
             }
         }
         .mainfood_section1-main{
             @extend .d-md-flex;
-            // 
+            // entradas
             .mainfood_section1_entradas{
                 padding: 1rem;
                 background-color: #8636364d;
@@ -475,7 +478,7 @@ header{
                     }
                 }
             }
-            // 
+            // sharers
             .mainfood_section1_tablas{
                 padding: 1rem;
                 background-color: #8656364d;
@@ -549,7 +552,7 @@ header{
                     border-left: 1px dashed white;
                     border-bottom: 1px dashed white;
                     .mainfood_section2_main-harrison-1{
-                        @extend .d-md-flex;@extend .flex-lg-column-reverse;
+                        @extend .d-md-flex;@extend .flex-lg-column;
                         justify-content: space-around;
                         align-content: space-around;
                         .mainfood_section2_main-harrison-2{
@@ -560,6 +563,7 @@ header{
                             justify-self: center;
                             width: fit-content;
                             img{
+                                border-radius: 3px;
                                 width: 250px;
                             }
                             p{
@@ -614,6 +618,7 @@ header{
             }
             .mainfood_section3_items-imagen{
                 @extend .card;
+                height: fit-content;
                 img{
                     @extend .card-img;
                 }
@@ -637,13 +642,14 @@ header{
         font-size: $font4;
         color: $colortitulo2;
     }
-    @extend .container-fluid;
+    // classics
     .maincocktails_classics{
         padding-top: 1rem;
         .maincocktails_classics-titulo{
             text-transform: uppercase;
-            padding: 1rem;
-            border-left: 1px dashed white;
+            padding: 0.5rem;
+            margin-left: 20%;
+            border-left: 2px dashed white;
         }
         .maincocktails_classics_main_imagen{
             text-align: center;
@@ -656,28 +662,44 @@ header{
         }
         .maincocktails_classics_main{
             @extend .d-lg-flex;
-            @extend .container;
             @extend .mx-auto;
-            justify-content: space-around;
-            .maincocktails_classics_main_items{
-                margin: 1rem;
-                @extend .d-flex;
-                @extend .flex-md-column;
-                .maincocktails_classics_main_items-a{
+            width: fit-content;
+            align-content: space-evenly;
+            .maincocktails_classics_main_section{
+                @extend .d-sm-flex;
+                justify-content: space-evenly;
+                align-content: space-evenly;
+                margin: 1rem;  
+                .maincocktails_classics_main_section_imagen{
+                    @include foodcard;
+                    @extend .img-fluid;
+                    @extend .mx-auto;
+                    text-align: center;
+                    margin: 0 1rem;
                     div{
-                    padding-left: 2rem;
-                    width: 150px;
+                        margin-bottom: 100%;
+                    }
+                }
+                .maincocktails_classics_main_section_items{
+                    @extend .d-flex;
+                    @extend .flex-sm-column;
+                    @extend .mx-auto;
+                    margin: 1rem;
+                    padding: 0 2rem;
+                    justify-content: center;
+                    align-content: center;
+                    .maincocktails_classics_main_section_items-a{
+                        @extend .mx-auto;
+                        div{
+                        width: 200px;
+                        padding: 0 1rem;
+                        }
                     }
                 }
             }
-            .maincocktails_classics_main_section1, .maincocktails_classics_main_section2{
-                justify-content: space-evenly;
-                align-content: space-evenly;
-                @extend .d-md-flex;
-                margin: 1rem;  
-            }
         }
     }
+    // bartenders
     .maincocktails_bartenders{
         margin: 2rem 1rem;
         border-top: dotted 1px #ffffff;
@@ -696,25 +718,31 @@ header{
             padding: 1rem;
             .maincocktails_bartenders_main_person{
                 @extend .d-md-flex;
+                padding: 0 1rem;
+                border-right: 2px dashed #ffffff6b;
                 .maincocktails_bartenders_person-subtitulo{
                     text-transform: uppercase;
                     color: $colorA;
                     border-bottom: solid 2px $colorAhover;margin: 1rem 1rem;
                     text-align: center;
                 }
-                // SOLO EN SM
+                // hasta MD
                 .maincocktails_bartenders_main_person-section1b{
                     @extend .d-md-none;
                     background-color: #00000088;
                     border-radius: 3px;
                     padding: 5px;
                     .maincocktails_bartenders_main_person-section1b-person{
-                    @extend .d-flex;
+                        display: flex;
                         border-bottom: #000000 5px dotted;
                     img {
                         width: 100%;
                         border: 1px #ffffffc9 solid;
                         border-radius: 0.5rem;
+                        }
+                        .maincocktails_bartenders_main_person-links-xs{
+                            display: flex;
+                            justify-content: space-around;
                         }
                     }
                     .maincocktails_bartenders_main_person-section1b-carousel{
@@ -729,12 +757,13 @@ header{
                     }
                     }
                 }
-                //a partir de MD 
+                // desde MD 
                 .maincocktails_bartenders_main_person-section1{
                     @extend .d-none;
                     @extend .d-md-block;
-                    justify-content: space-between;
-                    align-content: space-between;
+                    justify-content: space-around;
+                    align-content: space-around;
+                    width: fit-content;
                     img {
                         width: 200px;
                         border-radius: 0.5rem;
@@ -745,23 +774,22 @@ header{
                 .maincocktails_bartenders_main_person-section2 {
                     @extend .d-none;
                     @extend .d-md-block;
-                    justify-content: space-between;
-                    align-content: center;
-                        div {
-                            padding: 2rem;
-                            margin-right: 3rem;
+                    .maincocktails_bartenders_main_person-links{
+                        display: flex;
+                        justify-content: space-evenly;
+                        i{
+                            color: $colorlist;
                         }
-                }
-                .maincocktails_bartenders_main_person-links{
-                    display: flex;
-                    justify-content: space-evenly;
-                    i{
-                        color: $colorlist;
+                    }
+                    div {
+                        padding: 0.5rem 2rem;
+                        margin-right: 2rem;
                     }
                 }
             }
         }
     }
+    //  extras
     .maincocktails_extras{
         background-color: #290707c5;
         border-radius: 3px;
