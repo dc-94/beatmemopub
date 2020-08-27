@@ -689,7 +689,6 @@ header{
                     justify-content: center;
                     align-content: center;
                     .maincocktails_classics_main_section_items-a{
-                        @extend .mx-auto;
                         div{
                         width: 200px;
                         padding: 0 1rem;
@@ -704,8 +703,8 @@ header{
         margin: 2rem 1rem;
         border-top: dotted 1px #ffffff;
         padding-top: 1rem;
-        border-radius: 1rem;
-        background-color: #f5f5f543;
+        border-radius: 0.5rem;
+        background-color: #1d1d1d79;
         .maincocktails_bartenders-titulo{
             h2 {
                 text-transform: uppercase;
@@ -718,8 +717,10 @@ header{
             padding: 1rem;
             .maincocktails_bartenders_main_person{
                 @extend .d-md-flex;
-                padding: 0 1rem;
-                border-right: 2px dashed #ffffff6b;
+                padding-right: 1rem;
+                margin-left: 1rem;
+                border-right: 2px solid #ffe0e088;
+                border-bottom: 5px solid #ffe0e069;
                 .maincocktails_bartenders_person-subtitulo{
                     text-transform: uppercase;
                     color: $colorA;
@@ -746,11 +747,12 @@ header{
                         }
                     }
                     .maincocktails_bartenders_main_person-section1b-carousel{
-                    @extend .carousel;
                     @extend .carousel-fade;
-                    border: 1px #ffffffc9 solid;
-                    border-radius: 3px;
-                    margin-bottom: 1rem;
+                    border: 1px #ababab solid;
+                    border-radius: 0.5rem;
+                    img{
+                        border-radius: 0.5rem;
+                    }
                     .carousel-caption{
                         background-color: #0000009d;
                         border-radius: 1rem;
@@ -783,7 +785,6 @@ header{
                     }
                     div {
                         padding: 0.5rem 2rem;
-                        margin-right: 2rem;
                     }
                 }
             }
@@ -1151,7 +1152,7 @@ footer{
     .footer_derechos{
         @extend .d-flex;
         padding: 1rem;
-        background: #cdcdcda8;
+        background: #ffffffb0;
         align-items: flex-end;
         justify-content: center;
         img{
@@ -1167,6 +1168,13 @@ footer{
             img{
                 height: 35px;
                 width: auto;
+            }
+            &:hover{
+                background: #0000001d;
+                border-radius: 0.5rem;
+                a{
+                color: rgb(255, 255, 255);
+            }
             }
         }
     }
