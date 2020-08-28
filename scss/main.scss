@@ -838,17 +838,13 @@ header{
     @extend .container;
     @extend .mx-auto;
     @extend .d-lg-flex;
-    margin: 4rem 0;
+    justify-content: space-evenly;
     text-transform: uppercase;
-    // 
+    // main
     .maindelivery_info{
-        flex-basis: 75%;
-        padding: 1rem 0;
-        @extend .d-lg-flex;
+        flex-basis: 60%;
         .maindelivery_info-txt{
-            background-color: #000000d5;
-            padding: 1rem;
-            border-radius: 0.5rem;
+            padding: 0 1.5rem;
             .maindelivery_info-txt-btn{
                 text-align: center;
                 a{
@@ -866,64 +862,66 @@ header{
                 margin: 0 1rem;
             }
             .maindelivery_info-txt-logo{
-                width: 100%;
-                img {
-                @extend .img-fluid;
-                    border-radius: 2px;
-                }
+                text-align: center;
             }
         }
         .maindelivery_info-img{
             @extend .d-flex;
-            @extend .flex-lg-column;
-            width: 100%;
-            img {
-            @extend .img-fluid;
-                border-radius: 2px;
-                margin: 0.5rem;
+            @extend .mx-auto;
+            justify-content: space-around;
+            padding: 0.5rem;
+            div{
+                @extend .img-fluid;
+                padding: 0.5rem;
+                img {
+                border-radius: 4px;
+                }
             }
         }
     }
-    // 
+    // instrucciones
     .maindelivery_instrucciones {
-        flex-basis: 20%;
-        background-color: #a041306b;
+        flex-basis: 25%;
+        background-color: #4d3a3680;
         border-radius: 4px;
-        text-align: justify;
-        @extend .mx-auto;
         justify-content: space-around;
+        align-self: center;
         .maindelivery_instrucciones-pasos{
             @extend .d-flex;
             @extend.flex-lg-column;
-            @extend .align-items-center;
-            @extend .justify-content-around;
+            margin: 0.5rem 2rem;
+            justify-content: space-evenly;
+            
             .maindelivery_instrucciones-icon{
                 @extend .d-flex;
-                @extend.flex-md-column;
-                justify-content: space-around;
-                padding: 1rem;
+                @extend.flex-lg-column;
                 .maindelivery_instrucciones-icon-whatsapp{
-                    justify-content: center;
                     text-align: center;
                         i {
-                            color: #73da56;
-                            padding-bottom: 1rem;
+                            color: #6ec556;
+                            padding: auto;
+                            margin: 1rem 1rem 0 1rem;
+                            padding-bottom: 0.5rem;
+                            border-bottom: #acf09a 4px solid;
                         }
                         p{
                             @extend .d-none;
-                            @extend .d-md-block
+                            @extend .d-md-block;
+                            padding:0 0.5rem;
                         }
                     }
                 .maindelivery_instrucciones-icon-phone{
-                    justify-content: center;
                     text-align: center;
                         i {
-                        color: #d82020;
-                            padding-bottom: 1rem;
+                            color: #d82b2b;padding: auto;
+                            margin: 1rem 1rem 0 1rem;
+                            padding-bottom: 0.5rem;
+                            border-bottom: #dd5757 4px solid;
                         }
                         p{
                             @extend .d-none;
-                            @extend .d-md-block
+                            @extend .d-md-block;
+                            padding:0 0.5rem;
                         }
                     }
                 }
@@ -957,7 +955,6 @@ header{
             @extend .d-flex;
             justify-content: center;
             align-items: center;
-            border-radius: 1rem;
             margin-bottom: 1rem;
             // redes
             .maincontact_main_section_redes{
@@ -1006,10 +1003,17 @@ header{
         }
     // form
         .maincontact_main_form{
+            @extend .mx-auto;
             border-radius: 1rem;
             padding: 1rem;
-            background: #ffffbc50;
+            background: #e9e9b64a;
             color: white;
+            width: 90%;
+            text-transform: uppercase;
+            legend{
+                color: #fcb691;
+                text-shadow: #bd7155 1px 1px;
+            }
             // datos
             .maincontact_main_form-datos{
                     padding-bottom: 0.5rem;
@@ -1045,10 +1049,14 @@ header{
                     .maincontact_main_form_section-encuesta-section{
                         @extend .d-flex;
                         @extend .flex-md-column;
-                            @extend .mx-auto;
+                        @extend .mx-auto;
                         .maincontact_main_form_section-encuesta-section-item{
                             padding: 0.5rem;
                             border-bottom: 1px solid white;
+                            label{
+                                font-weight:bolder;
+                                color: #ffd9b1;
+                            }
                         }
                     }
                 }

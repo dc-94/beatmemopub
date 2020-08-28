@@ -649,7 +649,7 @@ mark,
   .blockquote-footer::before {
     content: "\2014\00A0"; }
 
-.img-fluid, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile img, .museo .museo_galeria .museo_galeria_main .museo_galeria_main-card img, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_imagen, .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-logo img, .maindelivery .maindelivery_info .maindelivery_info-img img, footer .footer_derechos img {
+.img-fluid, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile img, .museo .museo_galeria .museo_galeria_main .museo_galeria_main-card img, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_imagen, .maindelivery .maindelivery_info .maindelivery_info-img div, footer .footer_derechos img {
   max-width: 100%;
   height: auto; }
 
@@ -5230,7 +5230,7 @@ button.bg-dark:focus {
     display: table-row !important; }
   .d-lg-table-cell {
     display: table-cell !important; }
-  .d-lg-flex, .mainindex .mainindex_delivery, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery, .maindelivery .maindelivery_info {
+  .d-lg-flex, .mainindex .mainindex_delivery, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery {
     display: flex !important; }
   .d-lg-inline-flex {
     display: inline-flex !important; } }
@@ -5377,7 +5377,7 @@ button.bg-dark:focus {
 .justify-content-between {
   justify-content: space-between !important; }
 
-.justify-content-around, .museo .museo_galeria .museo_galeria_main, .mainfood .mainfood_section3, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+.justify-content-around, .museo .museo_galeria .museo_galeria_main, .mainfood .mainfood_section3 {
   justify-content: space-around !important; }
 
 .align-items-start {
@@ -5386,7 +5386,7 @@ button.bg-dark:focus {
 .align-items-end {
   align-items: flex-end !important; }
 
-.align-items-center, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+.align-items-center {
   align-items: center !important; }
 
 .align-items-baseline {
@@ -5504,7 +5504,7 @@ button.bg-dark:focus {
 @media (min-width: 768px) {
   .flex-md-row {
     flex-direction: row !important; }
-  .flex-md-column, .mainshows .mainCards .Card, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub {
+  .flex-md-column, .mainshows .mainCards .Card, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub {
     flex-direction: column !important; }
   .flex-md-row-reverse {
     flex-direction: row-reverse !important; }
@@ -5574,7 +5574,7 @@ button.bg-dark:focus {
 @media (min-width: 992px) {
   .flex-lg-row {
     flex-direction: row !important; }
-  .flex-lg-column, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+  .flex-lg-column, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
     flex-direction: column !important; }
   .flex-lg-row-reverse {
     flex-direction: row-reverse !important; }
@@ -6224,7 +6224,8 @@ button.bg-dark:focus {
 .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_imagen,
 .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_items,
 .maindelivery,
-.maindelivery .maindelivery_instrucciones,
+.maindelivery .maindelivery_info .maindelivery_info-img,
+.maincontact .maincontact_main .maincontact_main_form,
 .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section {
   margin-right: auto !important; }
 
@@ -6245,7 +6246,8 @@ button.bg-dark:focus {
 .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_imagen,
 .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_items,
 .maindelivery,
-.maindelivery .maindelivery_instrucciones,
+.maindelivery .maindelivery_info .maindelivery_info-img,
+.maincontact .maincontact_main .maincontact_main_form,
 .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section {
   margin-left: auto !important; }
 
@@ -8305,7 +8307,7 @@ html {
     display: table-row !important; }
   .d-lg-table-cell {
     display: table-cell !important; }
-  .d-lg-flex, .mainindex .mainindex_delivery, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery, .maindelivery .maindelivery_info {
+  .d-lg-flex, .mainindex .mainindex_delivery, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery {
     display: flex !important; }
   .d-lg-inline-flex {
     display: inline-flex !important; } }
@@ -8398,7 +8400,7 @@ html {
 .justify-content-between {
   justify-content: space-between !important; }
 
-.justify-content-around, .museo .museo_galeria .museo_galeria_main, .mainfood .mainfood_section3, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+.justify-content-around, .museo .museo_galeria .museo_galeria_main, .mainfood .mainfood_section3 {
   justify-content: space-around !important; }
 
 .align-items-start {
@@ -8407,7 +8409,7 @@ html {
 .align-items-end {
   align-items: flex-end !important; }
 
-.align-items-center, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+.align-items-center {
   align-items: center !important; }
 
 .align-items-baseline {
@@ -8525,7 +8527,7 @@ html {
 @media (min-width: 768px) {
   .flex-md-row {
     flex-direction: row !important; }
-  .flex-md-column, .mainshows .mainCards .Card, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub {
+  .flex-md-column, .mainshows .mainCards .Card, .maincocktails .maincocktails_extras .maincocktails_extras_items-beers, .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section, footer .footer_main .footer_main_links .footer_main_links_section .footer_main_links_section-sub {
     flex-direction: column !important; }
   .flex-md-row-reverse {
     flex-direction: row-reverse !important; }
@@ -8595,7 +8597,7 @@ html {
 @media (min-width: 992px) {
   .flex-lg-row {
     flex-direction: row !important; }
-  .flex-lg-column, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .maindelivery .maindelivery_info .maindelivery_info-img, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+  .flex-lg-column, .museo .museo_intro .museo_intro_horarios .museo_intro_horarios_list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos, .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
     flex-direction: column !important; }
   .flex-lg-row-reverse {
     flex-direction: row-reverse !important; }
@@ -9075,7 +9077,8 @@ html {
 .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_imagen,
 .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_items,
 .maindelivery,
-.maindelivery .maindelivery_instrucciones,
+.maindelivery .maindelivery_info .maindelivery_info-img,
+.maincontact .maincontact_main .maincontact_main_form,
 .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section {
   margin-right: auto !important; }
 
@@ -9096,7 +9099,8 @@ html {
 .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_imagen,
 .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_items,
 .maindelivery,
-.maindelivery .maindelivery_instrucciones,
+.maindelivery .maindelivery_info .maindelivery_info-img,
+.maincontact .maincontact_main .maincontact_main_form,
 .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section {
   margin-left: auto !important; }
 
@@ -10123,7 +10127,7 @@ html {
 @media (max-width: 576px) {
   html {
     font-size: 50%; }
-  .img-fluid, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile img, .museo .museo_galeria .museo_galeria_main .museo_galeria_main-card img, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_imagen, .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-logo img, .maindelivery .maindelivery_info .maindelivery_info-img img, footer .footer_derechos img {
+  .img-fluid, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1 .museo_intro_info_linea1-mobile img, .museo .museo_galeria .museo_galeria_main .museo_galeria_main-card img, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1 .mainfood_section2-main-linda .mainfood_section2-main-linda-imagen, .maincocktails .maincocktails_classics .maincocktails_classics_main .maincocktails_classics_main_section .maincocktails_classics_main_section_imagen, .maindelivery .maindelivery_info .maindelivery_info-img div, footer .footer_derechos img {
     width: 75%; }
   .img-responsive, header .logoheader {
     object-fit: cover;
@@ -10714,15 +10718,12 @@ header {
 /* ----- DELIVERY ---- */
 /* ------------------- */
 .maindelivery {
-  margin: 4rem 0;
+  justify-content: space-evenly;
   text-transform: uppercase; }
   .maindelivery .maindelivery_info {
-    flex-basis: 75%;
-    padding: 1rem 0; }
+    flex-basis: 60%; }
     .maindelivery .maindelivery_info .maindelivery_info-txt {
-      background-color: #000000d5;
-      padding: 1rem;
-      border-radius: 0.5rem; }
+      padding: 0 1.5rem; }
       .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-btn {
         text-align: center; }
         .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-btn a {
@@ -10736,35 +10737,43 @@ header {
       .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-p {
         margin: 0 1rem; }
       .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-logo {
-        width: 100%; }
-        .maindelivery .maindelivery_info .maindelivery_info-txt .maindelivery_info-txt-logo img {
-          border-radius: 2px; }
+        text-align: center; }
     .maindelivery .maindelivery_info .maindelivery_info-img {
-      width: 100%; }
-      .maindelivery .maindelivery_info .maindelivery_info-img img {
-        border-radius: 2px;
-        margin: 0.5rem; }
-  .maindelivery .maindelivery_instrucciones {
-    flex-basis: 20%;
-    background-color: #a041306b;
-    border-radius: 4px;
-    text-align: justify;
-    justify-content: space-around; }
-    .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon {
       justify-content: space-around;
-      padding: 1rem; }
+      padding: 0.5rem; }
+      .maindelivery .maindelivery_info .maindelivery_info-img div {
+        padding: 0.5rem; }
+        .maindelivery .maindelivery_info .maindelivery_info-img div img {
+          border-radius: 4px; }
+  .maindelivery .maindelivery_instrucciones {
+    flex-basis: 25%;
+    background-color: #4d3a3680;
+    border-radius: 4px;
+    justify-content: space-around;
+    align-self: center; }
+    .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos {
+      margin: 0.5rem 2rem;
+      justify-content: space-evenly; }
       .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon .maindelivery_instrucciones-icon-whatsapp {
-        justify-content: center;
         text-align: center; }
         .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon .maindelivery_instrucciones-icon-whatsapp i {
-          color: #73da56;
-          padding-bottom: 1rem; }
+          color: #6ec556;
+          padding: auto;
+          margin: 1rem 1rem 0 1rem;
+          padding-bottom: 0.5rem;
+          border-bottom: #acf09a 4px solid; }
+        .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon .maindelivery_instrucciones-icon-whatsapp p {
+          padding: 0 0.5rem; }
       .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon .maindelivery_instrucciones-icon-phone {
-        justify-content: center;
         text-align: center; }
         .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon .maindelivery_instrucciones-icon-phone i {
-          color: #d82020;
-          padding-bottom: 1rem; }
+          color: #d82b2b;
+          padding: auto;
+          margin: 1rem 1rem 0 1rem;
+          padding-bottom: 0.5rem;
+          border-bottom: #dd5757 4px solid; }
+        .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-pasos .maindelivery_instrucciones-icon .maindelivery_instrucciones-icon-phone p {
+          padding: 0 0.5rem; }
     .maindelivery .maindelivery_instrucciones .maindelivery_instrucciones-important {
       background-color: #ff000059;
       text-align: center;
@@ -10784,7 +10793,6 @@ header {
   .maincontact .maincontact_main .maincontact_main_section {
     justify-content: center;
     align-items: center;
-    border-radius: 1rem;
     margin-bottom: 1rem; }
     .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_redes {
       border-radius: 5px; }
@@ -10812,8 +10820,13 @@ header {
   .maincontact .maincontact_main .maincontact_main_form {
     border-radius: 1rem;
     padding: 1rem;
-    background: #ffffbc50;
-    color: white; }
+    background: #e9e9b64a;
+    color: white;
+    width: 90%;
+    text-transform: uppercase; }
+    .maincontact .maincontact_main .maincontact_main_form legend {
+      color: #fcb691;
+      text-shadow: #bd7155 1px 1px; }
     .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos {
       padding-bottom: 0.5rem;
       margin-bottom: 2rem;
@@ -10837,6 +10850,9 @@ header {
         .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section .maincontact_main_form_section-encuesta-section-item {
           padding: 0.5rem;
           border-bottom: 1px solid white; }
+          .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-encuesta .maincontact_main_form_section-encuesta-section .maincontact_main_form_section-encuesta-section-item label {
+            font-weight: bolder;
+            color: #ffd9b1; }
       .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section .maincontact_main_form_section-textarea {
         border-left: 2px solid white;
         padding-left: 0.5rem; }
