@@ -6213,6 +6213,7 @@ button.bg-dark:focus {
 
 .mr-auto,
 .mx-auto,
+.mainindex .mainindex_delivery,
 .mainindex .mainindex_delivery .mainindex_delivery_info,
 .mainindex .mainindex_delivery .mainindex_delivery_slide,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
@@ -6237,6 +6238,7 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto,
+.mainindex .mainindex_delivery,
 .mainindex .mainindex_delivery .mainindex_delivery_info,
 .mainindex .mainindex_delivery .mainindex_delivery_slide,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
@@ -9070,6 +9072,7 @@ html {
 
 .mr-auto,
 .mx-auto,
+.mainindex .mainindex_delivery,
 .mainindex .mainindex_delivery .mainindex_delivery_info,
 .mainindex .mainindex_delivery .mainindex_delivery_slide,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
@@ -9094,6 +9097,7 @@ html {
 
 .ml-auto,
 .mx-auto,
+.mainindex .mainindex_delivery,
 .mainindex .mainindex_delivery .mainindex_delivery_info,
 .mainindex .mainindex_delivery .mainindex_delivery_slide,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
@@ -10260,7 +10264,8 @@ header {
         font-size: 3rem; }
     .mainindex .mainindex_intro .mainindex_intro_main {
       align-items: center;
-      justify-content: space-evenly; }
+      justify-content: space-evenly;
+      width: 90%; }
       .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-txt {
         width: 500px;
         padding: 0 2rem;
@@ -10270,12 +10275,19 @@ header {
     display: flex; }
   .mainindex .mainindex_delivery {
     align-items: center;
-    padding: 2rem;
+    margin: 1rem;
+    padding: 1rem;
     justify-content: space-evenly;
-    border-top: 2px solid #ffebcd; }
+    border-top: 2px solid #ffebcd;
+    width: 90%; }
     .mainindex .mainindex_delivery .mainindex_delivery_info {
-      width: min-content; }
-      .mainindex .mainindex_delivery .mainindex_delivery_info p {
+      flex-basis: 60%; }
+      .mainindex .mainindex_delivery .mainindex_delivery_info .mainindex_delivery_info_img {
+        width: fit-content;
+        text-align: center; }
+        .mainindex .mainindex_delivery .mainindex_delivery_info .mainindex_delivery_info_img img {
+          width: 90%; }
+      .mainindex .mainindex_delivery .mainindex_delivery_info .mainindex_delivery_info_txt p {
         color: #ffe9c3; }
       .mainindex .mainindex_delivery .mainindex_delivery_info button {
         margin: 0 30%;
@@ -10286,6 +10298,7 @@ header {
           color: #000; }
     .mainindex .mainindex_delivery .mainindex_delivery_slide {
       width: 300px;
+      flex-basis: 30%;
       padding: 0.5rem; }
       .mainindex .mainindex_delivery .mainindex_delivery_slide img {
         border-radius: 5px; }
