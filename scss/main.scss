@@ -128,8 +128,7 @@ header{
     @extend .container;
     // intro
     .mainindex_intro {
-        @extend .container;
-        padding-top: 1rem;
+        padding: 1rem;
         margin-bottom: 10%;
         .mainindex_intro_bienvenidos {
             text-align: center;
@@ -139,18 +138,17 @@ header{
         }
         .mainindex_intro_main{
             @extend .d-md-flex;
+            align-items: center;
             justify-content: space-evenly;
             .mainindex_intro_main-txt{
                 width:500px;
                 padding: 0 2rem;
+                flex-basis: 60%;
             }
             .mainindex_intro_main-vid{
                 @extend .embed-responsive;
                 @extend .embed-responsive-16by9;
-                iframe{
                     @extend .embed-responsive-item;
-                }
-                
             }
         }
     }
@@ -164,14 +162,17 @@ header{
     }
     // delivery
     .mainindex_delivery{
-        @extend .d-lg-flex;
+        @extend .d-md-flex;
         align-items: center;
-        margin: 5rem 3rem;
         padding: 2rem;
-        justify-content: space-around;
+        justify-content: space-evenly;
         border-top: 2px solid #ffebcd;
         .mainindex_delivery_info{
+            @extend .mx-auto;
             width: min-content;
+            p{
+                color: #ffe9c3;
+            }
             button{
                 margin: 0 30%;
                 background-color: #f9f97c;
@@ -184,7 +185,9 @@ header{
         }
         .mainindex_delivery_slide{
             @extend .carousel;
+            @extend .mx-auto;
             width: 300px;
+            padding: 0.5rem;
             img{
             border-radius: 5px;
             }
@@ -192,7 +195,7 @@ header{
     }
                 /* ULTIMOS SHOWS */
     .mainindex_shows{
-        margin: 5rem 0;
+        margin-bottom: 5rem;
         padding: 1rem;
         border-bottom: 1px dotted #b95543;
         .mainindex_shows_title{
@@ -211,10 +214,30 @@ header{
                 @extend .d-lg-flex;
                 div{
                     padding: 1rem;
+                    h3{
+                        text-align: center;
+                    }
+                    &:hover{
+                        border: 1px dotted rgba(255, 255, 255, 0.358);
+                        border-radius: 3px;
+                        img{
+                            transition:all 0.4s ease;
+                            transform: scale(1.05);
+                        }
+                        h3{
+                            transition:all 0.4s ease;
+                            transform: scale(1.5);
+                        }
+                    }
                 }
             }
             .carousel{
                 @extend .d-md-none;
+                .carousel-caption{
+                    background: #0000008e;
+                    padding: 5px;
+                    border-radius: 0.5rem;
+                }
             }
         }
     }

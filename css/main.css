@@ -703,23 +703,23 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+.container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+    .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+    .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+    .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+    .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
       max-width: 1140px; } }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, header, footer {
@@ -730,19 +730,19 @@ pre {
   margin-left: auto; }
 
 @media (min-width: 576px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm {
+  .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm {
     max-width: 540px; } }
 
 @media (min-width: 768px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md {
+  .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md {
     max-width: 720px; } }
 
 @media (min-width: 992px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md, .container-lg {
+  .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md, .container-lg {
     max-width: 960px; } }
 
 @media (min-width: 1200px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
 
 .row, .mainshows .mainCards, .museo .museo_galeria .museo_galeria_main {
@@ -3316,7 +3316,7 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem; }
-  .navbar .container, .navbar .mainindex, .navbar .mainindex .mainindex_intro, .mainindex .navbar .mainindex_intro, .navbar .mainshows, .navbar .museo, .navbar .mainfood, .navbar .maincocktails, .navbar .maindelivery, .navbar .maincontact,
+  .navbar .container, .navbar .mainindex, .navbar .mainshows, .navbar .museo, .navbar .mainfood, .navbar .maincocktails, .navbar .maindelivery, .navbar .maincontact,
   .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar header, .navbar footer {
     display: flex;
     flex-wrap: wrap;
@@ -3377,7 +3377,7 @@ input[type="button"].btn-block {
   background-size: 100% 100%; }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .navbar-expand-sm > .mainshows, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery, .navbar-expand-sm > .maincontact,
+  .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .navbar-expand-sm > .mainshows, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery, .navbar-expand-sm > .maincontact,
   .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > header, .navbar-expand-sm > footer {
     padding-right: 0;
     padding-left: 0; } }
@@ -3393,7 +3393,7 @@ input[type="button"].btn-block {
       .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .mainindex .navbar-expand-sm > .mainindex_intro, .navbar-expand-sm > .mainshows, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery, .navbar-expand-sm > .maincontact,
+    .navbar-expand-sm > .container, .navbar-expand-sm > .mainindex, .navbar-expand-sm > .mainshows, .navbar-expand-sm > .museo, .navbar-expand-sm > .mainfood, .navbar-expand-sm > .maincocktails, .navbar-expand-sm > .maindelivery, .navbar-expand-sm > .maincontact,
     .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl, .navbar-expand-sm > header, .navbar-expand-sm > footer {
       flex-wrap: nowrap; }
     .navbar-expand-sm .navbar-collapse {
@@ -3403,7 +3403,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .navbar-expand-md > .mainshows, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery, .navbar-expand-md > .maincontact,
+  .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .navbar-expand-md > .mainshows, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery, .navbar-expand-md > .maincontact,
   .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > header, .navbar-expand-md > footer {
     padding-right: 0;
     padding-left: 0; } }
@@ -3419,7 +3419,7 @@ input[type="button"].btn-block {
       .navbar-expand-md .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .mainindex .navbar-expand-md > .mainindex_intro, .navbar-expand-md > .mainshows, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery, .navbar-expand-md > .maincontact,
+    .navbar-expand-md > .container, .navbar-expand-md > .mainindex, .navbar-expand-md > .mainshows, .navbar-expand-md > .museo, .navbar-expand-md > .mainfood, .navbar-expand-md > .maincocktails, .navbar-expand-md > .maindelivery, .navbar-expand-md > .maincontact,
     .navbar-expand-md > .container-fluid, .navbar-expand-md > .container-sm, .navbar-expand-md > .container-md, .navbar-expand-md > .container-lg, .navbar-expand-md > .container-xl, .navbar-expand-md > header, .navbar-expand-md > footer {
       flex-wrap: nowrap; }
     .navbar-expand-md .navbar-collapse {
@@ -3429,7 +3429,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 991.98px) {
-  .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .navbar-expand-lg > .mainshows, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery, .navbar-expand-lg > .maincontact,
+  .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .navbar-expand-lg > .mainshows, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery, .navbar-expand-lg > .maincontact,
   .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > header, .navbar-expand-lg > footer {
     padding-right: 0;
     padding-left: 0; } }
@@ -3445,7 +3445,7 @@ input[type="button"].btn-block {
       .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .mainindex .navbar-expand-lg > .mainindex_intro, .navbar-expand-lg > .mainshows, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery, .navbar-expand-lg > .maincontact,
+    .navbar-expand-lg > .container, .navbar-expand-lg > .mainindex, .navbar-expand-lg > .mainshows, .navbar-expand-lg > .museo, .navbar-expand-lg > .mainfood, .navbar-expand-lg > .maincocktails, .navbar-expand-lg > .maindelivery, .navbar-expand-lg > .maincontact,
     .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl, .navbar-expand-lg > header, .navbar-expand-lg > footer {
       flex-wrap: nowrap; }
     .navbar-expand-lg .navbar-collapse {
@@ -3455,7 +3455,7 @@ input[type="button"].btn-block {
       display: none; } }
 
 @media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .navbar-expand-xl > .mainshows, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery, .navbar-expand-xl > .maincontact,
+  .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .navbar-expand-xl > .mainshows, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery, .navbar-expand-xl > .maincontact,
   .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > header, .navbar-expand-xl > footer {
     padding-right: 0;
     padding-left: 0; } }
@@ -3471,7 +3471,7 @@ input[type="button"].btn-block {
       .navbar-expand-xl .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem; }
-    .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .mainindex .navbar-expand-xl > .mainindex_intro, .navbar-expand-xl > .mainshows, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery, .navbar-expand-xl > .maincontact,
+    .navbar-expand-xl > .container, .navbar-expand-xl > .mainindex, .navbar-expand-xl > .mainshows, .navbar-expand-xl > .museo, .navbar-expand-xl > .mainfood, .navbar-expand-xl > .maincocktails, .navbar-expand-xl > .maindelivery, .navbar-expand-xl > .maincontact,
     .navbar-expand-xl > .container-fluid, .navbar-expand-xl > .container-sm, .navbar-expand-xl > .container-md, .navbar-expand-xl > .container-lg, .navbar-expand-xl > .container-xl, .navbar-expand-xl > header, .navbar-expand-xl > footer {
       flex-wrap: nowrap; }
     .navbar-expand-xl .navbar-collapse {
@@ -3483,7 +3483,7 @@ input[type="button"].btn-block {
 .navbar-expand {
   flex-flow: row nowrap;
   justify-content: flex-start; }
-  .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .navbar-expand > .mainshows, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery, .navbar-expand > .maincontact,
+  .navbar-expand > .container, .navbar-expand > .mainindex, .navbar-expand > .mainshows, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery, .navbar-expand > .maincontact,
   .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > header, .navbar-expand > footer {
     padding-right: 0;
     padding-left: 0; }
@@ -3494,7 +3494,7 @@ input[type="button"].btn-block {
     .navbar-expand .navbar-nav .nav-link {
       padding-right: 0.5rem;
       padding-left: 0.5rem; }
-  .navbar-expand > .container, .navbar-expand > .mainindex, .mainindex .navbar-expand > .mainindex_intro, .navbar-expand > .mainshows, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery, .navbar-expand > .maincontact,
+  .navbar-expand > .container, .navbar-expand > .mainindex, .navbar-expand > .mainshows, .navbar-expand > .museo, .navbar-expand > .mainfood, .navbar-expand > .maincocktails, .navbar-expand > .maindelivery, .navbar-expand > .maincontact,
   .navbar-expand > .container-fluid, .navbar-expand > .container-sm, .navbar-expand > .container-md, .navbar-expand > .container-lg, .navbar-expand > .container-xl, .navbar-expand > header, .navbar-expand > footer {
     flex-wrap: nowrap; }
   .navbar-expand .navbar-collapse {
@@ -5210,7 +5210,7 @@ button.bg-dark:focus {
     display: table-row !important; }
   .d-md-table-cell {
     display: table-cell !important; }
-  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_shows .mainindex_shows_main, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos .maincontact_main_form-datos-1, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section, footer .footer_main .footer_main_links {
+  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_delivery, .mainindex .mainindex_shows .mainindex_shows_main, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos .maincontact_main_form-datos-1, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section, footer .footer_main .footer_main_links {
     display: flex !important; }
   .d-md-inline-flex {
     display: inline-flex !important; } }
@@ -5230,7 +5230,7 @@ button.bg-dark:focus {
     display: table-row !important; }
   .d-lg-table-cell {
     display: table-cell !important; }
-  .d-lg-flex, .mainindex .mainindex_delivery, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery {
+  .d-lg-flex, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery {
     display: flex !important; }
   .d-lg-inline-flex {
     display: inline-flex !important; } }
@@ -5284,7 +5284,7 @@ button.bg-dark:focus {
   .embed-responsive::before, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid::before, .museo .museo_recorrido .museo_recorrido_map::before {
     display: block;
     content: ""; }
-  .embed-responsive .embed-responsive-item, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid .embed-responsive-item, .museo .museo_recorrido .museo_recorrido_map .embed-responsive-item, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid iframe, .museo .museo_recorrido .museo_recorrido_map iframe,
+  .embed-responsive .embed-responsive-item, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid .embed-responsive-item, .museo .museo_recorrido .museo_recorrido_map .embed-responsive-item, .embed-responsive .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .mainindex .mainindex_intro .mainindex_intro_main .embed-responsive .mainindex_intro_main-vid, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid .mainindex_intro_main-vid, .museo .museo_recorrido .museo_recorrido_map .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid, .mainindex .mainindex_intro .mainindex_intro_main .museo .museo_recorrido .museo_recorrido_map .mainindex_intro_main-vid, .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid .museo .museo_recorrido .museo_recorrido_map iframe, .museo .museo_recorrido .museo_recorrido_map .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid iframe, .museo .museo_recorrido .museo_recorrido_map iframe,
   .embed-responsive iframe,
   .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-vid iframe,
   .museo .museo_recorrido .museo_recorrido_map iframe,
@@ -6213,6 +6213,8 @@ button.bg-dark:focus {
 
 .mr-auto,
 .mx-auto,
+.mainindex .mainindex_delivery .mainindex_delivery_info,
+.mainindex .mainindex_delivery .mainindex_delivery_slide,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .mainshows,
 .mainshows .mainCards,
@@ -6235,6 +6237,8 @@ button.bg-dark:focus {
 
 .ml-auto,
 .mx-auto,
+.mainindex .mainindex_delivery .mainindex_delivery_info,
+.mainindex .mainindex_delivery .mainindex_delivery_slide,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .mainshows,
 .mainshows .mainCards,
@@ -7481,7 +7485,7 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3; }
   body {
     min-width: 992px !important; }
-  .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+  .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
     min-width: 992px !important; }
   .navbar {
     display: none; }
@@ -7521,23 +7525,23 @@ html {
 *::after {
   box-sizing: inherit; }
 
-.container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+.container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
   @media (min-width: 576px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+    .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
       max-width: 540px; } }
   @media (min-width: 768px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+    .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
       max-width: 720px; } }
   @media (min-width: 992px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+    .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
       max-width: 960px; } }
   @media (min-width: 1200px) {
-    .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
+    .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact {
       max-width: 1140px; } }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, header, footer {
@@ -7548,19 +7552,19 @@ html {
   margin-left: auto; }
 
 @media (min-width: 576px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm {
+  .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm {
     max-width: 540px; } }
 
 @media (min-width: 768px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md {
+  .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md {
     max-width: 720px; } }
 
 @media (min-width: 992px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md, .container-lg {
+  .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md, .container-lg {
     max-width: 960px; } }
 
 @media (min-width: 1200px) {
-  .container, .mainindex, .mainindex .mainindex_intro, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md, .container-lg, .container-xl {
+  .container, .mainindex, .mainshows, .museo, .mainfood, .maincocktails, .maindelivery, .maincontact, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px; } }
 
 .row, .mainshows .mainCards, .museo .museo_galeria .museo_galeria_main {
@@ -8287,7 +8291,7 @@ html {
     display: table-row !important; }
   .d-md-table-cell {
     display: table-cell !important; }
-  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_shows .mainindex_shows_main, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos .maincontact_main_form-datos-1, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section, footer .footer_main .footer_main_links {
+  .d-md-flex, .mainindex .mainindex_intro .mainindex_intro_main, .mainindex .mainindex_delivery, .mainindex .mainindex_shows .mainindex_shows_main, .mainfood .mainfood_section1 .mainfood_section1-main, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_entradas .mainfood_section1_entradas-items-list, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-1, .mainfood .mainfood_section2 .mainfood_section2_main .mainfood_section2_main-2 .mainfood_section2_main-harrison .mainfood_section2_main-harrison-1, .mainfood .mainfood_section3 .mainfood_section3_items, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main .maincocktails_bartenders_main_person, .maincocktails .maincocktails_extras, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form-datos .maincontact_main_form-datos-1, .maincontact .maincontact_main .maincontact_main_form .maincontact_main_form_section, footer .footer_main .footer_main_links {
     display: flex !important; }
   .d-md-inline-flex {
     display: inline-flex !important; } }
@@ -8307,7 +8311,7 @@ html {
     display: table-row !important; }
   .d-lg-table-cell {
     display: table-cell !important; }
-  .d-lg-flex, .mainindex .mainindex_delivery, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery {
+  .d-lg-flex, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section, .museo .museo_intro, .museo .museo_intro .museo_intro_info .museo_intro_info_linea1, .museo .museo_intro .museo_intro_info .museo_intro_info_linea2, .mainfood .mainfood_section1, .mainfood .mainfood_section1 .mainfood_section1-main .mainfood_section1_tablas .mainfood_section1_tablas-linea2, .mainfood .mainfood_section2 .mainfood_section2_main, .mainfood .mainfood_section3, .maincocktails .maincocktails_classics .maincocktails_classics_main, .maincocktails .maincocktails_bartenders .maincocktails_bartenders_main, .maindelivery {
     display: flex !important; }
   .d-lg-inline-flex {
     display: inline-flex !important; } }
@@ -9066,6 +9070,8 @@ html {
 
 .mr-auto,
 .mx-auto,
+.mainindex .mainindex_delivery .mainindex_delivery_info,
+.mainindex .mainindex_delivery .mainindex_delivery_slide,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .mainshows,
 .mainshows .mainCards,
@@ -9088,6 +9094,8 @@ html {
 
 .ml-auto,
 .mx-auto,
+.mainindex .mainindex_delivery .mainindex_delivery_info,
+.mainindex .mainindex_delivery .mainindex_delivery_slide,
 .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section,
 .mainshows,
 .mainshows .mainCards,
@@ -10244,28 +10252,31 @@ header {
 .mainindex {
   /* ULTIMOS SHOWS */ }
   .mainindex .mainindex_intro {
-    padding-top: 1rem;
+    padding: 1rem;
     margin-bottom: 10%; }
     .mainindex .mainindex_intro .mainindex_intro_bienvenidos {
       text-align: center; }
       .mainindex .mainindex_intro .mainindex_intro_bienvenidos h1 {
         font-size: 3rem; }
     .mainindex .mainindex_intro .mainindex_intro_main {
+      align-items: center;
       justify-content: space-evenly; }
       .mainindex .mainindex_intro .mainindex_intro_main .mainindex_intro_main-txt {
         width: 500px;
-        padding: 0 2rem; }
+        padding: 0 2rem;
+        flex-basis: 60%; }
   .mainindex .mainindex_novedades {
     background: #9f6262;
     display: flex; }
   .mainindex .mainindex_delivery {
     align-items: center;
-    margin: 5rem 3rem;
     padding: 2rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border-top: 2px solid #ffebcd; }
     .mainindex .mainindex_delivery .mainindex_delivery_info {
       width: min-content; }
+      .mainindex .mainindex_delivery .mainindex_delivery_info p {
+        color: #ffe9c3; }
       .mainindex .mainindex_delivery .mainindex_delivery_info button {
         margin: 0 30%;
         background-color: #f9f97c;
@@ -10274,11 +10285,12 @@ header {
           text-transform: uppercase;
           color: #000; }
     .mainindex .mainindex_delivery .mainindex_delivery_slide {
-      width: 300px; }
+      width: 300px;
+      padding: 0.5rem; }
       .mainindex .mainindex_delivery .mainindex_delivery_slide img {
         border-radius: 5px; }
   .mainindex .mainindex_shows {
-    margin: 5rem 0;
+    margin-bottom: 5rem;
     padding: 1rem;
     border-bottom: 1px dotted #b95543; }
     .mainindex .mainindex_shows .mainindex_shows_title {
@@ -10293,6 +10305,21 @@ header {
       background: #ffffffb0; }
     .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section div {
       padding: 1rem; }
+      .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section div h3 {
+        text-align: center; }
+      .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section div:hover {
+        border: 1px dotted rgba(255, 255, 255, 0.358);
+        border-radius: 3px; }
+        .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section div:hover img {
+          transition: all 0.4s ease;
+          transform: scale(1.05); }
+        .mainindex .mainindex_shows .mainindex_shows_main .mainindex_shows_main-section div:hover h3 {
+          transition: all 0.4s ease;
+          transform: scale(1.5); }
+    .mainindex .mainindex_shows .mainindex_shows_main .carousel .carousel-caption, .mainindex .mainindex_shows .mainindex_shows_main .mainindex_delivery .mainindex_delivery_slide .carousel-caption, .mainindex .mainindex_delivery .mainindex_shows .mainindex_shows_main .mainindex_delivery_slide .carousel-caption {
+      background: #0000008e;
+      padding: 5px;
+      border-radius: 0.5rem; }
 
 .mainshows .mainshowsintro {
   display: flex;
