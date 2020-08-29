@@ -129,7 +129,7 @@ header{
     // intro
     .mainindex_intro {
         padding: 1rem;
-        margin-bottom: 10%;
+        margin: 1rem;
         .mainindex_intro_bienvenidos {
             text-align: center;
             h1{
@@ -140,25 +140,59 @@ header{
             @extend .d-md-flex;
             align-items: center;
             justify-content: space-evenly;
-        width: 90%;
+        width: fit-content;
             .mainindex_intro_main-txt{
-                width:500px;
-                padding: 0 2rem;
-                flex-basis: 60%;
+                width:fit-content;
+                padding: 0.5rem 1rem;
+                flex-basis: 50%;
             }
             .mainindex_intro_main-vid{
                 @extend .embed-responsive;
                 @extend .embed-responsive-16by9;
                 @extend .embed-responsive-item;
+                padding: 0 2rem;
+                flex-basis: 70%;
             }
         }
     }
     // novedades
     .mainindex_novedades{
-        background: rgb(159, 98, 98);
-        display: flex;
-        img{
-            @extend .card;
+        @extend .d-md-flex;
+        margin: 1rem;
+        padding: 0.5rem;
+        border-left: dotted 2px #9f6262 ;
+        border-top-left-radius: 1rem;
+        .mainindex_novedades-titulo{
+            @include titulogaleria;
+
+        }
+        .mainindex_novedades_section{
+            @extend .d-lg-flex;
+            @extend .mx-auto;
+            .mainindex_novedades_section_card{
+                background: #0e02025b;
+                margin: auto;
+                border-radius: 0.5rem;
+                padding: 0.5rem;
+                .mainindex_novedades_section_card-img{
+                    img{
+                        @extend .img-fluid;
+                        border-radius: 0.5rem;
+                    }
+                }
+                .mainindex_novedades_section_card-txt{
+                color: #ffd1d1;
+                padding: 0 1rem;
+                }
+                .mainindex_novedades_section_card-link{
+                    width: fit-content;
+                    background: #e15f5f3f;
+                    margin: auto;
+                    padding: 3px 0.5rem;
+                    border-radius: 0.5rem;
+                }
+
+            }
         }
     }
     // delivery
@@ -166,6 +200,7 @@ header{
         @extend .d-md-flex;
         @extend .mx-auto;
         align-items: center;
+        background: #0000009a;
         margin: 1rem;
         padding: 1rem;
         justify-content: space-evenly;
