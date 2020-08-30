@@ -170,8 +170,38 @@ header{
         .mainindex_novedades_main{
             @extend .d-md-flex;
             padding: 1rem;
+            // slide
+            .mainindex_novedades_main_slide{
+                @extend .d-md-none;
+                @extend .carousel;
+                @extend .carousel-fade;
+                @extend .mx-auto;
+                .mainindex_novedades_main_slide-item {
+                    .mainindex_novedades_main_slide-txt{
+                        @extend .carousel-caption;
+                        background: #000000da;
+                        border-radius:0.5rem ;
+                        padding: 1rem;
+                        p, h2, a{
+                            text-shadow: #000000 1px 1px;
+                        }
+                        a{
+                            border-radius: 0.5rem;
+                            background: #e47d579d;
+                            padding:3px 0.5rem;
+                        }
+                    }
+                    img{
+                        @extend .d-block;
+                        width: 100%;
+                        border-radius: 0.5rem;
+                    }
+                }
+            }
             // section
             .mainindex_novedades_main_section{
+                @extend .d-none;
+                @extend .d-md-block;
                 @extend .d-lg-flex;
                 justify-content: space-around;
                 flex-basis: 50%;
@@ -752,15 +782,6 @@ header{
             margin-left: 20%;
             border-left: 2px dashed white;
         }
-        .maincocktails_classics_main_imagen{
-            text-align: center;
-            @include foodcard;
-            height: fit-content;
-            width: 250px;
-            div {
-                margin-bottom: 100%;
-            }
-        }
         .maincocktails_classics_main{
             @extend .d-lg-flex;
             @extend .mx-auto;
@@ -768,9 +789,10 @@ header{
             align-content: space-evenly;
             .maincocktails_classics_main_section{
                 @extend .d-sm-flex;
+                @extend .mx-auto;
                 justify-content: space-evenly;
                 align-content: space-evenly;
-                margin: 1rem;  
+                padding: 0 1rem;
                 .maincocktails_classics_main_section_imagen{
                     @include foodcard;
                     @extend .img-fluid;
@@ -785,14 +807,14 @@ header{
                     @extend .d-flex;
                     @extend .flex-sm-column;
                     @extend .mx-auto;
-                    margin: 1rem;
-                    padding: 0 2rem;
+                    flex-basis: 50%;
+                    padding: 1 2rem;
                     justify-content: center;
                     align-content: center;
                     .maincocktails_classics_main_section_items-a{
                         div{
-                        width: 200px;
                         padding: 0 1rem;
+                        width: fit-content;
                         }
                     }
                 }
