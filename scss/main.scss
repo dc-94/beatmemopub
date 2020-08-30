@@ -157,41 +157,61 @@ header{
     }
     // novedades
     .mainindex_novedades{
-        @extend .d-md-flex;
         margin: 1rem;
-        padding: 0.5rem;
-        border-left: dotted 2px #9f6262 ;
+        border-left: dotted 3px #9f6262 ;
         border-top-left-radius: 1rem;
+        // titulo
         .mainindex_novedades-titulo{
             @include titulogaleria;
-
         }
-        .mainindex_novedades_section{
-            @extend .d-lg-flex;
-            @extend .mx-auto;
-            .mainindex_novedades_section_card{
-                background: #0e02025b;
-                margin: auto;
-                border-radius: 0.5rem;
-                padding: 0.5rem;
-                .mainindex_novedades_section_card-img{
-                    img{
-                        @extend .img-fluid;
-                        border-radius: 0.5rem;
-                    }
-                }
-                .mainindex_novedades_section_card-txt{
-                color: #ffd1d1;
-                padding: 0 1rem;
-                }
-                .mainindex_novedades_section_card-link{
-                    width: fit-content;
-                    background: #e15f5f3f;
-                    margin: auto;
-                    padding: 3px 0.5rem;
+        // cards
+        .mainindex_novedades_main{
+            @extend .d-md-flex;
+            padding: 1rem;
+            // section
+            .mainindex_novedades_main_section{
+                @extend .d-lg-flex;
+                justify-content: space-around;
+                .mainindex_novedades_main_section_card{
+                    background: #7e4d3631;
                     border-radius: 0.5rem;
-                }
+                    margin: 1rem;
+                    padding-bottom: 0.5rem;
+                    border-top: #000000 solid 2px;
+                    &:hover{
+                        background:
+                        #ff986852;
+                        border-top: #ffffffa3 solid 2px;
+                        p{
+                            text-shadow: #000 2px 1px;
+                        }
+                        a{
+                            letter-spacing: 1px;
+                            font-weight: bolder;
+                            color: #ffffff;
+                        }
+                    }
+                    .mainindex_novedades_main_section_card-img{
+                        text-align: center;
+                        img{
+                            @extend .img-fluid;
+                            border-radius: 0.5rem;
+                            width: 100%;
+                        }
+                    }
+                    .mainindex_novedades_main_section_card-txt{
+                    color: #ffd1d1;
+                    margin: 0 1rem;
+                        .mainindex_novedades_main_section_card-link{
+                            width: fit-content;
+                            background: #e6c47d3f;
+                            margin: auto;
+                            padding: 3px 0.5rem;
+                            border-radius: 0.5rem;
+                        }
+                    }
 
+                }
             }
         }
     }
