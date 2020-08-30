@@ -10229,20 +10229,17 @@ header {
         color: #ff806a;
         border-top: 1px solid #fff700; }
   header .rooftop {
-    color: #ffedd2;
+    color: #ffffe1;
     text-align: center; }
 
 .header-focus-in, header .rooftop {
-  -webkit-animation: header-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.3s both;
-  animation: header-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.5s both; }
+  animation: header-focus-in 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.3s both; }
 
 @keyframes header-focus-in {
   0% {
-    -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0; }
   100% {
-    -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1; } }
 
@@ -10278,17 +10275,23 @@ header {
       text-transform: uppercase;
       border-bottom: 2px solid #ff806a;
       border-right: 2px solid #ff806a;
-      padding: 0.3rem 0 0 20%; }
+      padding: 0.3rem 0 0 20%;
+      background: #ee8c8c83; }
+      .mainindex .mainindex_novedades .mainindex_novedades-titulo h2 {
+        color: white;
+        text-shadow: #000000 1px 2px; }
     .mainindex .mainindex_novedades .mainindex_novedades_main {
       padding: 1rem; }
       .mainindex .mainindex_novedades .mainindex_novedades_main .mainindex_novedades_main_section {
-        justify-content: space-around; }
+        justify-content: space-around;
+        flex-basis: 50%; }
         .mainindex .mainindex_novedades .mainindex_novedades_main .mainindex_novedades_main_section .mainindex_novedades_main_section_card {
           background: #7e4d3631;
           border-radius: 0.5rem;
           margin: 1rem;
           padding-bottom: 0.5rem;
-          border-top: #000000 solid 2px; }
+          border-top: #000000 solid 2px;
+          width: fit-content; }
           .mainindex .mainindex_novedades .mainindex_novedades_main .mainindex_novedades_main_section .mainindex_novedades_main_section_card:hover {
             background: #ff986852;
             border-top: #ffffffa3 solid 2px; }
@@ -10306,12 +10309,15 @@ header {
           .mainindex .mainindex_novedades .mainindex_novedades_main .mainindex_novedades_main_section .mainindex_novedades_main_section_card .mainindex_novedades_main_section_card-txt {
             color: #ffd1d1;
             margin: 0 1rem; }
-            .mainindex .mainindex_novedades .mainindex_novedades_main .mainindex_novedades_main_section .mainindex_novedades_main_section_card .mainindex_novedades_main_section_card-txt .mainindex_novedades_main_section_card-link {
-              width: fit-content;
-              background: #e6c47d3f;
-              margin: auto;
-              padding: 3px 0.5rem;
-              border-radius: 0.5rem; }
+            .mainindex .mainindex_novedades .mainindex_novedades_main .mainindex_novedades_main_section .mainindex_novedades_main_section_card .mainindex_novedades_main_section_card-txt h2 {
+              text-align: center;
+              color: #fff0b4; }
+          .mainindex .mainindex_novedades .mainindex_novedades_main .mainindex_novedades_main_section .mainindex_novedades_main_section_card .mainindex_novedades_main_section_card-link {
+            width: fit-content;
+            background: #e6c47d3f;
+            margin: auto;
+            padding: 3px 0.5rem;
+            border-radius: 0.5rem; }
   .mainindex .mainindex_delivery {
     align-items: center;
     background: #0000009a;

@@ -100,25 +100,22 @@ header{
     // rooftop
     .rooftop{
     @extend .header-focus-in;
-        color: #ffedd2;
+        color: #ffffe1;
         text-align: center;
     }
 }
     // animation logo
 .header-focus-in {
-	-webkit-animation: header-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.3s both;
-	        animation: header-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+    animation: header-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.3s both;
 }
 @keyframes header-focus-in {
     0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
+    filter: blur(12px);
+    opacity: 0;
     }
     100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
+    filter: blur(0px);
+    opacity: 1;
     }
   }
 /* ------------------- */
@@ -163,6 +160,11 @@ header{
         // titulo
         .mainindex_novedades-titulo{
             @include titulogaleria;
+            background: #ee8c8c83;
+            h2{
+                color: white;
+                text-shadow: #000000 1px 2px;
+            }
         }
         // cards
         .mainindex_novedades_main{
@@ -172,12 +174,14 @@ header{
             .mainindex_novedades_main_section{
                 @extend .d-lg-flex;
                 justify-content: space-around;
+                flex-basis: 50%;
                 .mainindex_novedades_main_section_card{
                     background: #7e4d3631;
                     border-radius: 0.5rem;
                     margin: 1rem;
                     padding-bottom: 0.5rem;
                     border-top: #000000 solid 2px;
+                    width: fit-content;
                     &:hover{
                         background:
                         #ff986852;
@@ -202,14 +206,19 @@ header{
                     .mainindex_novedades_main_section_card-txt{
                     color: #ffd1d1;
                     margin: 0 1rem;
+                    h2{
+                        text-align: center;
+                        color: #fff0b4;
+                    }
+                    }
                         .mainindex_novedades_main_section_card-link{
                             width: fit-content;
                             background: #e6c47d3f;
                             margin: auto;
                             padding: 3px 0.5rem;
                             border-radius: 0.5rem;
+                            
                         }
-                    }
 
                 }
             }
