@@ -415,7 +415,6 @@ header{
         }
     }
 }
-
 //----- CICLOS DE SHOWS ----- */
 .mainshows {
     @extend .container;
@@ -1059,9 +1058,10 @@ header{
             justify-content: space-around;
             padding: 0.5rem;
             div{
-                @extend .img-fluid;
+                text-align: center;
                 padding: 0.5rem;
                 img {
+                @extend .img-fluid;
                 border-radius: 4px;
                 }
             }
