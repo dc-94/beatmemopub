@@ -102,6 +102,12 @@ header{
     @extend .header-focus-in;
         color: #ffffe1;
         text-align: center;
+        button{
+            background: transparent;
+            color: rgb(255, 255, 255);
+            border-color: transparent;
+            border-radius: 50%;
+        }
     }
 }
     // animation logo
@@ -121,11 +127,29 @@ header{
 /* ------------------- */
 /* ----- INDEX ------- */
 /* ------------------- */
+.rooftopmodal{
+    background-image: url(../img/rooftop.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    .rooftopmodal_title{
+        background: #ffffffd8;
+        h5{
+            font-size: 2rem;
+            text-shadow: 2px 2px rgb(9, 9, 9);
+        }
+    }
+    .rooftopmodal_txt{
+        background: #0000008f;
+        border-radius: 0.5rem;
+        margin: 0 1rem;
+    }
+}
 .mainindex{
     @extend .container;
     // intro
     .mainindex_intro {
-        padding: 1rem;
+        padding:0 1rem;
         margin: 1rem;
         .mainindex_intro_bienvenidos {
             text-align: center;
@@ -303,7 +327,7 @@ header{
     }
                 /* ULTIMOS SHOWS */
     .mainindex_shows{
-        margin-bottom: 5rem;
+        margin-bottom: 3%;
         padding: 1rem;
         border-bottom: 1px dotted #b95543;
         .mainindex_shows_title{
@@ -1120,6 +1144,12 @@ header{
                 .maincontact_main_section_horarios-list{
                     li{
                         margin: 3px 0;
+                        color: #ffffa8;
+                        strong{
+                            border-left: 2px solid white;
+                            padding: 1px 0.5rem;
+                            color: white;
+                        }
                     }
                 }
             }
