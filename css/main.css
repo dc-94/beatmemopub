@@ -10263,29 +10263,43 @@ header {
   background-image: url(../img/rooftop.jpg);
   background-size: cover;
   background-position: bottom;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  margin-top: 90px; }
   .rooftopmodal .rooftopmodal_title {
     background: #ffffffd8; }
+    .rooftopmodal .rooftopmodal_title .close {
+      font-size: 2.5rem; }
     .rooftopmodal .rooftopmodal_title h5 {
-      font-size: 2rem;
-      text-shadow: 2px 2px #090909; }
+      margin: auto;
+      text-align: center;
+      font-size: 2.5rem;
+      text-shadow: 2px 3px #17171794; }
   .rooftopmodal .rooftopmodal_body {
     background: #0000008f;
-    border-radius: 0.5rem;
-    margin: 0 1rem; }
-    .rooftopmodal .rooftopmodal_body p {
-      text-shadow: 1px 1px black; }
+    border-radius: 0.5rem; }
+    .rooftopmodal .rooftopmodal_body .rooftopmodal_body-txt {
+      margin: auto;
+      padding: 0 2rem; }
+      .rooftopmodal .rooftopmodal_body .rooftopmodal_body-txt p {
+        margin: 0;
+        font-style: italic;
+        color: white;
+        font-size: 2rem;
+        text-shadow: 1px 2px black; }
     .rooftopmodal .rooftopmodal_body .rooftopmodal_body-btn {
       text-align: center;
-      background: #000;
-      border-radius: 1rem;
+      background: #27ba45d2;
+      border-radius: 100%;
       width: fit-content;
-      padding: 0.5rem; }
+      margin: auto;
+      padding: 1rem; }
       .rooftopmodal .rooftopmodal_body .rooftopmodal_body-btn a {
-        color: #69c67b; }
+        color: #ffffff; }
     .rooftopmodal .rooftopmodal_body .rooftopmodal_img {
       width: fit-content;
       text-align: center; }
+      .rooftopmodal .rooftopmodal_body .rooftopmodal_img img {
+        width: 75%; }
 
 .mainindex {
   /* ULTIMOS SHOWS */ }
@@ -10943,7 +10957,7 @@ header {
               color: #ffebd5; }
     .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_horarios {
       border-radius: 0.5rem;
-      padding: 1rem 2rem;
+      padding: 1rem;
       background: #8a2e2e49; }
       .maincontact .maincontact_main .maincontact_main_section .maincontact_main_section_horarios .maincontact_main_section_horarios-list li {
         margin: 3px 0;
