@@ -127,24 +127,50 @@ header{
 /* ------------------- */
 /* ----- INDEX ------- */
 /* ------------------- */
+
+// modal
 .rooftopmodal{
+    @extend .modal-content;
     background-image: url(../img/rooftop.jpg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
     .rooftopmodal_title{
+        @extend .modal-header;
         background: #ffffffd8;
         h5{
             font-size: 2rem;
             text-shadow: 2px 2px rgb(9, 9, 9);
         }
     }
-    .rooftopmodal_txt{
+    .rooftopmodal_body{
+        @extend .modal-body;
         background: #0000008f;
         border-radius: 0.5rem;
         margin: 0 1rem;
+        p{
+            text-shadow: 1px 1px black;
+        }
+        .rooftopmodal_body-btn{
+            text-align: center;
+            background: #000;
+            border-radius: 1rem;
+            width: fit-content;
+            padding: 0.5rem;
+            a{
+                color: #69c67b;
+            }
+        }
+        .rooftopmodal_img{
+            width: fit-content;
+            text-align: center;
+            img{
+                @extend .img-fluid;
+            }
+        }
     }
 }
+// main
 .mainindex{
     @extend .container;
     // intro
